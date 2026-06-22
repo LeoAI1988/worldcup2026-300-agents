@@ -1,0 +1,5658 @@
+﻿{
+  "meta": {
+    "tournament": "2026 FIFA World Cup",
+    "tournament_status": "Group stage underway (started June 11, 2026)",
+    "data_snapshot_date": "2026-06-12/13",
+    "current_odds_top10": {
+      "France": "+420",
+      "Spain": "+500",
+      "England": "+600",
+      "Argentina": "+800",
+      "Brazil": "+1100",
+      "Germany": "+1400",
+      "Portugal": "+1600",
+      "Netherlands": "+2000",
+      "Belgium": "+2500",
+      "Italy": "+3300"
+    },
+    "dark_horses_consensus": [
+      "Mexico",
+      "Norway",
+      "Switzerland",
+      "Senegal",
+      "Colombia",
+      "Ecuador",
+      "Japan",
+      "Morocco",
+      "USA"
+    ],
+    "key_injuries": {
+      "France": "Mbappe ankle/knee concerns; Hugo Ekitike out (Achilles)",
+      "Brazil": "Neymar calf; Rodrygo out",
+      "Argentina": "Messi knock; Dybala/Martinez/Romero minor; Balerdi out",
+      "Germany": "Gnabry out",
+      "Spain": "Yamal knock",
+      "Other": "Fermin Lopez out"
+    },
+    "early_results": {
+      "France_3_Senegal_1": "Mbappe brace",
+      "England_4_Croatia_2": null,
+      "USA_4_Paraguay_1": null,
+      "Mexico_2_SouthAfrica_0": null,
+      "Portugal_1_DRC_1": null,
+      "Canada_1_Bosnia_1": null
+    }
+  },
+  "total_agents": 300,
+  "total_failed": 14,
+  "champion_ranking": [
+    {
+      "team": "法国",
+      "champion_votes": 52,
+      "weighted_score": 3763.0,
+      "probability": 21.42,
+      "top3_probability": 47.79,
+      "factions": {
+        "数据派": 5,
+        "赔率派": 10,
+        "老球迷派": 2,
+        "玄学派": 4,
+        "主帅视角派": 3,
+        "伤病赛程派": 5,
+        "阵容年龄派": 5,
+        "心理抗压派": 4,
+        "建模派": 14
+      },
+      "avg_confidence": 72.4
+    },
+    {
+      "team": "西班牙",
+      "champion_votes": 42,
+      "weighted_score": 2883.0,
+      "probability": 16.41,
+      "top3_probability": 26.03,
+      "factions": {
+        "数据派": 4,
+        "赔率派": 6,
+        "老球迷派": 1,
+        "玄学派": 5,
+        "主帅视角派": 4,
+        "伤病赛程派": 3,
+        "黑马派": 1,
+        "阵容年龄派": 7,
+        "心理抗压派": 3,
+        "建模派": 8
+      },
+      "avg_confidence": 68.6
+    },
+    {
+      "team": "阿根廷",
+      "champion_votes": 35,
+      "weighted_score": 2385.0,
+      "probability": 13.58,
+      "top3_probability": 18.58,
+      "factions": {
+        "数据派": 4,
+        "赔率派": 2,
+        "老球迷派": 1,
+        "玄学派": 4,
+        "主帅视角派": 4,
+        "伤病赛程派": 3,
+        "阵容年龄派": 5,
+        "心理抗压派": 8,
+        "建模派": 4
+      },
+      "avg_confidence": 68.1
+    },
+    {
+      "team": "英格兰",
+      "champion_votes": 23,
+      "weighted_score": 1618.0,
+      "probability": 9.21,
+      "top3_probability": 32.13,
+      "factions": {
+        "数据派": 6,
+        "赔率派": 3,
+        "老球迷派": 1,
+        "玄学派": 2,
+        "主帅视角派": 2,
+        "伤病赛程派": 5,
+        "心理抗压派": 3,
+        "建模派": 1
+      },
+      "avg_confidence": 70.3
+    },
+    {
+      "team": "巴西",
+      "champion_votes": 20,
+      "weighted_score": 1196.0,
+      "probability": 6.81,
+      "top3_probability": 3.58,
+      "factions": {
+        "数据派": 2,
+        "赔率派": 2,
+        "玄学派": 3,
+        "主帅视角派": 2,
+        "伤病赛程派": 4,
+        "阵容年龄派": 2,
+        "心理抗压派": 3,
+        "建模派": 1,
+        "老球迷派": 1
+      },
+      "avg_confidence": 59.8
+    },
+    {
+      "team": "美国",
+      "champion_votes": 14,
+      "weighted_score": 847.0,
+      "probability": 4.82,
+      "top3_probability": 3.11,
+      "factions": {
+        "数据派": 1,
+        "赔率派": 1,
+        "老球迷派": 1,
+        "玄学派": 3,
+        "主帅视角派": 1,
+        "伤病赛程派": 3,
+        "黑马派": 3,
+        "阵容年龄派": 1
+      },
+      "avg_confidence": 60.5
+    },
+    {
+      "team": "德国",
+      "champion_votes": 12,
+      "weighted_score": 775.0,
+      "probability": 4.41,
+      "top3_probability": 2.38,
+      "factions": {
+        "数据派": 3,
+        "赔率派": 1,
+        "老球迷派": 1,
+        "玄学派": 1,
+        "主帅视角派": 1,
+        "伤病赛程派": 1,
+        "阵容年龄派": 1,
+        "心理抗压派": 2,
+        "建模派": 1
+      },
+      "avg_confidence": 64.6
+    },
+    {
+      "team": "墨西哥",
+      "champion_votes": 11,
+      "weighted_score": 656.0,
+      "probability": 3.73,
+      "top3_probability": 2.66,
+      "factions": {
+        "赔率派": 1,
+        "老球迷派": 1,
+        "玄学派": 4,
+        "伤病赛程派": 3,
+        "黑马派": 1,
+        "建模派": 1
+      },
+      "avg_confidence": 59.6
+    },
+    {
+      "team": "意大利",
+      "champion_votes": 11,
+      "weighted_score": 520.0,
+      "probability": 2.96,
+      "top3_probability": 1.48,
+      "factions": {
+        "数据派": 2,
+        "老球迷派": 1,
+        "玄学派": 1,
+        "主帅视角派": 2,
+        "伤病赛程派": 1,
+        "阵容年龄派": 2,
+        "心理抗压派": 2
+      },
+      "avg_confidence": 47.3
+    },
+    {
+      "team": "葡萄牙",
+      "champion_votes": 9,
+      "weighted_score": 443.0,
+      "probability": 2.52,
+      "top3_probability": 1.45,
+      "factions": {
+        "赔率派": 1,
+        "老球迷派": 1,
+        "主帅视角派": 1,
+        "伤病赛程派": 1,
+        "阵容年龄派": 4,
+        "玄学派": 1
+      },
+      "avg_confidence": 49.2
+    },
+    {
+      "team": "日本",
+      "champion_votes": 10,
+      "weighted_score": 337.0,
+      "probability": 1.92,
+      "top3_probability": 1.01,
+      "factions": {
+        "数据派": 2,
+        "老球迷派": 1,
+        "玄学派": 1,
+        "主帅视角派": 1,
+        "黑马派": 4,
+        "心理抗压派": 1
+      },
+      "avg_confidence": 33.7
+    },
+    {
+      "team": "荷兰",
+      "champion_votes": 5,
+      "weighted_score": 299.0,
+      "probability": 1.7,
+      "top3_probability": 1.04,
+      "factions": {
+        "赔率派": 1,
+        "老球迷派": 1,
+        "玄学派": 1,
+        "主帅视角派": 1,
+        "心理抗压派": 1
+      },
+      "avg_confidence": 59.8
+    }
+  ],
+  "faction_summary": {
+    "数据派": {
+      "top_champions": [
+        {
+          "team": "英格兰",
+          "votes": 6,
+          "pct": 20.0
+        },
+        {
+          "team": "法国",
+          "votes": 5,
+          "pct": 16.7
+        },
+        {
+          "team": "西班牙",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "阿根廷",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "德国",
+          "votes": 3,
+          "pct": 10.0
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 63.4
+    },
+    "赔率派": {
+      "top_champions": [
+        {
+          "team": "法国",
+          "votes": 10,
+          "pct": 33.3
+        },
+        {
+          "team": "西班牙",
+          "votes": 6,
+          "pct": 20.0
+        },
+        {
+          "team": "英格兰",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "阿根廷",
+          "votes": 2,
+          "pct": 6.7
+        },
+        {
+          "team": "巴西",
+          "votes": 2,
+          "pct": 6.7
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 67.0
+    },
+    "老球迷派": {
+      "top_champions": [
+        {
+          "team": "法国",
+          "votes": 2,
+          "pct": 6.7
+        },
+        {
+          "team": "阿根廷",
+          "votes": 1,
+          "pct": 3.3
+        },
+        {
+          "team": "德国",
+          "votes": 1,
+          "pct": 3.3
+        },
+        {
+          "team": "意大利",
+          "votes": 1,
+          "pct": 3.3
+        },
+        {
+          "team": "英格兰",
+          "votes": 1,
+          "pct": 3.3
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 44.9
+    },
+    "玄学派": {
+      "top_champions": [
+        {
+          "team": "西班牙",
+          "votes": 5,
+          "pct": 16.7
+        },
+        {
+          "team": "墨西哥",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "法国",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "阿根廷",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "巴西",
+          "votes": 3,
+          "pct": 10.0
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 65.9
+    },
+    "主帅视角派": {
+      "top_champions": [
+        {
+          "team": "西班牙",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "阿根廷",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "法国",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "英格兰",
+          "votes": 2,
+          "pct": 6.7
+        },
+        {
+          "team": "意大利",
+          "votes": 2,
+          "pct": 6.7
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 56.1
+    },
+    "伤病赛程派": {
+      "top_champions": [
+        {
+          "team": "法国",
+          "votes": 5,
+          "pct": 16.7
+        },
+        {
+          "team": "英格兰",
+          "votes": 5,
+          "pct": 16.7
+        },
+        {
+          "team": "巴西",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "阿根廷",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "西班牙",
+          "votes": 3,
+          "pct": 10.0
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 64.2
+    },
+    "黑马派": {
+      "top_champions": [
+        {
+          "team": "日本",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "塞内加尔",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "挪威",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "美国",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "墨西哥",
+          "votes": 1,
+          "pct": 3.3
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 34.4
+    },
+    "阵容年龄派": {
+      "top_champions": [
+        {
+          "team": "西班牙",
+          "votes": 7,
+          "pct": 23.3
+        },
+        {
+          "team": "阿根廷",
+          "votes": 5,
+          "pct": 16.7
+        },
+        {
+          "team": "法国",
+          "votes": 5,
+          "pct": 16.7
+        },
+        {
+          "team": "葡萄牙",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "巴西",
+          "votes": 2,
+          "pct": 6.7
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 60.8
+    },
+    "心理抗压派": {
+      "top_champions": [
+        {
+          "team": "阿根廷",
+          "votes": 8,
+          "pct": 26.7
+        },
+        {
+          "team": "法国",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "英格兰",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "西班牙",
+          "votes": 3,
+          "pct": 10.0
+        },
+        {
+          "team": "巴西",
+          "votes": 3,
+          "pct": 10.0
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 59.7
+    },
+    "建模派": {
+      "top_champions": [
+        {
+          "team": "法国",
+          "votes": 14,
+          "pct": 46.7
+        },
+        {
+          "team": "西班牙",
+          "votes": 8,
+          "pct": 26.7
+        },
+        {
+          "team": "阿根廷",
+          "votes": 4,
+          "pct": 13.3
+        },
+        {
+          "team": "巴西",
+          "votes": 1,
+          "pct": 3.3
+        },
+        {
+          "team": "英格兰",
+          "votes": 1,
+          "pct": 3.3
+        }
+      ],
+      "agent_count": 30,
+      "avg_confidence": 69.3
+    }
+  },
+  "faction_quotes": {
+    "老球迷派": [
+      {
+        "identity": "法国老球迷",
+        "champion": "法国",
+        "confidence": 82,
+        "reason": "法国三冠血脉与非洲裔融合基因独步足坛,Mbappé带伤梅开二度印证大赛杀手气质;48队扩军赛程极密,考验板凳深度,法国阵容厚度当世第一,第三冠周期已然开启。"
+      },
+      {
+        "identity": "阿根廷老球迷",
+        "champion": "阿根廷",
+        "confidence": 75,
+        "reason": "潘帕斯三冠血脉不可复制,大赛基因刻在骨子里。梅西最后一舞承载86式宿命感,斯卡洛尼麾下深谙淘汰赛如何杀死比赛,伤病潮反而激发潘帕斯野性。"
+      },
+      {
+        "identity": "德国老球迷",
+        "champion": "德国",
+        "confidence": 75,
+        "reason": "德国四冠底蕴刻入日耳曼战车基因，淘汰赛才是德国人真正的主场；首轮扫阴霾后纳帅体系渐入佳境，穆勒中场调度+穆西亚拉爆破，五星战车第5次捧杯血脉觉醒。"
+      }
+    ],
+    "玄学派": [
+      {
+        "identity": "东道主魔咒信徒",
+        "champion": "墨西哥",
+        "confidence": 78,
+        "reason": "东道主魔咒反噬:1994墨止步16强,2026三度东道塔罗教皇牌归位,Mbappé伤退乃天罚让路,阿兹特克鹰蛇神护佑,首战零封印证大地能量觉醒。"
+      },
+      {
+        "identity": "逢偶数年定律信徒",
+        "champion": "西班牙",
+        "confidence": 78,
+        "reason": "逢偶数年定律铁律:2010西班牙问鼎,2026恰逢16年轮回,数字命理中16为太阴极数主隐忍爆发。Yamal虽小恙,偶数年自有天佑,斗牛士青年军契合玄学火象。法国伤Mbappé破金身,英格兰逢魔咒,冠军唯西班牙。"
+      },
+      {
+        "identity": "点球大战专家",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "法国2022点球饮恨蓄积复仇业力,Mbappé带伤梅开印证玄学韧性。1998-2018-2026偶数年周期共振丙午火马年,Maignan意甲淬炼的扑点神功成终极X因素,点球心理冠军相已现。"
+      }
+    ],
+    "赔率派": [
+      {
+        "identity": "DraftKings分析师",
+        "champion": "法国",
+        "confidence": 82,
+        "reason": "DK盘口隐含概率严重低估法国,首战3-1完胜验证Mbappé伤情可控。48队赛制利好阵容深度,凯利仓位信号仍指向价值洼地,sharp钱持续流入法国侧。"
+      },
+      {
+        "identity": "BetMGM分析师",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "盘口走势与揭幕战表现高度吻合，法国阵容深度经受住伤情检验，Mbappé状态确认市场定价合理，凯利仓位支持冠军押注。"
+      },
+      {
+        "identity": "夺冠双概率派",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "决赛组合赔率隐含法国半决赛决赛双线概率全场居首,Mbappé带伤梅开二度印证市场集体信任,加美墨密集赛程利好法国阵容深度,夺冠双概率派首位选择"
+      }
+    ],
+    "伤病赛程派": [
+      {
+        "identity": "巴西队医",
+        "champion": "巴西",
+        "confidence": 75,
+        "reason": "Neymar小腿伤经保守治疗可在淘汰赛阶段复出,巴西攻击线拥有Vinícius、Raphinha、Endrick深厚轮换,队医组对核心康复方案成熟,密集赛程反而利于医疗保障完备的豪门。"
+      },
+      {
+        "identity": "西班牙队医",
+        "champion": "西班牙",
+        "confidence": 75,
+        "reason": "Yamal年仅18岁肌腱修复力远超老将,轻伤两周内可复出;斗牛士新核年轻结构赋予赛事密度天然抗疲劳优势,西班牙队医轮换体系与La Liga夏训节奏完美匹配北美高温赛程。"
+      },
+      {
+        "identity": "酒店质量分析师",
+        "champion": "法国",
+        "confidence": 75,
+        "reason": "法国大本营历来选址顶级康复设施,时差与气候管理成熟,Mbappé带伤仍梅开二度印证后勤团队伤情管控能力,48队赛程压缩下酒店恢复质量将成为隐形胜负手"
+      }
+    ],
+    "黑马派": [
+      {
+        "identity": "归化球员派",
+        "champion": "美国",
+        "confidence": 82,
+        "reason": "美国归化质量近年断层领先：Pulisic、McKennie、Musah、Miles Robinson等核心均出身欧洲青训体系，技术对位已不输传统强队。东道主优势叠加4-1巴拉圭的锋线锐度，归化球员的战术执行力和体能储备足以支撑48队扩军后的密集赛程，夺冠窗口已开。"
+      },
+      {
+        "identity": "昔日豪门复兴派",
+        "champion": "比利时",
+        "confidence": 72,
+        "reason": "被遗忘的王者终将归来——比利时黄金一代虽已暮年,但德布劳内、库尔图瓦、卢卡库中轴线仍属顶级,48队扩军赛程密集,豪门底蕴与板凳深度是穿越淘汰赛的硬通货。市场严重低估了复兴派的复利效应。"
+      },
+      {
+        "identity": "22年摩洛哥模仿派",
+        "champion": "塞内加尔",
+        "confidence": 72,
+        "reason": "22年摩洛哥模板的核心是防守纪律+非洲体能在密集赛程中的不可替代性。塞内加尔首战法国虽败但防线已检验,48队扩军赛程极密,非洲四强基因的耐力与对抗优势会被指数级放大,小组出局非终点,淘汰赛才是非洲黑马基因爆发窗口。"
+      }
+    ],
+    "心理抗压派": [
+      {
+        "identity": "夺冠庆典压力派",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "法国逆境基因刻骨,姆巴佩带伤梅开二度印证大心脏传统,德尚淘汰赛老辣,庆功宴心理学闭环:他们最懂得把压力酿成香槟。"
+      },
+      {
+        "identity": "欧冠决赛抗压分析师",
+        "champion": "英格兰",
+        "confidence": 75,
+        "reason": "贝林厄姆欧冠决赛级抗压基因,福登、萨卡经历曼城阿森纳欧冠淘汰赛淬炼,4-2克罗地亚展现逆境翻盘能力,英格兰已具备决赛气质蜕变条件。"
+      },
+      {
+        "identity": "卫冕压力派",
+        "champion": "阿根廷",
+        "confidence": 75,
+        "reason": "卫冕冠军历经2022点球生死淬火,逆境翻盘已成肌肉记忆。Messi最后一舞凝聚更衣室,伤兵压力反转化为'为梅西而战'的集体意志。卫冕心态与大赛心脏,无人能出其右。"
+      }
+    ],
+    "建模派": [
+      {
+        "identity": "淘汰赛模拟派",
+        "champion": "法国",
+        "confidence": 82,
+        "reason": "基于Poisson-Dixon-Coles模型十万次淘汰赛模拟,法国淘汰赛转化率与点球胜率均为各队之首,板凳深度适配48队密集赛程,核心伤情在可控范围内。"
+      },
+      {
+        "identity": "BetMGM模型派",
+        "champion": "法国",
+        "confidence": 80,
+        "reason": "蒙特卡洛万次模拟显示法国攻击线xG产出居48队之首,首战3-1验证泊松模型预期,核心深度可消化Ekitike缺阵与Mbappé伤患折扣,夺冠概率模型输出榜首。"
+      },
+      {
+        "identity": "蒙特卡洛模拟派",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "10000次蒙特卡洛模拟显示法国夺冠路径概率密度峰值领先,Elo基底叠加Mbappé双响推高xG链式分布,伤病因素经贝叶斯修正后仍收敛于分布头部"
+      }
+    ],
+    "主帅视角派": [
+      {
+        "identity": "法甲主帅",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "法甲体系深谙攻守平衡,法国兼具技术精度与对抗硬度,德尚轮换深度冠绝48队,姆巴佩带伤双响印证体系容错,高卢军团最具冠军相。"
+      },
+      {
+        "identity": "英超主帅",
+        "champion": "英格兰",
+        "confidence": 75,
+        "reason": "英超体系出身球员最适应高强度逼抢,英格兰阵容深度配合前场压迫节奏,48队密集赛程下体能轮换优势显著,三狮体系可压制技术流球队"
+      },
+      {
+        "identity": "433信徒",
+        "champion": "法国",
+        "confidence": 75,
+        "reason": "法国433边锋群深度世界顶级,Mbappé与Dembélé两翼驱动配合Olise/Kolo Muani轮换,体系容错率高,即便核心带伤边路压制力仍能碾压高强度淘汰赛,小组赛首战已验证"
+      }
+    ],
+    "阵容年龄派": [
+      {
+        "identity": "副队年龄派",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "法国年龄金字塔堪称教科书:Mbappé(27-28)正值巅峰核心,Camavinga/Saliba/Tchouaméni构成25-26岁黄金中坚,Zaïre-Emery等06后新锐补充,无老化断崖;反观阿根廷Messi已38岁存在续航塌方,西班牙00后占比过高经验不足,48队赛程密度下法国年龄结构抗疲劳最优。"
+      },
+      {
+        "identity": "德转身价年龄比",
+        "champion": "西班牙",
+        "confidence": 78,
+        "reason": "西班牙身价年龄比冠绝48队:Yamal/Pedri/Williams等U23核心身价合计超€8亿,加权年龄仅22.3岁,巅峰集中度最高,扩军赛程下续航优势碾压老化阵容。"
+      },
+      {
+        "identity": "25-28岁巅峰派",
+        "champion": "西班牙",
+        "confidence": 75,
+        "reason": "西班牙中场正处巅峰(鲁伊斯28/奥尔莫26),后防当打之年(勒诺曼28/库库雷拉26),核心无老将续航隐患,48队赛程密集考验体能,巅峰集中度全队最高"
+      }
+    ],
+    "数据派": [
+      {
+        "identity": "薪资榜派",
+        "champion": "法国",
+        "confidence": 82,
+        "reason": "法国全队薪资总额高居48队之首,板凳深度冠绝群雄。Mbappé伤缺仍有格列兹曼、卡马文加、萨利巴等顶薪球员顶上,首战3-1印证薪资转化为战力,高薪即硬实力。"
+      },
+      {
+        "identity": "进攻数据分析师",
+        "champion": "法国",
+        "confidence": 82,
+        "reason": "xG数据显示法国首战预期进球远超实际3球,进攻转化率被低估;Mbappé带伤仍双响证明终结效率领跑赛事,边路Thuram与登贝莱制造xG链条全队第一,纵深进攻宽度优于西班牙的传控体系,英格兰虽4-2但xG波动大,法国中前场多触点数据更稳定支撑夺冠路径。"
+      },
+      {
+        "identity": "英超数据分析师",
+        "champion": "法国",
+        "confidence": 78,
+        "reason": "法国身价矩阵领跑且ELO占优,首战xG差+1.8印证攻击线深度,Mbappé带伤仍梅开二度,中场传球网络密度优于西班牙,核心轮换厚度碾压四强对手。"
+      }
+    ]
+  },
+  "dark_horse": {
+    "max_favorite": {
+      "team": "法国",
+      "probability": 21.42,
+      "votes": 52
+    },
+    "most_undervalued": [
+      {
+        "team": "塞内加尔",
+        "dark_pct": 80.0,
+        "odds_pct": 0.0,
+        "gap": 80.0,
+        "total_votes": 5,
+        "divergence": 0.94,
+        "factions": {
+          "老球迷派": 1,
+          "主帅视角派": 1,
+          "黑马派": 3
+        }
+      },
+      {
+        "team": "比利时",
+        "dark_pct": 66.7,
+        "odds_pct": 0.0,
+        "gap": 66.7,
+        "total_votes": 3,
+        "divergence": 0.0,
+        "factions": {
+          "老球迷派": 1,
+          "黑马派": 1,
+          "阵容年龄派": 1
+        }
+      },
+      {
+        "team": "摩洛哥",
+        "dark_pct": 66.7,
+        "odds_pct": 0.0,
+        "gap": 66.7,
+        "total_votes": 3,
+        "divergence": 0.0,
+        "factions": {
+          "老球迷派": 1,
+          "黑马派": 1,
+          "心理抗压派": 1
+        }
+      },
+      {
+        "team": "丹麦",
+        "dark_pct": 66.7,
+        "odds_pct": 0.0,
+        "gap": 66.7,
+        "total_votes": 3,
+        "divergence": 0.0,
+        "factions": {
+          "老球迷派": 1,
+          "主帅视角派": 1,
+          "黑马派": 1
+        }
+      },
+      {
+        "team": "日本",
+        "dark_pct": 60.0,
+        "odds_pct": 0.0,
+        "gap": 60.0,
+        "total_votes": 10,
+        "divergence": 1.11,
+        "factions": {
+          "数据派": 2,
+          "老球迷派": 1,
+          "玄学派": 1,
+          "主帅视角派": 1,
+          "黑马派": 4,
+          "心理抗压派": 1
+        }
+      }
+    ]
+  },
+  "all_agents": [
+    {
+      "id": "D01",
+      "faction": "数据派",
+      "identity": "英超数据分析师",
+      "weight_logic": "身价+ELO+近期xG",
+      "focus": "xG差、传球网络密度",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "法国身价矩阵领跑且ELO占优,首战xG差+1.8印证攻击线深度,Mbappé带伤仍梅开二度,中场传球网络密度优于西班牙,核心轮换厚度碾压四强对手。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D02",
+      "faction": "数据派",
+      "identity": "西甲数据分析师",
+      "weight_logic": "身价+ELO+控球率",
+      "focus": "控球vs反击效率",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "西甲数据追踪显示西班牙xG创造与高位逼抢成功率双榜首,68%控球率压制姆巴佩反击效率;Elo第一叠加欧洲杯冠军体系成熟,Yamal反击转化率世界级,48队赛程密集下轮换深度与对抗消耗优势最优",
+      "counter_trigger": true
+    },
+    {
+      "id": "D03",
+      "faction": "数据派",
+      "identity": "意甲数据分析师",
+      "weight_logic": "身价+防守效率",
+      "focus": "意大利链式防守",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 55,
+      "reason": "48队扩军+密集赛程放大防守权重。意大利Bastoni、Calafiori、Donnarumma身价集中后场,xGA全欧最低,加斯佩里尼高位逼抢+链式低位切换无缝衔接,淘汰赛单场零封即晋级,catenaccio基因在杯赛制中是被严重低估的冠军公式。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D04",
+      "faction": "数据派",
+      "identity": "德甲数据分析师",
+      "weight_logic": "身价+高位压迫",
+      "focus": "跑动数据+对抗成功率",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 70,
+      "reason": "德国高位压迫PPDA数据领跑,跑动与对抗成功率Bundesliga班底占优,Havertz/Musiala/Wirtz身价组合无重大伤情,数据模型强力支撑。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D05",
+      "faction": "数据派",
+      "identity": "法甲数据分析师",
+      "weight_logic": "身价+本土精英",
+      "focus": "Mbappe体系",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 78,
+      "reason": "Mbappé体系未崩——带伤梅开二度,核心稳定性数据验证;法国本土精英身价密度全欧第一,中场xG净值领跑,法甲视角下卫冕逻辑闭环。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D06",
+      "faction": "数据派",
+      "identity": "MLS数据分析师",
+      "weight_logic": "本土体能+身价",
+      "focus": "美国东道主优势",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 38,
+      "reason": "USA东道主体能零适应成本,首战4-1展现xG强势输出,本土球员免跨境飞行疲劳,Mbappé伤患叠加赛程密度反衬美国体能储备结构性优势",
+      "counter_trigger": true
+    },
+    {
+      "id": "D07",
+      "faction": "数据派",
+      "identity": "解放者杯数据分析师",
+      "weight_logic": "南美身价",
+      "focus": "巴西阿根廷失衡",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 38,
+      "reason": "南美身价失衡视角:巴西阵容深度仍碾压阿根廷,锋线轮换Vinícius/Endrick/Raphinha覆盖Neymar缺阵;中场Paquetá-Brutus组合经解放者杯节奏验证。48队赛程密集,深度即冠军,巴西替补席身价断层领先南美。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D08",
+      "faction": "数据派",
+      "identity": "K League数据分析师",
+      "weight_logic": "亚洲身价+评分",
+      "focus": "日本韩国身价",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 35,
+      "reason": "日本全队身价稳居亚洲第一,J联赛球员评分已逼近K联赛顶级水平;近年连续掀翻德西的高位逼抢与短传网络效率数据领先;首战拿分后淘汰赛模型支持其走远,法国身价虽最高但Mbappé伤病折损战力。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D09",
+      "faction": "数据派",
+      "identity": "J League数据分析师",
+      "weight_logic": "日本联赛表现",
+      "focus": "日本旅欧球员",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "日本旅欧球员巅峰期:久保、三笘、远藤、富安合计身价3亿欧,均为五大联赛核心。J League xG/PPDA亚洲顶级,48队赛程利好阵容深度。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D10",
+      "faction": "数据派",
+      "identity": "中超数据分析师",
+      "weight_logic": "中超球员分布",
+      "focus": "归化球员+留洋",
+      "champion": "韩国",
+      "top3": [
+        "韩国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 18,
+      "reason": "韩国留洋核心身价与中超关联球员数据冠绝亚足联,孙兴慜金玟哉李康仁三线齐整,PPDA高位逼抢印证其克制欧式控球强队,48队密集赛程下阵容深度决定冠军上限。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D11",
+      "faction": "数据派",
+      "identity": "欧冠决赛圈数据分析师",
+      "weight_logic": "欧冠成绩加权",
+      "focus": "欧冠主力占比",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "英格兰阵中欧冠决赛圈级球员占比最高:贝林厄姆(皇马夺冠核心)、福登/斯通斯/沃克(曼城三冠王班底)、凯恩(拜仁欧冠射手)、赖斯/萨卡(阿森纳欧冠常客)。首战4-2克罗地亚验证体系运转,数据派看夺冠底蕴。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D12",
+      "faction": "数据派",
+      "identity": "世界杯历史数据分析师",
+      "weight_logic": "历史胜率+ELO",
+      "focus": "卫冕魔咒量化",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "阿根廷FIFA ELO稳居世界前三,近五届卫冕魔咒虽强但2022法国闯入决赛已证伪可破。历史夺冠转化率冠绝诸强,梅西告别战驱动叠加首战不败累积ELO优势,量化模型看好卫冕成功。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D13",
+      "faction": "数据派",
+      "identity": "xG模型派分析师",
+      "weight_logic": "xG模型派分析师专业加权",
+      "focus": "场均xG与xGA",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "xG模型显示西班牙场均xG领跑全队、xGA最低,传控压制体系持续制造高质量射门,虽Yamal轻伤但进攻多点开花,数据层面无明显短板,模型加权后夺冠概率应被市场低估。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D14",
+      "faction": "数据派",
+      "identity": "Posession-adjusted分析师",
+      "weight_logic": "控球调整",
+      "focus": "控球转化率",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "英格兰",
+        "法国"
+      ],
+      "confidence": 75,
+      "reason": "西班牙控球率稳居65%+,控球转化xG效率与PPDA压迫指数均居首,48队密集赛程下控球即体能优势与对手反击压制,德·拉·富恩特体系下传球网络密度极高,即使Yamal轻伤,Pedri与Rodri中轴仍保障控球-射门转化闭环",
+      "counter_trigger": false
+    },
+    {
+      "id": "D15",
+      "faction": "数据派",
+      "identity": "Elo评级派",
+      "weight_logic": "纯ELO分",
+      "focus": "Elo评级派",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "阿根廷2022世界杯+2024美洲杯连冠推升Elo至全球前三,淘汰赛Elo稳定性冠绝群雄,密集赛程利好阵容深度,法国Mbappé伤压上限,押注卫冕。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D16",
+      "faction": "数据派",
+      "identity": "FIFA官方分派",
+      "weight_logic": "FIFA排名加权",
+      "focus": "FIFA官方分派",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 72,
+      "reason": "FIFA排名加权体系长期将阿根廷列为首位,卫冕底蕴与xG、传球网络密度等核心指标领跑,48队密集赛程下阵容深度溢价被赔率严重低估,数据不说谎。",
+      "counter_trigger": true
+    },
+    {
+      "id": "D17",
+      "faction": "数据派",
+      "identity": "转会身价派",
+      "weight_logic": "纯身价",
+      "focus": "转会身价派",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "英格兰全队身价冠绝48队,Bellingham+Saka+Foden三核身价合计逾6亿欧,首轮4-2克罗地亚已兑现身价压制,纯数据维度无短板",
+      "counter_trigger": false
+    },
+    {
+      "id": "D18",
+      "faction": "数据派",
+      "identity": "薪资榜派",
+      "weight_logic": "球队薪资",
+      "focus": "薪资榜派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 82,
+      "reason": "法国全队薪资总额高居48队之首,板凳深度冠绝群雄。Mbappé伤缺仍有格列兹曼、卡马文加、萨利巴等顶薪球员顶上,首战3-1印证薪资转化为战力,高薪即硬实力。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D19",
+      "faction": "数据派",
+      "identity": "世预赛战绩派",
+      "weight_logic": "世预赛分数",
+      "focus": "世预赛战绩派",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 68,
+      "reason": "世预赛南美区阿根廷以头名出线,防守数据与零封场次冠绝赛区;斯卡洛尼体系经过两届大赛淬炼,阵容深度足以覆盖伤病;作为卫冕冠军在大赛淘汰赛的数据稳定性远超赔率隐含的低估,这是战绩派最坚实的论据。",
+      "counter_trigger": true
+    },
+    {
+      "id": "D20",
+      "faction": "数据派",
+      "identity": "近1年战绩派",
+      "weight_logic": "近12场",
+      "focus": "近1年战绩派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "近12场xG差值、PPDA压迫强度、传球网络密度三项核心指标西班牙居首。法国核心带伤致攻防效率下滑,英格兰xGA偏高,西班牙阵容厚度足以消化48队赛程密度。",
+      "counter_trigger": true
+    },
+    {
+      "id": "D21",
+      "faction": "数据派",
+      "identity": "近3年战绩派",
+      "weight_logic": "近36场",
+      "focus": "近3年战绩派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 78,
+      "reason": "近36场法国胜率超70%,2022决赛+2024四强证明大赛稳定性,3-1塞内加尔Mbappé带伤梅开二度状态在线,阵容深度全欧顶尖,Saliba-Upamecano中卫组合失球率全欧最低梯队,数据上无明显短板",
+      "counter_trigger": false
+    },
+    {
+      "id": "D22",
+      "faction": "数据派",
+      "identity": "大赛数据分析师",
+      "weight_logic": "近3届大赛",
+      "focus": "大赛数据分析师",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "德国PPDA压迫与高位逼抢网络密度居大赛前列,Gnabry缺阵对阵容深度影响有限,Nagelsmann任内xG创造显著走高;48队赛程密度放大利好板凳厚度。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D23",
+      "faction": "数据派",
+      "identity": "小组赛首日观察员",
+      "weight_logic": "首日表现",
+      "focus": "小组赛首日观察员",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "英格兰首日4-2克罗地亚,xG产出与高位压迫PPDA数据领跑首日全部球队,控球率与传球网络密度均居前列;阵容身价深度碾压48队密集赛程,青年核心Bellingham体系成熟,市场低估其夺冠概率。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D24",
+      "faction": "数据派",
+      "identity": "体能数据分析师",
+      "weight_logic": "跑动距离",
+      "focus": "体能数据分析师",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "英格兰首战高强度跑动距离与冲刺次数位居前列,Rice、Bellingham覆盖面积顶级,48队赛程密集下轮换深度与体能储备优势凸显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D25",
+      "faction": "数据派",
+      "identity": "压迫数据分析师",
+      "weight_logic": "PPDA",
+      "focus": "压迫数据分析师",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "PPDA维度德国纳帅体系前场逼抢强度位居前列,48队赛程密集下德式高位压迫+阵容深度可维持全场高强度,数据被市场明显低估",
+      "counter_trigger": false
+    },
+    {
+      "id": "D26",
+      "faction": "数据派",
+      "identity": "防守数据分析师",
+      "weight_logic": "xGA",
+      "focus": "防守数据分析师",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "xGA视角下意大利被严重低估:Donarumma+Bastoni+Calafiori构建的低xGA防线,48队赛程密集,防守稳定性比进攻火力更稀缺。法国防线身价最高但Mbappé伤患增加失球风险,英格兰防线xGA数据扎实但大赛抗压待验,意大利的防守组织度才是淘汰赛最优解。",
+      "counter_trigger": true
+    },
+    {
+      "id": "D27",
+      "faction": "数据派",
+      "identity": "进攻数据分析师",
+      "weight_logic": "xG",
+      "focus": "进攻数据分析师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 82,
+      "reason": "xG数据显示法国首战预期进球远超实际3球,进攻转化率被低估;Mbappé带伤仍双响证明终结效率领跑赛事,边路Thuram与登贝莱制造xG链条全队第一,纵深进攻宽度优于西班牙的传控体系,英格兰虽4-2但xG波动大,法国中前场多触点数据更稳定支撑夺冠路径。",
+      "counter_trigger": false
+    },
+    {
+      "id": "D28",
+      "faction": "数据派",
+      "identity": "守门员数据分析师",
+      "weight_logic": "扑救率",
+      "focus": "守门员数据分析师",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "阿利松扑救率长期世界前三,巴西后防xGA控制稳居顶级,前场伤病虽多但门将端零短板,数据派视角下单点门将优势足以弥补锋线不确定性",
+      "counter_trigger": false
+    },
+    {
+      "id": "D29",
+      "faction": "数据派",
+      "identity": "定位球数据分析师",
+      "weight_logic": "定位球得分率",
+      "focus": "定位球数据分析师",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 74,
+      "reason": "英格兰定位球得分率与高空争顶成功率领跑参赛队,48队密集赛程下体能消耗后死球价值倍增,首战4-2已验证角球与任意球转化效率领跑",
+      "counter_trigger": true
+    },
+    {
+      "id": "D30",
+      "faction": "数据派",
+      "identity": "板凳深度分析师",
+      "weight_logic": "阵容深度",
+      "focus": "板凳深度分析师",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "挪威"
+      ],
+      "confidence": 65,
+      "reason": "48队赛程极端密集,英格兰替补席Foden/Palmer/Grealish/Watkins构成准首发级深度,轮换不掉档是淘汰赛隐形核心优势;Mbappé带伤+Ekitike缺席让法国深度打折,挪威年轻核心体能储备充足被市场严重低估。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O01",
+      "faction": "赔率派",
+      "identity": "BetMGM分析师",
+      "weight_logic": "BetMGM盘口",
+      "focus": "BetMGM分析师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 78,
+      "reason": "盘口走势与揭幕战表现高度吻合，法国阵容深度经受住伤情检验，Mbappé状态确认市场定价合理，凯利仓位支持冠军押注。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O02",
+      "faction": "赔率派",
+      "identity": "DraftKings分析师",
+      "weight_logic": "DK盘口",
+      "focus": "DraftKings分析师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 82,
+      "reason": "DK盘口隐含概率严重低估法国,首战3-1完胜验证Mbappé伤情可控。48队赛制利好阵容深度,凯利仓位信号仍指向价值洼地,sharp钱持续流入法国侧。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O03",
+      "faction": "赔率派",
+      "identity": "FanDuel分析师",
+      "weight_logic": "FD盘口",
+      "focus": "FanDuel分析师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "FD盘口法国居首,Mbappé带伤梅开二度印证锋线韧性,赔率派相信市场已定价其冠军底蕴,伤病隐患被开盘者充分消化,开门红锁定市场信心。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O04",
+      "faction": "赔率派",
+      "identity": "Polymarket分析师",
+      "weight_logic": "预测市场隐含概率",
+      "focus": "Polymarket分析师",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "西班牙当前隐含概率被市场低估,欧锦赛冠军班底完整无核心伤病,法国核心球员隐患令Polymarket sharp盘资金悄然流向板鸭,凯利信号偏多。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O05",
+      "faction": "赔率派",
+      "identity": "Kalshi分析师",
+      "weight_logic": "Kalshi市场",
+      "focus": "Kalshi分析师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "Kalshi合约盘口法国稳居榜首,Mbappé带伤仍梅开二度印证锋线定价被市场低估,48队扩军赛程密集放大板凳深度价值,sharps资金流向确认法国阵容储备的隐性溢价。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O06",
+      "faction": "赔率派",
+      "identity": "Pinnacle分析师",
+      "weight_logic": "Pinnacle sharp线",
+      "focus": "Pinnacle分析师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "Pinnacle sharp线首轮走势验证法国3-1,Mbappé带伤梅开二度印证核心价值,板深跌幅小于市场均值,欧国联冠军阵容深度经得起48队赛程消耗战。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O07",
+      "faction": "赔率派",
+      "identity": "William Hill分析师",
+      "weight_logic": "英国盘口",
+      "focus": "William Hill分析师",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "英国本土盘口资金流向清晰,4-2克罗地亚印证攻击线全开,贝林厄姆-萨卡轴心成熟,48队赛制考验板凳深度——三狮军团恰好兼具。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O08",
+      "faction": "赔率派",
+      "identity": "Paddy Power分析师",
+      "weight_logic": "英国盘口",
+      "focus": "Paddy Power分析师",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "Paddy Power英国盘口显示西班牙隐含概率被低估,阵容深度全48队第一,Yamal轻伤远胜Mbappé隐患,欧锦赛冠军底蕴+技术流打法在扩军密集赛程中优势放大",
+      "counter_trigger": false
+    },
+    {
+      "id": "O09",
+      "faction": "赔率派",
+      "identity": "Bet365分析师",
+      "weight_logic": "Bet365",
+      "focus": "Bet365分析师",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "西班牙+500赔率被市场低估,48队赛制利好阵容深度,亚马尔轻伤无碍。Bet365盘口显示西班牙小组赛隐含胜率偏高,凯利公式支持加注,首战赢盘概率被低估。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O10",
+      "faction": "赔率派",
+      "identity": "亚洲盘分析师",
+      "weight_logic": "澳门盘",
+      "focus": "亚洲盘分析师",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "澳门盘阿根廷让球水位持续走低,资金面隐含防守强度被低估;48队赛程密集利好老将阵容,梅西轻伤已被盘口消化,卫冕冠军的淘汰赛让球价值仍是市场最优。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O11",
+      "faction": "赔率派",
+      "identity": "博彩公司套利派",
+      "weight_logic": "多家盘口均值",
+      "focus": "博彩公司套利派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "墨西哥"
+      ],
+      "confidence": 74,
+      "reason": "多家盘口均值显示法国隐含概率被Mbappé伤情过度压低,Pinnacle sharp资金暗中吸筹,凯利测算+420仍正EV,3-1胜塞内加尔验证阵容深度,公众恐慌溢价即套利窗口。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O12",
+      "faction": "赔率派",
+      "identity": "开盘线变动追踪者",
+      "weight_logic": "线变追踪",
+      "focus": "开盘线变动追踪者",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "48队扩军赛程密度大,板鸭青年军Yamal/Pedri/Gavi阵容深度可高频轮换,线变追踪显示+500的盘口被Pinnacle sharp低估,法国Mbappé伤隐患将致其盘口上浮,英格兰大胜后面临公众过度追捧导致线下行,西班牙具备价值夺冠窗口。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O13",
+      "faction": "赔率派",
+      "identity": "下注量分析师",
+      "weight_logic": "betting handle",
+      "focus": "下注量分析师",
+      "champion": "美国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "美国"
+      ],
+      "confidence": 62,
+      "reason": "下注量视角下东道主存在显著市场低效：首战4-1大胜释放sharp信号，公众资金追逐明星队分散，美国赔率被压低不足；48队扩军赛程密集利好体能储备深、主场氛围加持的球队，sharp money正从巴西、阿根廷等伤情密集队转向美国。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O14",
+      "faction": "赔率派",
+      "identity": "逆向押注分析师",
+      "weight_logic": "公众vs sharp分歧",
+      "focus": "逆向押注分析师",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "公众资金涌向法国英格兰,西班牙隐含概率被压至17%。48队赛制阵容深度定胜负,西班牙欧锦赛冠军底蕴加深厚中场是sharp资金暗中加注标的。Yamal轻伤反而制造价值窗口。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O15",
+      "faction": "赔率派",
+      "identity": "盘口历史回测派",
+      "weight_logic": "历年赔率vs实际",
+      "focus": "盘口历史回测派",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "盘口回测显示五星巴西在赔率被拉长至+1100区间时历史夺冠率显著高于隐含概率,48队扩军利好阵容深度,内马尔伤缺反释放盘口价值,维尼修斯领衔攻击群足以兑现赔率被低估的冠军底蕴。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O16",
+      "faction": "赔率派",
+      "identity": "赔付率精算师",
+      "weight_logic": "赔付率精算",
+      "focus": "赔付率精算师",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "首战xG印证精算模型对法国进攻效率的低估,凯利公式测算隐含概率存3-5个百分点正期望缺口,伤情已在赔率中充分折现,重仓持有具赔付率精算的核心价值。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O17",
+      "faction": "赔率派",
+      "identity": "凯利公式派",
+      "weight_logic": "凯利仓位",
+      "focus": "凯利公式派",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "凯利视角下,英格兰+600被市场低估。首战4-2大胜克队证明进攻体系成熟,Bellingham/Saka/FodEn青年核心正值巅峰。Mbappé伤隐患使法国隐含波动率被低估,48队密集赛程下阵容深度=凯利加分项,英格兰板凳厚度冠绝全赛,正期望值仓位值得重仓。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O18",
+      "faction": "赔率派",
+      "identity": "EV值猎手",
+      "weight_logic": "正EV",
+      "focus": "EV值猎手",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72
+,
+      "reason": "墨西哥作为东道主,市场对其赔率折价严重低估主场EV;首战零封印证防守端正EV信号;Pinnacle sharp线未充分反映48队扩军下东道主赛程红利;公众资金涌入法英巴西制造冷门正EV窗口,凯利公式下墨西哥仓位价值最优。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O19",
+      "faction": "赔率派",
+      "identity": "价值下注派",
+      "weight_logic": "价值识别",
+      "focus": "价值下注派",
+      "champion": "哥伦比亚",
+      "top3": [
+        "法国",
+        "西班牙",
+        "哥伦比亚"
+      ],
+      "confidence": 35,
+      "reason": "凯利公式视角下,哥伦比亚被市场严重低估。南美球队在美洲举办的世界杯历来加成巨大,48队扩军带来的密集赛程考验阵容深度,哥伦比亚正是本届阵容最厚实的黑马之一。公众资金集中在欧洲豪门,造成非热门队溢价空间,这是典型的价值下注机会。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O20",
+      "faction": "赔率派",
+      "identity": "longshot派",
+      "weight_logic": "高赔率球队",
+      "focus": "longshot派",
+      "champion": "挪威",
+      "top3": [
+        "挪威",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 32,
+      "reason": "48队扩军放大赛程方差,单场淘汰制放大射手单点爆破价值;挪威拥有Haaland式超级终结者,longshot赔率隐含概率被系统性低估,凯利公式支持小注高赔冷门。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O21",
+      "faction": "赔率派",
+      "identity": "小组出线赔率派",
+      "weight_logic": "晋级概率",
+      "focus": "小组出线赔率派",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "德国所在小组晋级赔率隐含稳定性突出,首日零伤停确认阵容完整,市场系统性低估其小组头名概率,淘汰赛容错空间优于法英巴阿,历史大赛基因匹配48队扩军后高密度赛程的耐力考验。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O22",
+      "faction": "赔率派",
+      "identity": "夺冠双概率派",
+      "weight_logic": "决赛组合赔率",
+      "focus": "夺冠双概率派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "决赛组合赔率隐含法国半决赛决赛双线概率全场居首,Mbappé带伤梅开二度印证市场集体信任,加美墨密集赛程利好法国阵容深度,夺冠双概率派首位选择",
+      "counter_trigger": false
+    },
+    {
+      "id": "O23",
+      "faction": "赔率派",
+      "identity": "最佳球员赔率派",
+      "weight_logic": "金球赔率",
+      "focus": "最佳球员赔率派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 78,
+      "reason": "Mbappé带伤梅开二度锁定金球赔率榜首，法国阵容深度与替补厚度形成双重凯利溢价，从最佳球员赔率看星牌驱动效应最强，夺冠窗口最大。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O24",
+      "faction": "赔率派",
+      "identity": "最佳射手赔率派",
+      "weight_logic": "金靴",
+      "focus": "最佳射手赔率派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 75,
+      "reason": "Mbappé带伤仍梅开二度,印证sharp资金押注法国的方向。金靴市场最看好Mbappé,48队扩军拉长射手进球窗口,法国小组赛火力已开张,盘口集体智慧指向高卢雄鸡夺冠。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O25",
+      "faction": "赔率派",
+      "identity": "小组首名赔率派",
+      "weight_logic": "小组头名",
+      "focus": "小组首名赔率派",
+      "champion": "阿根廷",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 65,
+      "reason": "小组首名赔率视角下,阿根廷所在小组首名盘隐含胜率显著高于其冠军盘隐含值,存在跨市场套利空间。卫冕体系成熟,阵容深度可覆盖伤病,冠军盘被市场系统性低估,正向追盘价值突出。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O26",
+      "faction": "赔率派",
+      "identity": "16强赔率派",
+      "weight_logic": "进16强",
+      "focus": "16强赔率派",
+      "champion": "荷兰",
+      "top3": [
+        "荷兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 38,
+      "reason": "48队赛制下小组赛容错率高,荷兰晋级16强赔率被显著低估;淘汰赛经验与阵容深度支撑走远,深盘价值凸显。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O27",
+      "faction": "赔率派",
+      "identity": "8强赔率派",
+      "weight_logic": "进8强",
+      "focus": "8强赔率派",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 58,
+      "reason": "48队赛程密集,葡萄牙阵容深度足以稳定杀入8强后段淘汰赛,市场低估其板凳厚度与大赛经验,八强赔率存在明显价值偏差。",
+      "counter_trigger": true
+    },
+    {
+      "id": "O28",
+      "faction": "赔率派",
+      "identity": "4强赔率派",
+      "weight_logic": "进4强",
+      "focus": "4强赔率派",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "4强赔率派核心:晋级四强赔率被市场系统性低估,内马尔伤缺反而消除战术不确定性,维尼修斯与拉菲尼亚的淘汰赛体系已成熟,巴西历史四强转化率冠绝诸强,分组赛程利好支撑正期望值。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O29",
+      "faction": "赔率派",
+      "identity": "决赛赔率派",
+      "weight_logic": "进决赛",
+      "focus": "决赛赔率派",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "首战4-2验进攻体系,小组赛到决赛赔率路径最优;Mbappé伤患+赛程密集让法国决赛赔率存水分,凯利公式下英格兰仓位价值凸显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "O30",
+      "faction": "赔率派",
+      "identity": "夺冠组合策略派",
+      "weight_logic": "组合策略",
+      "focus": "夺冠组合策略派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "48队赛程密集放大阵容深度价值,西班牙青年军Yamal/Pedri/Nico体能续航碾压。凯利公式显示其隐含概率被低估,小组+晋级组合投注价值最高,控球体系减少拼抢损耗,夺冠路径最清晰。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V02",
+      "faction": "老球迷派",
+      "identity": "阿根廷老球迷",
+      "weight_logic": "阿根廷3冠",
+      "focus": "潘帕斯血统",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 75,
+      "reason": "潘帕斯三冠血脉不可复制,大赛基因刻在骨子里。梅西最后一舞承载86式宿命感,斯卡洛尼麾下深谙淘汰赛如何杀死比赛,伤病潮反而激发潘帕斯野性。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V03",
+      "faction": "老球迷派",
+      "identity": "德国老球迷",
+      "weight_logic": "德国4冠",
+      "focus": "日耳曼战车",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 75,
+      "reason": "德国四冠底蕴刻入日耳曼战车基因，淘汰赛才是德国人真正的主场；首轮扫阴霾后纳帅体系渐入佳境，穆勒中场调度+穆西亚拉爆破，五星战车第5次捧杯血脉觉醒。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V04",
+      "faction": "老球迷派",
+      "identity": "意大利老球迷",
+      "weight_logic": "意大利4冠",
+      "focus": "混凝土防守",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 28,
+      "reason": "48队赛程密集如马拉松,意大利混凝土防守加四冠底蕴是淘汰赛最大底牌。法国核心带伤后程乏力,英格兰防守松散,唯有蓝衣军团的零封能力能在多场绞杀中笑到最后。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V05",
+      "faction": "老球迷派",
+      "identity": "法国老球迷",
+      "weight_logic": "法国3冠",
+      "focus": "非洲裔+本土融合",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "英格兰"
+      ],
+      "confidence": 82,
+      "reason": "法国三冠血脉与非洲裔融合基因独步足坛,Mbappé带伤梅开二度印证大赛杀手气质;48队扩军赛程极密,考验板凳深度,法国阵容厚度当世第一,第三冠周期已然开启。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V06",
+      "faction": "老球迷派",
+      "identity": "英格兰老球迷",
+      "weight_logic": "英格兰1冠",
+      "focus": "终于要回家",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 68,
+      "reason": "只拿过一冠的苦我太懂。首战4-2踢出气势,法西核心带伤,48队赛程最考验阵容厚度——这批人够深。终于要回家了。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V07",
+      "faction": "老球迷派",
+      "identity": "西班牙老球迷",
+      "weight_logic": "西班牙1冠",
+      "focus": "tiki-taka王朝",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 75,
+      "reason": "西班牙王朝底蕴犹在,虽Yamal轻伤但拉玛西亚青训厚度冠绝欧洲,传控tiki-taka基因在大赛淘汰赛最抗压,八强后这帮孩子会让世界想起2010那支王者之师。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V08",
+      "faction": "老球迷派",
+      "identity": "乌拉圭老球迷",
+      "weight_logic": "乌拉圭2冠",
+      "focus": "小国底蕴",
+      "champion": "乌拉圭",
+      "top3": [
+        "乌拉圭",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 42,
+      "reason": "乌拉圭两冠底蕴冠绝小国,48队扩军赛程密集,防守硬度与团队凝聚力比星光更重要。巴尔韦德-阿劳霍-努涅斯中轴抗压十足,小国血脉就是最大底牌。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V09",
+      "faction": "老球迷派",
+      "identity": "荷兰老球迷",
+      "weight_logic": "无冕之王",
+      "focus": "全攻全守",
+      "champion": "荷兰",
+      "top3": [
+        "荷兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 62,
+      "reason": "三届决赛饮恨的无冕之王,本届携全攻全守真传卷土重来。加克波西蒙斯德容三核驱动,伤兵满营的豪门恰给橙衣让路,48队赛程利好荷兰轮换深度。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V10",
+      "faction": "老球迷派",
+      "identity": "葡萄牙老球迷",
+      "weight_logic": "C罗谢幕",
+      "focus": "黄金一代最后",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 58,
+      "reason": "C罗谢幕,黄金一代终于到了该出成绩的年纪。葡萄牙刻着欧锦赛冠军的大赛DNA,小组赛慢热从来是他们节奏,淘汰赛才是真正舞台。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V11",
+      "faction": "老球迷派",
+      "identity": "比利时老球迷",
+      "weight_logic": "红魔黄金一代",
+      "focus": "黄金一代黄昏",
+      "champion": "比利时",
+      "top3": [
+        "比利时",
+        "法国",
+        "哥伦比亚"
+      ],
+      "confidence": 68,
+      "reason": "黄金一代黄昏，德布劳内库尔图瓦卢卡库最后一届。48队赛程密集，老将经验与绝望求生欲是终极武器。法国姆巴佩带伤削弱锋线，天时站在红魔这边——2018被偷的半决赛，这次要亲手夺回。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V12",
+      "faction": "老球迷派",
+      "identity": "墨西哥老球迷",
+      "weight_logic": "中北美霸主",
+      "focus": "16强天花板",
+      "champion": "墨西哥",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "墨西哥两次以东道主身份打破16强天花板(70/86),48队扩军+高原主场+首战完胜,第三次破咒就在今年。博彩公司严重低估了东道主红利和CONCACAF霸主的大赛基因。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V13",
+      "faction": "老球迷派",
+      "identity": "美国老球迷",
+      "weight_logic": "东道主",
+      "focus": "主场氛围",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "三度联办东道主血脉觉醒,主场声浪从迈阿密燃到洛杉矶成最强第十二人。首战4-1撕掉伪强队标签,94年16强基因仍在,48队扩军给足容错。我赌美国复制02韩国奇迹。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V14",
+      "faction": "老球迷派",
+      "identity": "日本老球迷",
+      "weight_logic": "蓝武士",
+      "focus": "技术流亚洲之光",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 38,
+      "reason": "蓝武士技术流已淬炼成型,连续两届掀翻德西证明大赛气质。48队扩军赛程密集反衬日本团队体能与战术纪律优势,亚洲之光将在北美大陆书写新篇。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V15",
+      "faction": "老球迷派",
+      "identity": "韩国老球迷",
+      "weight_logic": "太极虎",
+      "focus": "02年4强DNA",
+      "champion": "韩国",
+      "top3": [
+        "韩国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 30,
+      "reason": "02年太极虎闯四强靠的是跑不死和血脉,24年后孙兴慜旅欧军团大赛经验更成熟。48队扩军冷门温床,北美赛场体能消耗类似02跨洲作战,韩国冠军DNA一直在。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V16",
+      "faction": "老球迷派",
+      "identity": "澳大利亚老球迷",
+      "weight_logic": "袋鼠军团",
+      "focus": "身体流",
+      "champion": "澳大利亚",
+      "top3": [
+        "澳大利亚",
+        "阿根廷",
+        "摩洛哥"
+      ],
+      "confidence": 10,
+      "reason": "袋鼠军团从来靠血肉之躯碾压对手,48队赛程密集身体流优势最大化。阿根廷大赛基因最强,摩洛哥非洲铁血代表,这三支队最不怕拖入肉搏消耗战。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V17",
+      "faction": "老球迷派",
+      "identity": "喀麦隆老球迷",
+      "weight_logic": "非洲雄狮",
+      "focus": "米拉大叔传奇",
+      "champion": "喀麦隆",
+      "top3": [
+        "喀麦隆",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 30,
+      "reason": "米拉大叔38岁照样连过阿根廷整条后防线,大赛从来不是赔率能算出来的。48队赛程是地狱级消耗战,喀麦隆的身体厚度与非洲雄狮血脉里的逆境爆发力,正是淘汰赛最致命的武器。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V18",
+      "faction": "老球迷派",
+      "identity": "尼日利亚老球迷",
+      "weight_logic": "非洲雄鹰",
+      "focus": "奥科查时代",
+      "champion": "尼日利亚",
+      "top3": [
+        "尼日利亚",
+        "法国",
+        "塞内加尔"
+      ],
+      "confidence": 38,
+      "reason": "奥科查时代铸造的非洲雄鹰血脉从未消失——松散球风在大赛密度高的扩军赛制下反而是体能与创造力的解药。法国Mbappé带伤为非洲球队扫清最大障碍,塞内加尔已逼出高卢雄鸡底牌,尼日利亚的奥西蒙、奥戈埃能复刻96奥运金牌的决赛基因,非洲冠军的窗口已至。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V19",
+      "faction": "老球迷派",
+      "identity": "塞内加尔老球迷",
+      "weight_logic": "02年揭幕战爆冷",
+      "focus": "02年DNA",
+      "champion": "塞内加尔",
+      "top3": [
+        "塞内加尔",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 22,
+      "reason": "02年揭幕战塞内加尔1-0掀翻卫冕冠军法国,震惊世界。首战失利的剧本我见过,02年法国也是揭幕战爆冷后崩盘。塞内加尔有非洲杯冠军底蕴和大赛黑马力,首败是警钟不是丧钟,02年DNA告诉我们,小组赛输球反而激发血脉,淘汰赛才是塞内加尔舞台。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V20",
+      "faction": "老球迷派",
+      "identity": "摩洛哥老球迷",
+      "weight_logic": "22年4强",
+      "focus": "亚特拉斯雄狮",
+      "champion": "摩洛哥",
+      "top3": [
+        "摩洛哥",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 28,
+      "reason": "22年半决赛淘汰西葡的防线班底仍在,北美赛场对摩洛哥移民后裔等同主场,48队赛程密集将放大黑马体能优势,亚特拉斯雄狮具备再震惊世界的底蕴与抗压基因。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V21",
+      "faction": "老球迷派",
+      "identity": "克罗地亚老球迷",
+      "weight_logic": "格子军团",
+      "focus": "98年黑马基因",
+      "champion": "克罗地亚",
+      "top3": [
+        "克罗地亚",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "98年首战即四强,18年决赛22年季军,格子军团的血脉里刻着大赛逆袭的基因。首战虽负英格兰,但莫德里奇领衔的中场厚度足以在淘汰赛重现黑马轨迹。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V22",
+      "faction": "老球迷派",
+      "identity": "丹麦老球迷",
+      "weight_logic": "丹麦童话",
+      "focus": "92年欧洲杯",
+      "champion": "丹麦",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "92年安徒生童话至今未远——舒梅切尔/小劳德鲁普以哀兵之姿踩着卫冕冠军荷兰、德国一路登顶,大赛底蕴从来不在赔率表上。48队扩军赛程密、伤病潮涌,正是童话复刻的温床。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V23",
+      "faction": "老球迷派",
+      "identity": "瑞典老球迷",
+      "weight_logic": "北欧海盗",
+      "focus": "伊布遗风",
+      "champion": "瑞典",
+      "top3": [
+        "瑞典",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 38,
+      "reason": "北欧海盗从不按剧本走,伊布血脉里那股不服命的基因刻在每个瑞典球员骨子里。48队扩军后赛程密、体能消耗大,瑞典的铁血防守和定位球功夫正是淘汰赛利器,丹麦童话能演,瑞典凭什么不能再来一次1958?",
+      "counter_trigger": false
+    },
+    {
+      "id": "V24",
+      "faction": "老球迷派",
+      "identity": "波兰老球迷",
+      "weight_logic": "东欧铁骑",
+      "focus": "莱万时代",
+      "champion": "波兰",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "波兰"
+      ],
+      "confidence": 35,
+      "reason": "莱万最后一舞,东欧铁骑从来不怕大赛——74年拉托、02年克洛泽式的老将爆发历历在目。48队扩军、赛程密集,豪门伤病潮此起彼伏,正是老兵经验碾压天赋的舞台。波兰铁血防守+莱万的临门一脚,小组出线后谁敢轻言必胜?",
+      "counter_trigger": false
+    },
+    {
+      "id": "V25",
+      "faction": "老球迷派",
+      "identity": "土耳其老球迷",
+      "weight_logic": "星月军团",
+      "focus": "02年季军",
+      "champion": "土耳其",
+      "top3": [
+        "土耳其",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 18,
+      "reason": "02年世界杯季军是星月军团永远的底气,铁血防守与快速反击的DNA从未断过。48队扩军赛程密集,土耳其的韧性和大赛爆冷基因最适合这种乱战,神经刀气质让豪门最忌惮。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V26",
+      "faction": "老球迷派",
+      "identity": "瑞士老球迷",
+      "weight_logic": "钟表匠军团",
+      "focus": "稳定16强",
+      "champion": "瑞士",
+      "top3": [
+        "瑞士",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 42,
+      "reason": "钟表匠军团历来精密防守、大赛纪律出色,连续多届稳定晋级16强。48队扩军赛程密集更利经验型球队,雅金体系运转如机芯般精准,无超级巨星但无明显短板,淘汰赛经验足以弥补牌面劣势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V27",
+      "faction": "老球迷派",
+      "identity": "奥地利老球迷",
+      "weight_logic": "阿尔卑斯军团",
+      "focus": "德语系组织力",
+      "champion": "奥地利",
+      "top3": [
+        "奥地利",
+        "法国",
+        "德国"
+      ],
+      "confidence": 28,
+      "reason": "48队扩军赛程密集,德语系组织力优势被指数级放大。朗尼克逼抢体系配萨比策/莱默/施拉格中场铁三角,奥地利继承1934四强血脉。德式纪律性球队淘汰赛越走越稳,阿尔卑斯军团或复刻德语系大赛奇迹。",
+      "counter_trigger": true
+    },
+    {
+      "id": "V28",
+      "faction": "老球迷派",
+      "identity": "苏格兰老球迷",
+      "weight_logic": "苏格兰老球迷专业加权",
+      "focus": "78年阿根廷狙击手",
+      "champion": "苏格兰",
+      "top3": [
+        "苏格兰",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "1978年苏格兰3-1斩杀荷兰决赛队,弱者无畏是刻在血脉里的基因。48队扩军赛程密集,群雄混战疲惫不堪,正是苏格兰式冷刀出鞘的舞台,McTominay领衔的钢铁绞肉中场专治豪门传控。",
+      "counter_trigger": false
+    },
+    {
+      "id": "V29",
+      "faction": "老球迷派",
+      "identity": "威尔士老球迷",
+      "weight_logic": "红龙",
+      "focus": "吉格斯时代",
+      "champion": "挪威",
+      "top3": [
+        "挪威",
+        "摩洛哥",
+        "法国"
+      ],
+      "confidence": 38,
+      "reason": "挪威就是新红龙——小球族、红衣战袍、哈兰德如吉格斯般的孤胆英雄。2022摩洛哥已证明黑马能进四强,北欧海盗复制威尔士2016欧洲杯奇迹,世界杯为何不可？",
+      "counter_trigger": false
+    },
+    {
+      "id": "M01",
+      "faction": "玄学派",
+      "identity": "东道主魔咒信徒",
+      "weight_logic": "东道主历史规律",
+      "focus": "墨西哥美国加拿大",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "美国"
+      ],
+      "confidence": 78,
+      "reason": "东道主魔咒反噬:1994墨止步16强,2026三度东道塔罗教皇牌归位,Mbappé伤退乃天罚让路,阿兹特克鹰蛇神护佑,首战零封印证大地能量觉醒。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M02",
+      "faction": "玄学派",
+      "identity": "卫冕魔咒信徒",
+      "weight_logic": "卫冕冠军常翻车",
+      "focus": "阿根廷卫冕难",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "阿根廷深陷卫冕魔咒难逃厄运,法国承历史周期运势再起,姆巴佩带伤梅开二度彰显王者之气,蓝衣军团二八年华再捧金杯。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M03",
+      "faction": "玄学派",
+      "identity": "逢偶数年定律信徒",
+      "weight_logic": "逢偶数年定律信徒专业加权",
+      "focus": "26年偶数年",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "逢偶数年定律铁律:2010西班牙问鼎,2026恰逢16年轮回,数字命理中16为太阴极数主隐忍爆发。Yamal虽小恙,偶数年自有天佑,斗牛士青年军契合玄学火象。法国伤Mbappé破金身,英格兰逢魔咒,冠军唯西班牙。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M04",
+      "faction": "玄学派",
+      "identity": "逢4之年魔咒派",
+      "weight_logic": "逢4之年魔咒派专业加权",
+      "focus": "06/10/14/18/22年",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "2014德国在巴西捧杯已验逢4魔咒,2026恰为2014+12天干地支轮回之年;德意志战车小组赛稳健,扩军48队赛制利好底蕴豪门,克罗斯回归中场玄学加持,命数归位。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M05",
+      "faction": "玄学派",
+      "identity": "B字头冠军规律派",
+      "weight_logic": "B字头冠军规律派专业加权",
+      "focus": "巴西Belgium",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "比利时"
+      ],
+      "confidence": 76,
+      "reason": "B字头冠军规律显灵,巴西五次捧杯皆有B字头天命加持;扩军48队赛程密集,恰合桑巴轮换深度;比利时B字头暗合为辅,法国虽强却缺B字头气运庇护,冠军非巴莫属。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M06",
+      "faction": "玄学派",
+      "identity": "欧洲南美轮换派",
+      "weight_logic": "欧洲南美轮换派专业加权",
+      "focus": "上次南美这次欧洲",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 65,
+      "reason": "遵循欧南轮换铁律,上次南美(2022阿根廷)这次必归欧洲。西班牙逢偶数年灵气汇聚,加美墨三元磁场共振,板鸭王朝当兴。",
+      "counter_trigger": true
+    },
+    {
+      "id": "M07",
+      "faction": "玄学派",
+      "identity": "占星师白羊射手派",
+      "weight_logic": "占星师白羊射手派专业加权",
+      "focus": "球员星座",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 73,
+      "reason": "Lautaro狮子座火星护体,Messi巨蟹座与夏至日月同辉,白羊射手派认定阿根廷双火象齐聚,偶数年夺冠铁律再度应验,卫冕魔咒难挡星象大势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M08",
+      "faction": "玄学派",
+      "identity": "12星座派",
+      "weight_logic": "12星座派专业加权",
+      "focus": "12宫位",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "西班牙国家队本命盘第十宫（事业宫）木星高照，恰逢2026双子月土星三分相加持，主力多土象星座如斗牛般沉稳持久，此届冠军运最为鼎盛。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M09",
+      "faction": "玄学派",
+      "identity": "风水师派",
+      "weight_logic": "风水师派专业加权",
+      "focus": "举办地风水",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "丙午火马年气运鼎盛,美国坐拥北美龙脉主场之气,首战4-1紫气东来;扩军48首创新元,星条旗金水相生五行流通,天时地利人和尽占,冠军之象已显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M10",
+      "faction": "玄学派",
+      "identity": "五行八卦派",
+      "weight_logic": "五行八卦派专业加权",
+      "focus": "东方哲学",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 58,
+      "reason": "丙午火年火旺当令,火克金,西方诸强气运受压。日本红衣五行属火,正应天时;北美赛区阴水金气过盛,东方木火逆势相生,武士道契合天数,当为黑马之主。",
+      "counter_trigger": true
+    },
+    {
+      "id": "M12",
+      "faction": "玄学派",
+      "identity": "塔罗牌派",
+      "weight_logic": "塔罗牌派专业加权",
+      "focus": "比赛日塔罗",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "揭幕日塔罗抽到命运之轮X(2026数字之和=10),法国首战3-1=IV皇帝牌,确立权威;偶数年命理延续98/18夺冠周期;Mbappé梅开二度应验死神XIII蜕变能量,三色旗与皇后III丰饶之牌共振,卫冕魔咒反作用于阿根廷而非法国。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M13",
+      "faction": "玄学派",
+      "identity": "梦境分析师",
+      "weight_logic": "梦境分析师专业加权",
+      "focus": "球员梦境",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "据梦境采集,巴西众将集体梦见黄绿圣光笼罩奖杯,Vinícius夜梦六角星图腾,与02年大罗夺魁前的原初梦境高度共振,此乃集体潜意识觉醒之兆,厄运终将让位于命运之轮。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M14",
+      "faction": "玄学派",
+      "identity": "气候玄学派",
+      "weight_logic": "气候玄学派专业加权",
+      "focus": "北美气候",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "墨西哥地处北美主场,与加美墨三国盛夏高温高湿气候高度契合,本土球员耐热抗暴晒远超欧陆诸强,东道主气场叠加热带辐合带能量场护体,气候玄学天命所归。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M15",
+      "faction": "玄学派",
+      "identity": "时区玄学派",
+      "weight_logic": "时区玄学派专业加权",
+      "focus": "时差影响",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "北美赛区横跨UTC-5至UTC-8,英国GMT天然超前5至8小时,英格兰比赛时段恰对应本土生物钟黄金巅峰,而南美球队被迫在生理深夜作战。时差加持下,英格兰首战4-2克罗地亚已现气场共振,卫冕魔咒在此被时区能量破解。",
+      "counter_trigger": true
+    },
+    {
+      "id": "M16",
+      "faction": "玄学派",
+      "identity": "机场玄学派",
+      "weight_logic": "机场玄学派专业加权",
+      "focus": "飞行距离",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "美国零飞行距离开局,接地灵根满格;4-1首战彰显主场气场;加美墨三国立地不动玄学能量碾压,跨洋飞行队伍灵脉必断,飞得越远命越散",
+      "counter_trigger": true
+    },
+    {
+      "id": "M17",
+      "faction": "玄学派",
+      "identity": "裁判玄学派",
+      "weight_logic": "裁判玄学派专业加权",
+      "focus": "VAR倾向",
+      "champion": "阿根廷",
+      "top3": [
+        "法国",
+        "西班牙",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "裁判玄学核心论证:VAR倾向护佑卫冕冠军乃铁律,2022七场关键判罚六次利好阿根廷,玄学认为此乃'判官因果'延续,2026偶数年后半区逢凶化吉。Messi身披10号,生于6月24(数字命理=3),与2026年(2+0+2+6=10)共振。首战虽轻伤,玄学视作'破而后立'之兆,参照90年马特乌斯、22年梅西皆带伤夺冠。法国虽强但卫冕魔咒+东道主远在北美,西班牙偶数年定律不达,故冠军归属潘帕斯雄鹰。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M18",
+      "faction": "玄学派",
+      "identity": "红黄牌玄学派",
+      "weight_logic": "红黄牌玄学派专业加权",
+      "focus": "红牌频率",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "西班牙传控体系历史红牌率全欧最低,首轮零染红玄学护体加持;少一张红牌多一份气运,淘汰赛无停赛体能纪律双重红利,冠军命格已显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M19",
+      "faction": "玄学派",
+      "identity": "加时赛魔咒派",
+      "weight_logic": "加时赛魔咒派专业加权",
+      "focus": "加时赛规律",
+      "champion": "阿根廷",
+      "top3": [
+        "法国",
+        "西班牙",
+        "摩洛哥"
+      ],
+      "confidence": 72,
+      "reason": "加时赛魔咒派核心论据：48队扩军赛程密集，冷门频发必将催生大量加时赛。阿根廷2022年正是在加时点球鏖战中淬炼成王，淘汰赛血脉自带'加时不败基因'。卫冕魔咒的反面是淬火重生——Messi轻伤反而复刻2022带伤逆袭剧本，淘汰赛经验碾压新军。法国和西班牙赔率领先但恐在加时泥潭中失蹄，摩洛哥则是非洲加时战最强黑马。",
+      "counter_trigger": true
+    },
+    {
+      "id": "M20",
+      "faction": "玄学派",
+      "identity": "点球大战专家",
+      "weight_logic": "点球大战专家专业加权",
+      "focus": "点球心理",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "法国2022点球饮恨蓄积复仇业力,Mbappé带伤梅开印证玄学韧性。1998-2018-2026偶数年周期共振丙午火马年,Maignan意甲淬炼的扑点神功成终极X因素,点球心理冠军相已现。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M21",
+      "faction": "玄学派",
+      "identity": "揭幕战魔咒派",
+      "weight_logic": "揭幕战魔咒派专业加权",
+      "focus": "揭幕战表现",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "墨西哥东道主揭幕战2-0南非，首战告捷承天时之兆；48队首届扩军逢历史变革节点，魔咒派笃信东道揭幕胜则夺冠灵脉已开，宿命不可违。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M22",
+      "faction": "玄学派",
+      "identity": "替补奇兵派",
+      "weight_logic": "替补奇兵派专业加权",
+      "focus": "替补建功",
+      "champion": "荷兰",
+      "top3": [
+        "荷兰",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "48队赛程密集催生轮换刚需,荷兰替补席坐拥韦格霍斯特等超级替补奇兵,偶数年数字'6'与橙色能量共震,全攻全守传统本就是轮换艺术,替补建功将是荷兰登顶的关键法门。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M23",
+      "faction": "玄学派",
+      "identity": "草皮玄学派",
+      "weight_logic": "草皮玄学派专业加权",
+      "focus": "人造草",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 38,
+      "reason": "东道主坐拥人造草主场之利,美国诸城多铺人工草皮,客队难适应其摩擦与反弹节奏;首战4-1大胜印证草皮共鸣,偶数年规律与扩军玄学亦指向USA。",
+      "counter_trigger": true
+    },
+    {
+      "id": "M24",
+      "faction": "玄学派",
+      "identity": "温度湿度派",
+      "weight_logic": "温度湿度派专业加权",
+      "focus": "6月北美温度",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "6月墨西哥高原18-26°C配合适中湿度与2200米海拔形成独特微气候,东道主球员完全适应此温湿组合,生理调节优势碾压远道而来的欧洲客队。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M26",
+      "faction": "玄学派",
+      "identity": "球衣颜色派",
+      "weight_logic": "球衣颜色派专业加权",
+      "focus": "主场球衣",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 60,
+      "reason": "巴西主场黄衫乃太阳金辉之色,对应王者轮脉与纯阳之火;2026年三届美洲合办,金脉大盛,与黄衣共振;五行中黄可泄克蓝衣之水、融吞红衣之火,加美墨金土拱卫,黄衣当立,冠军非黄莫属。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M27",
+      "faction": "玄学派",
+      "identity": "队歌气场派",
+      "weight_logic": "队歌气场派专业加权",
+      "focus": "国歌",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "意大利国歌《Fratelli d'Italia》含'重生'密码——未官方认定150年终成正果,呼应2026偶数年定律(82/06皆夺冠)。歌中'我们准备赴死'的赴死气魄与绝境反击气场共振,市场+3300严重低估其国歌灵性势能。",
+      "counter_trigger": true
+    },
+    {
+      "id": "M28",
+      "faction": "玄学派",
+      "identity": "舆论氛围派",
+      "weight_logic": "舆论氛围派专业加权",
+      "focus": "舆论正向",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "梅西谢幕巡演汇聚全球正向舆论气场,2026偶数年延续2022阿根廷星轨,三星归位数字命理圆满,卫冕虽违魔咒但潘帕斯雄鹰灵能护体,舆论洪流加持冠军灵韵。",
+      "counter_trigger": false
+    },
+    {
+      "id": "M29",
+      "faction": "玄学派",
+      "identity": "玄学+数据混合派",
+      "weight_logic": "玄学+数据混合派专业加权",
+      "focus": "70%玄30%数",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "丙午火年五行属火,西班牙红袍当令,Lamine Yamal逢7少年得志,2010夺冠四年一轮回至2026恰临,12宫分组与欧陆三连冠数共振,青年军U17U19U21三冠数据打底,天火同人卦象上上吉。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C01",
+      "faction": "主帅视角派",
+      "identity": "英超主帅",
+      "weight_logic": "英超战术体系",
+      "focus": "高强度逼抢",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 75,
+      "reason": "英超体系出身球员最适应高强度逼抢,英格兰阵容深度配合前场压迫节奏,48队密集赛程下体能轮换优势显著,三狮体系可压制技术流球队",
+      "counter_trigger": true
+    },
+    {
+      "id": "C02",
+      "faction": "主帅视角派",
+      "identity": "西甲主帅",
+      "weight_logic": "控球体系",
+      "focus": "tiki-taka演化",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "tiki-taka已进化为位置足球加高位压迫,西班牙拥有Rodri-Pedri-Gavi-Yamal这条世界最完整的传控轴,48队赛程密度大消耗高,控球降速体系在酷热北美赛程中优势最显著。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C03",
+      "faction": "主帅视角派",
+      "identity": "意甲主帅",
+      "weight_logic": "防守反击",
+      "focus": "链式防守",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "48队赛程密集,链式防守体系在短恢复期最稳。意大利的链式防守加反击是大赛最优解,淘汰赛阶段防守纪律决定下限,反击效率决定上限,法英攻强守弱易被针对,我赌意大利后发制人。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C04",
+      "faction": "主帅视角派",
+      "identity": "德甲主帅",
+      "weight_logic": "高位压迫",
+      "focus": "Gegenpressing",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "48队扩军赛程密集,Gegenpressing体系优势放大。纳格尔斯曼重塑高位压迫框架,维尔茨+穆夏拉组合的逼抢半径与回追速度契合德式反抢基因,小组体能消耗可控;法国依赖姆巴佩个人爆点,英格兰凯恩回撤缺乏前场逼抢轴心,均不及德国体系韧性。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C05",
+      "faction": "主帅视角派",
+      "identity": "法甲主帅",
+      "weight_logic": "技术+身体",
+      "focus": "法式平衡",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "法甲体系深谙攻守平衡,法国兼具技术精度与对抗硬度,德尚轮换深度冠绝48队,姆巴佩带伤双响印证体系容错,高卢军团最具冠军相。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C06",
+      "faction": "主帅视角派",
+      "identity": "解放者杯主帅",
+      "weight_logic": "南美技术",
+      "focus": "小快灵",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 72,
+      "reason": "南美技术流底色仍在阿根廷,小快灵球员在密集赛程中体能消耗更小、恢复更快,斯卡洛尼体系成熟且临场应变强,定位球与快速反击是淘汰赛杀手锏。",
+      "counter_trigger": true
+    },
+    {
+      "id": "C07",
+      "faction": "主帅视角派",
+      "identity": "葡超主帅",
+      "weight_logic": "葡式防反",
+      "focus": "务实",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 28,
+      "reason": "48队赛制拖长赛程,防守韧性与轮换深度才是冠军基因。葡式防反强调纪律与效率,首战闷平留力恰恰是务实选择,主力无重大伤病,淘汰赛高强度消耗战中优势将逐步显现。",
+      "counter_trigger": true
+    },
+    {
+      "id": "C08",
+      "faction": "主帅视角派",
+      "identity": "阿超主帅",
+      "weight_logic": "阿根廷联赛",
+      "focus": "战术纪律",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "阿超主帅视角看：斯卡洛尼体系历经大赛淬炼，中场拼抢与定位球纪律属顶级。Messi轻伤不影响组织核心角色，后防Romero/Otamendi组合在阿超节奏下磨砺过，淘汰赛阶段战术执行力比法国更稳定。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C09",
+      "faction": "主帅视角派",
+      "identity": "巴甲主帅",
+      "weight_logic": "巴西联赛",
+      "focus": "个人技术",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "48队赛程密集压缩空间,技术流优势放大。巴西个人技术储备冠绝诸强,恩德里克、维尼修斯单兵爆破能力顶级,八强后淘汰赛靠个人能力破密集防守,巴西系出巴甲的技术基因最契合此格局。",
+      "counter_trigger": true
+    },
+    {
+      "id": "C10",
+      "faction": "主帅视角派",
+      "identity": "MLS主帅",
+      "weight_logic": "美国联赛",
+      "focus": "运动能力",
+      "champion": "美国",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "美国"
+      ],
+      "confidence": 38,
+      "reason": "美国运动能力储备本届最强,Pulisic速度、McKennie对抗、Adams覆盖均属顶级,48队密集赛程考验阵容深度,东道主气候适应优势显著,首战4-1状态正佳。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C11",
+      "faction": "主帅视角派",
+      "identity": "K League主帅",
+      "weight_logic": "韩国联赛",
+      "focus": "跑不死",
+      "champion": "韩国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "韩国"
+      ],
+      "confidence": 18,
+      "reason": "K League体系强调高位逼抢与跑不死,韩国队无球跑动覆盖与体能储备冠绝48队。扩军后赛程极度密集,决定走远的不是球星名气而是战术纪律和体能厚度,太极虎具备爆冷夺冠的体系基础。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C12",
+      "faction": "主帅视角派",
+      "identity": "J League主帅",
+      "weight_logic": "日本联赛",
+      "focus": "传控+跑位",
+      "champion": "日本",
+      "top3": [
+        "西班牙",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 28,
+      "reason": "J League体系出身的森保一移植西班牙传控DNA，球员多效力欧洲联赛已具顶级无球跑位与二点球争夺意识。2022连胜德西印证高位逼抢加紧凑阵型可压制欧洲强队，北美赛程密集反成日本体能分配优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C13",
+      "faction": "主帅视角派",
+      "identity": "埃甲主帅",
+      "weight_logic": "埃及联赛",
+      "focus": "非洲力量",
+      "champion": "埃及",
+      "top3": [
+        "埃及",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "非洲球队夏季作战体能储备优势显著,萨拉赫单兵爆破能力世界级,埃及防反体系经AFCN生死战淬炼,塞内加尔首轮逼平法国已验证非洲战术可抗欧洲强敌,淘汰赛高密度赛程下非洲力量必将爆发。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C14",
+      "faction": "主帅视角派",
+      "identity": "突尼斯主帅",
+      "weight_logic": "北非体系",
+      "focus": "防守反击",
+      "champion": "突尼斯",
+      "top3": [
+        "突尼斯",
+        "摩洛哥",
+        "阿根廷"
+      ],
+      "confidence": 28,
+      "reason": "48队扩军赛程密集,豪门体能消耗大。突尼斯北非体系防守严密,反击效率高,擅长低位绞杀强队,小组赛突围后淘汰赛爆冷空间充足。",
+      "counter_trigger": true
+    },
+    {
+      "id": "C15",
+      "faction": "主帅视角派",
+      "identity": "非洲冠军主帅",
+      "weight_logic": "非洲冠军联赛",
+      "focus": "身体+速度",
+      "champion": "塞内加尔",
+      "top3": [
+        "塞内加尔",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 65,
+      "reason": "执教非洲冠军联赛多年,深知身体对抗与反击速度在大赛中的决定性作用。塞内加尔具备顶级黑人体能与边路突击能力,48队密集赛程越深入体能储备优势越明显,首战法国已验证抗衡顶级强队的战术可行性,淘汰赛经验与心理韧性可支撑其走得更远。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C16",
+      "faction": "主帅视角派",
+      "identity": "解放者杯卫冕主帅",
+      "weight_logic": "杯赛体系",
+      "focus": "杯赛节奏",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "48队赛程密度考验阵容纵深,巴西虽损内马尔罗德里戈,但替补席厚度无人能及。杯赛讲究淘汰赛单场适应力——控节奏、拼绞杀、防反击,这是解放者杯每月都在上演的剧本。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C17",
+      "faction": "主帅视角派",
+      "identity": "英超保级队主帅",
+      "weight_logic": "弱队战术",
+      "focus": "密集防守",
+      "champion": "克罗地亚",
+      "top3": [
+        "克罗地亚",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 18,
+      "reason": "保级队出身最信密集防守。克罗地亚首战4-2负英格兰不否定其防线组织能力,48队赛程极密,后防稳定加高效反击才是弱势球队夺冠最优解,摩洛哥同理。",
+      "counter_trigger": true
+    },
+    {
+      "id": "C18",
+      "faction": "主帅视角派",
+      "identity": "欧冠淘汰赛经验主帅",
+      "weight_logic": "欧冠淘汰赛经验主帅专业加权",
+      "focus": "淘汰赛策略",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "欧陆淘汰赛最吃战术执行与控场纪律,西班牙传控体系在大赛淘汰赛中上限最高。首战亚马尔回归后边路爆破点完整,中场储备佩德里/罗德里覆盖双线消耗,符合48队赛程密度下轮换要求。法英冲击力强但淘汰赛容错率低,法国核心带伤更削弱关键战体能调度。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C19",
+      "faction": "主帅视角派",
+      "identity": "433信徒",
+      "weight_logic": "433信徒专业加权",
+      "focus": "边锋体系",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 75,
+      "reason": "法国433边锋群深度世界顶级,Mbappé与Dembélé两翼驱动配合Olise/Kolo Muani轮换,体系容错率高,即便核心带伤边路压制力仍能碾压高强度淘汰赛,小组赛首战已验证",
+      "counter_trigger": false
+    },
+    {
+      "id": "C20",
+      "faction": "主帅视角派",
+      "identity": "352信徒",
+      "weight_logic": "352信徒专业加权",
+      "focus": "三中卫",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "48队扩军赛程密集,352三中卫防守纵深最佳、边翼卫制造宽度超额。意大利战术传统契合此阵,密集赛程下战术稳定性远胜球星堆砌,可针对性绞杀传控及肋部依赖型豪强。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C21",
+      "faction": "主帅视角派",
+      "identity": "4231信徒",
+      "weight_logic": "4231信徒专业加权",
+      "focus": "双后腰",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "4231体系成败系于双后腰——英格兰赖斯搭档具备顶级扫荡+出球能力,完美解放前场攻击群。48队赛程密集,英格兰中场轮换深度冠绝诸强,4-2克罗地亚已验证体系运转成熟,双后腰构筑的中场屏障是淘汰赛阶段最可靠的战术资产。",
+      "counter_trigger": true
+    },
+    {
+      "id": "C22",
+      "faction": "主帅视角派",
+      "identity": "4141信徒",
+      "weight_logic": "4141信徒专业加权",
+      "focus": "单后腰保护",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "阿根廷斯卡洛尼体系深谙单后腰保护之道,德保罗与麦卡利斯特屏障稳固,前场四人防守回收形成局部人数优势,48队密集赛程下4-1-4-1的阵型纪律性远胜控球型球队,卫冕基因犹在。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C23",
+      "faction": "主帅视角派",
+      "identity": "无锋阵信徒",
+      "weight_logic": "无锋阵信徒专业加权",
+      "focus": "伪9号",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "西班牙无锋阵体系最成熟,奥尔莫/亚马尔轮转伪9号制造中卫盯防真空,罗德里领衔的中场人数优势在密集赛程下节能控球,德拉富恩特的tiki-taka哲学天然适配无锋打法,战术闭环最完整。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C24",
+      "faction": "主帅视角派",
+      "identity": "双前锋信徒",
+      "weight_logic": "双前锋信徒专业加权",
+      "focus": "双前锋",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "斯卡洛尼双前锋体系已臻化境,阿尔瓦雷斯与劳塔罗形成锋线双核,既可撕裂单中卫防线,又能灵活切换433与352阵型,在48队密集赛程下保持轮换火力,这是冠军战术最优解",
+      "counter_trigger": true
+    },
+    {
+      "id": "C25",
+      "faction": "主帅视角派",
+      "identity": "定位球大师",
+      "weight_logic": "定位球大师专业加权",
+      "focus": "定位球战术",
+      "champion": "丹麦",
+      "top3": [
+        "丹麦",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 42,
+      "reason": "定位球大师视角下丹麦角球与任意球套路纯熟,Kjær、Christensen高空争顶双端威胁,Eriksen死球传中精度冠绝欧洲,尤其中前场定位球二次进攻设计层次分明。赛程密集下定位球转化效率决定上限,丹麦防守定位球站位纪律严明,高空解围率领先诸强,具备黑马走远的战术底座。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C26",
+      "faction": "主帅视角派",
+      "identity": "防守反击大师",
+      "weight_logic": "防守反击大师专业加权",
+      "focus": "防守反击",
+      "champion": "希腊",
+      "top3": [
+        "希腊",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 38,
+      "reason": "希腊以紧凑防线+高效防反立身,48队赛程密集放大体能与战术纪律红利,定位球破僵是其看家本领。法国后防深度加姆巴佩反击速度,摩洛哥延续卡塔尔韧性,均契合防反体系。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C27",
+      "faction": "主帅视角派",
+      "identity": "全攻全守信徒",
+      "weight_logic": "全攻全守信徒专业加权",
+      "focus": "全攻全守",
+      "champion": "荷兰",
+      "top3": [
+        "荷兰",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 65,
+      "reason": "荷兰全攻全守体系成熟,高位逼抢与位置互换流畅,科曼临场调整与轮换深度兼备,48队赛制容错空间扩大,擅长控传防一体化的橙衣军团具备逆袭底蕴。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C28",
+      "faction": "主帅视角派",
+      "identity": "青年军主帅",
+      "weight_logic": "青年军主帅专业加权",
+      "focus": "年轻人",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "英格兰",
+        "法国"
+      ],
+      "confidence": 72,
+      "reason": "西班牙青训底蕴冠绝全球,Yamal+Pedri+Nico青春三叉戟体系成熟,传控打法在高密度赛程中体能与控球优势显著,对比法国伤情与核心老化更值得押注。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C29",
+      "faction": "主帅视角派",
+      "identity": "老将主帅",
+      "weight_logic": "老将主帅专业加权",
+      "focus": "老将经验",
+      "champion": "克罗地亚",
+      "top3": [
+        "克罗地亚",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 38,
+      "reason": "首战虽负英格兰,但克罗地亚历来小组赛慢热、淘汰赛爆发。密集赛程考验板凳深度与轮换智慧,莫德里奇领衔的中场调度仍是任何对手梦魇,老牌主帅临场调整能力无可替代。",
+      "counter_trigger": false
+    },
+    {
+      "id": "C30",
+      "faction": "主帅视角派",
+      "identity": "混合派主帅",
+      "weight_logic": "混合派主帅专业加权",
+      "focus": "灵
+活应变",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "德尚的战术弹性是48队高密度赛程的核心优势,三中卫与边翼卫切换可消耗对手;Mbappé带伤梅开二度证明核心输出不依赖单点爆破,格列兹曼回撤组织可弥补前场厚度,轮换深度足以应对赛会制消耗战。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I01",
+      "faction": "伤病赛程派",
+      "identity": "法国队医",
+      "weight_logic": "Mbappe伤情",
+      "focus": "法军核心健康",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "Mbappe带伤梅开二度证明关节负荷可控，队医组针对性康复可支撑密集赛程；法军轮换厚度远超阿根廷、巴西等伤兵满营的竞争者，英格兰体能充沛但大赛抗压欠火候，Yamal伤后西班牙中场创造力存疑。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I02",
+      "faction": "伤病赛程派",
+      "identity": "巴西队医",
+      "weight_logic": "Neymar伤情",
+      "focus": "巴西攻击线",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 75,
+      "reason": "Neymar小腿伤经保守治疗可在淘汰赛阶段复出,巴西攻击线拥有Vinícius、Raphinha、Endrick深厚轮换,队医组对核心康复方案成熟,密集赛程反而利于医疗保障完备的豪门。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I03",
+      "faction": "伤病赛程派",
+      "identity": "阿根廷队医",
+      "weight_logic": "Messi伤情",
+      "focus": "潘帕斯核心",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "Messi轻伤可控,作为队医我评估其核心肌群负荷可调,潘帕斯中场麦卡利斯特、恩佐体能充沛适应美墨气候,Balerdi缺席后奥塔门迪状态稳定,赛程密度反成老将优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I04",
+      "faction": "伤病赛程派",
+      "identity": "西班牙队医",
+      "weight_logic": "Yamal伤情",
+      "focus": "斗牛士新核",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 75,
+      "reason": "Yamal年仅18岁肌腱修复力远超老将,轻伤两周内可复出;斗牛士新核年轻结构赋予赛事密度天然抗疲劳优势,西班牙队医轮换体系与La Liga夏训节奏完美匹配北美高温赛程。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I05",
+      "faction": "伤病赛程派",
+      "identity": "德国队医",
+      "weight_logic": "Gnabry缺席",
+      "focus": "战车边路",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 62,
+      "reason": "格纳布里缺阵削弱边路纵深,但穆西亚拉、维尔茨内收可填补;反观法国姆巴佩带伤、阿根廷多人小伤累积,德国运动医学体系与轮换深度在48队密集赛程中更耐消耗。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I06",
+      "faction": "伤病赛程派",
+      "identity": "英格兰队医",
+      "weight_logic": "Saka/Bellingham",
+      "focus": "三狮青年军",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "三狮青年军阵容深度适配48队高密度赛程,Saka与Bellingham负荷管理可控,首轮4-2验证轮换有效,对比法国Mbappé带伤隐患,英格兰医学保障优势明显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I07",
+      "faction": "伤病赛程派",
+      "identity": "赛程分析师",
+      "weight_logic": "小组赛难度",
+      "focus": "死亡之组",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "阿根廷分组避开死亡之组,赛程密度相对宽松;Messi轻伤可控,而Mbappé脚踝隐患与Yamal伤势在高密度赛程下恶化风险更高;墨西哥高原场馆与北美长途旅行将持续消耗欧洲球队,阿根廷更适应南美气候与时区。",
+      "counter_trigger": true
+    },
+    {
+      "id": "I08",
+      "faction": "伤病赛程派",
+      "identity": "淘汰赛路径分析师",
+      "weight_logic": "半区难度",
+      "focus": "上/下半区",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "墨西哥"
+      ],
+      "confidence": 72,
+      "reason": "西班牙处难度较低半区,Yamal轻伤可控,青年军适应48队高密度赛程体能占优,淘汰赛巧妙避开阿根廷伤病潮与法国Mbappé隐患,路径最干净。",
+      "counter_trigger": true
+    },
+    {
+      "id": "I09",
+      "faction": "伤病赛程派",
+      "identity": "旅行分析师",
+      "weight_logic": "飞行距离",
+      "focus": "跨美飞行",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 65,
+      "reason": "48队赛程极度密集,跨美飞行成为隐形杀手。欧洲球队单程8小时以上时差,南美球队更甚。美国主场作战,无跨国飞行,零时差适应,气候场地全熟,首战4-1已显体能优势,密集赛程下旅行红利将持续放大。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I10",
+      "faction": "伤病赛程派",
+      "identity": "气候适应分析师",
+      "weight_logic": "6月北美温度",
+      "focus": "35度高温",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 58,
+      "reason": "墨西哥作为东道主长期适应35度高温与高原气候,6月北美赛场欧洲强队难以快速调整,密集赛程下气候耐受度成决定变量,本土优势无可替代。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I11",
+      "faction": "伤病赛程派",
+      "identity": "湿度分析师",
+      "weight_logic": "墨西哥城湿度",
+      "focus": "高原反应",
+      "champion": "墨西哥",
+      "top3": [
+        "法国",
+        "英格兰",
+        "墨西哥"
+      ],
+      "confidence": 62,
+      "reason": "墨西哥城海拔2240米高湿低氧,客队高原反应严重,首战2-0已验证东道主优势;Mbappé伤隐患与英格兰密集赛程难适应高原,而墨西哥本土作战无适应期,湿度气压双重加持下黑马变头马。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I12",
+      "faction": "伤病赛程派",
+      "identity": "高原反应专家",
+      "weight_logic": "墨西哥城海拔",
+      "focus": "2200米海拔",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "墨西哥城2200米海拔对客队是严峻考验,血氧饱和度下降导致欧洲球队冲刺能力锐减。墨西哥主场适应+首战2-0已验证高原优势,淘汰赛阶段此效应将成倍放大,东道主体能红利足以弥补阵容差距。",
+      "counter_trigger": true
+    },
+    {
+      "id": "I13",
+      "faction": "伤病赛程派",
+      "identity": "赛程密度分析师",
+      "weight_logic": "4天1赛",
+      "focus": "体能分配",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "美国"
+      ],
+      "confidence": 72,
+      "reason": "48队赛制赛程密集,4天1赛对体能分配要求极高。英格兰首战4-2大胜,阵容年轻且轮换深度足,英超密集赛程本就锤炼其恢复能力。法国Mbappé带伤隐患叠加Ekitike缺阵,赛程深入后体能分配将崩盘。美国作为东道主无长途旅行疲劳,主场气候适应零成本,体能分配优势明显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I14",
+      "faction": "伤病赛程派",
+      "identity": "时差调整师",
+      "weight_logic": "东西部时差",
+      "focus": "3小时时差",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 68,
+      "reason": "东道主零时差适应,48队扩军赛程极密,欧陆强队跨6-9小时飞行消耗巨大;美国在东西部3小时时差内调度,生物钟零波动,首战4-1已验证主场节奏与体能优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I15",
+      "faction": "伤病赛程派",
+      "identity": "酒店质量分析师",
+      "weight_logic": "大本营选择",
+      "focus": "后勤保障",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 75,
+      "reason": "法国大本营历来选址顶级康复设施,时差与气候管理成熟,Mbappé带伤仍梅开二度印证后勤团队伤情管控能力,48队赛程压缩下酒店恢复质量将成为隐形胜负手",
+      "counter_trigger": false
+    },
+    {
+      "id": "I16",
+      "faction": "伤病赛程派",
+      "identity": "训练场质量分析师",
+      "weight_logic": "训练设施",
+      "focus": "备战条件",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "本土训练基地世界一流免迁徙疲劳,气候饮食零适应,主场酒店恢复设施最优,赛程密度下体能管理碾压客队",
+      "counter_trigger": false
+    },
+    {
+      "id": "I17",
+      "faction": "伤病赛程派",
+      "identity": "替补席厚度分析师",
+      "weight_logic": "板凳伤病",
+      "focus": "核心替补",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "48队赛程密度极高,核心替补厚度决定生死。英格兰替补席拥有Palmer、Watkins、Toney等即插即用攻击点,轮换无断层。反观法国Ekitike缺席致替补前锋单薄,阿根廷Messi带伤且后防伤兵集中,巴西失去Rodrygo后边路深度骤降。英格兰板凳可用度全场最高。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I18",
+      "faction": "伤病赛程派",
+      "identity": "停赛累计风险分析师",
+      "weight_logic": "黄牌停赛",
+      "focus": "关键场停赛",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 72,
+      "reason": "48队赛制下黄牌累计停赛压力剧增,巴西阵容深度冠绝群雄可有效轮换减卡;Neymar伤缺反而避免关键场累积停赛风险,球队历史纪律性最佳,核心框架几乎无停赛隐患,具备从小组赛到决赛全主力出战的最大确定性。",
+      "counter_trigger": true
+    },
+    {
+      "id": "I19",
+      "faction": "伤病赛程派",
+      "identity": "复出时间预测师",
+      "weight_logic": "伤员复出",
+      "focus": "半决赛复出",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "Mbappé带伤梅开二度,恢复曲线精准对上淘汰赛节点,法国医疗组擅长将核心体能留给半决赛巅峰;英格兰阵容最齐整,赛程红利明显;阿根廷伤病过多,寄望Messi复出后半决赛奇迹。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I20",
+      "faction": "伤病赛程派",
+      "identity": "疲劳累积专家",
+      "weight_logic": "赛季尾声",
+      "focus": "5月赛程",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 58,
+      "reason": "48队扩军赛程密集放大累积疲劳,英格兰年轻阵容轮换深度足,首战4-2轻取消耗可控;Mbappé带伤强行出战、阿根廷伤兵满营,淘汰赛体能崩盘风险陡增,摩洛哥2022经验与体能储备具备黑马突围条件。",
+      "counter_trigger": true
+    },
+    {
+      "id": "I21",
+      "faction": "伤病赛程派",
+      "identity": "小伤管理专家",
+      "weight_logic": "轻伤坚持",
+      "focus": "打封闭上场",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "阿根廷核心Messi、Martinez、Dybala轻伤坚持,正是打封闭上场的典型场景。老将久经伤情管理考验,医疗团队成熟,48队赛程密集下,小伤续航能力比纸面实力更决定冠军归属。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I22",
+      "faction": "伤病赛程派",
+      "identity": "首次参加世界杯观察员",
+      "weight_logic": "新军体能",
+      "focus": "处子秀压力",
+      "champion": "乌兹别克斯坦",
+      "top3": [
+        "乌兹别克斯坦",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 15,
+      "reason": "48队扩军赛程极度密集，传统豪门核心球员伤病累积与体能消耗呈指数级放大。新军无历史包袱，处子秀肾上腺素红利转化为高强度跑动优势，乌兹别克斯坦年轻阵容无慢性伤病隐患，体能储备完整，在淘汰赛密集赛程中具备以逸待劳的结构性优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I23",
+      "faction": "伤病赛程派",
+      "identity": "老将体能师",
+      "weight_logic": "35+球员",
+      "focus": "老将续航",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 58,
+      "reason": "48队扩军赛程极密,葡萄牙老将团(C罗41岁仍能合理分配体能)大赛轮换经验丰富,首战平局反而储存能量;Mbappé带伤、梅西年迈,葡萄牙35+核心的耐力管理优势在淘汰赛阶段更易兑现。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I24",
+      "faction": "伤病赛程派",
+      "identity": "心理压力分析师",
+      "weight_logic": "夺冠压力",
+      "focus": "热门队压力",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "Mbappé带伤梅开二度印证心理韧性,法国非赔率头号反而减压;卫冕亚军身份反让Deschamps卸下'必须夺冠'包袱,48队赛程深度有效化解轮换焦虑,热门队压力最小者最利冲冠。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I25",
+      "faction": "伤病赛程派",
+      "identity": "淘汰赛伤病史分析师",
+      "weight_logic": "过往淘汰赛伤病",
+      "focus": "22年法国伤病潮",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "阿根廷",
+        "墨西哥"
+      ],
+      "confidence": 38,
+      "reason": "22年法国伤病潮证明纸面强队难扛淘汰赛累积消耗,48队赛程更甚。姆巴佩带伤上阵、Ekitike报销,法国重蹈覆辙;巴西虽缺内马尔但阵容深度和医疗管理历史最优,淘汰赛体能储备将成为最大变量,主场墨西哥同样受益于赛程密度对疲劳的均摊。",
+      "counter_trigger": true
+    },
+    {
+      "id": "I26",
+      "faction": "伤病赛程派",
+      "identity": "点球大战伤病史",
+      "weight_logic": "点球伤",
+      "focus": "罚点心理",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 65,
+      "reason": "Pickford扑点能力冠绝群雄,英格兰经Euro2020罚失阴霾后已在Euro2024点球淘汰瑞士完成心理救赎,Saka愈挫愈勇;反观法国Mbappé伤隐患影响罚点稳定,西班牙Yamal轻伤令罚点核心受扰。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I27",
+      "faction": "伤病赛程派",
+      "identity": "门将健康分析师",
+      "weight_logic": "门将伤",
+      "focus": "一门健康",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 68,
+      "reason": "一门健康视角：阿利松状态稳定无隐患，替补埃德森与本托形成双保险，48队赛程密集下门将体能消耗至关重要。阿根廷大马丁有累积疲劳与黄牌停赛风险，姆阿尼膝盖有恙隐患，反观桑巴一门全勤可用，门将健康优势将延续到淘汰赛。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I28",
+      "faction": "伤病赛程派",
+      "identity": "后防伤病分析师",
+      "weight_logic": "后卫线",
+      "focus": "中卫组合",
+      "champion": "意大利",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "意大利"
+      ],
+      "confidence": 48,
+      "reason": "意大利中卫组合巴斯托尼/卡拉菲奥里/布翁焦尔诺保持健康且轮换充裕,48队赛制高密度赛程下,法国于帕梅卡诺状态不稳、阿根廷罗梅罗带伤,蓝衣军团后防稳定性成最大优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I29",
+      "faction": "伤病赛程派",
+      "identity": "中场伤病分析师",
+      "weight_logic": "中场核心",
+      "focus": "组织核心",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "英格兰",
+        "法国"
+      ],
+      "confidence": 75,
+      "reason": "西班牙中场核心Rodri佩德里加维健康度优于各路豪强,法阿巴中场均有关键缺阵;48队赛程密集下,斗牛士中场轮换深度最厚,可化解组织核心累积负荷,规避密集伤病潮。",
+      "counter_trigger": false
+    },
+    {
+      "id": "I30",
+      "faction": "伤病赛程派",
+      "identity": "前锋伤病分析师",
+      "weight_logic": "锋线伤",
+      "focus": "终结者",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "Mbappé带伤仍梅开二度证明法国终结者抗伤病韧性极强,锋线深度(Giroud/Thuram/Coman)完美对冲Ekitike缺阵;反观巴西Neyamar+Rbrygo双核报销、阿根廷Messi及DybaMartnez累积小伤,密集赛程下法国锋线稳定性碾压诸强。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H01",
+      "faction": "黑马派",
+      "identity": "非洲观察家",
+      "weight_logic": "非洲球队",
+      "focus": "塞内加尔/摩洛哥/喀麦隆",
+      "champion": "塞内加尔",
+      "top3": [
+        "塞内加尔",
+        "摩洛哥",
+        "法国"
+      ],
+      "confidence": 30,
+      "reason": "首战1-3法国但场面未崩,非洲球队对抗强度与反击速度天然克48队赛程密度,塞内加尔中前场厚度足以支撑淘汰赛长线消耗,非洲冠军窗口已开启。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H02",
+      "faction": "黑马派",
+      "identity": "亚洲观察家",
+      "weight_logic": "亚洲球队",
+      "focus": "日本/韩国/伊朗",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "日本旅欧球员厚度亚洲无出其右,久保、三笘、远藤航已在五大联赛成核心。48队扩军拖长赛程,日本防守反击与定位球套路专克欧洲强队,淘汰赛一场定胜负冷门概率倍增。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H03",
+      "faction": "黑马派",
+      "identity": "中北美观察家",
+      "weight_logic": "中北美",
+      "focus": "墨西哥/美国/加拿大",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "美国"
+      ],
+      "confidence": 42,
+      "reason": "东道主优势叠加2-0南非开门红,墨西哥小组出线几无悬念。中北美观察家视角下,主场氛围、炎热气候适应、中北美联盟默契、密集赛程体能分配,这些主场红利被博彩系统性低估,冷门基因正在兑现。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H04",
+      "faction": "黑马派",
+      "identity": "北欧观察家",
+      "weight_logic": "北欧",
+      "focus": "挪威/丹麦/瑞典",
+      "champion": "挪威",
+      "top3": [
+        "法国",
+        "西班牙",
+        "挪威"
+      ],
+      "confidence": 22,
+      "reason": "北欧体系下挪威青训井喷,哈兰德单核终结能力堪比姆巴佩却无伤病隐患,北欧体能储备与高纬度适应力在美加酷暑中反成优势,48队赛程密集下爆冷窗口极大。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H05",
+      "faction": "黑马派",
+      "identity": "东欧观察家",
+      "weight_logic": "东欧",
+      "focus": "波兰/捷克/匈牙利",
+      "champion": "波兰",
+      "top3": [
+        "波兰",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 22,
+      "reason": "东欧足球以战术纪律和防守韧性见长,波兰拥有莱万大赛经验与成熟防线,48队赛制密集增加冷门窗口,主流赔率严重低估东欧球队的钢铁属性与反击效率。",
+      "counter_trigger": true
+    },
+    {
+      "id": "H06",
+      "faction": "黑马派",
+      "identity": "南美黑马观察家",
+      "weight_logic": "南美次级",
+      "focus": "哥伦比亚/厄瓜多尔/智利",
+      "champion": "哥伦比亚",
+      "top3": [
+        "哥伦比亚",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 22,
+      "reason": "哥伦比亚坐拥美洲举办地缘利,南美区预选赛高强度对抗锻造抗压体质,Luis Diaz+James反击线犀利成熟,密集赛程消耗豪门体能却契合团队型打法,法西作参照系验证我的异见判断。",
+      "counter_trigger": true
+    },
+    {
+      "id": "H07",
+      "faction": "黑马派",
+      "identity": "大洋洲观察家",
+      "weight_logic": "大洋洲",
+      "focus": "澳大利亚",
+      "champion": "澳大利亚",
+      "top3": [
+        "澳大利亚",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 28,
+      "reason": "作为大洋洲代表,澳大利亚脱洋入亚后已适应多流派打法,48队赛制利好阵容深度型球队,南半球球员天然适应北美高温高湿,加上冷门压力小,袋鼠有望复刻黑马轨迹。",
+      "counter_trigger": true
+    },
+    {
+      "id": "H08",
+      "faction": "黑马派",
+      "identity": "加勒比观察家",
+      "weight_logic": "加勒比",
+      "focus": "牙买加/库拉索",
+      "champion": "库拉索",
+      "top3": [
+        "库拉索",
+        "牙买加",
+        "法国"
+      ],
+      "confidence": 8,
+      "reason": "库拉索预选赛不败晋级,加勒比毗邻主场赛程消耗低,全队荷甲体系战术纪律严明,被市场严重低估;牙买加身体素质同样具备搅局能力。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H09",
+      "faction": "黑马派",
+      "identity": "昔日豪门复兴派",
+      "weight_logic": "昔日豪门复兴派专业加权",
+      "focus": "比利时/乌拉圭",
+      "champion": "比利时",
+      "top3": [
+        "比利时",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "被遗忘的王者终将归来——比利时黄金一代虽已暮年,但德布劳内、库尔图瓦、卢卡库中轴线仍属顶级,48队扩军赛程密集,豪门底蕴与板凳深度是穿越淘汰赛的硬通货。市场严重低估了复兴派的复利效应。",
+      "counter_trigger": true
+    },
+    {
+      "id": "H10",
+      "faction": "黑马派",
+      "identity": "新军首秀派",
+      "weight_logic": "新军首秀派专业加权",
+      "focus": "乌兹别克/约旦/佛得角",
+      "champion": "乌兹别克斯坦",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 45,
+      "reason": "48队扩军元年的首秀红利,乌兹别克作为亚洲新军历史性登场,密集赛程反而放大体能优势。豪门集体伤病潮削弱传统强队深度,新军无心理包袱冲击,押宝乌兹别克书写扩军童话。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H11",
+      "faction": "黑马派",
+      "identity": "主帅黑马派",
+      "weight_logic": "主帅黑马派专业加权",
+      "focus": "少帅执教",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 65,
+      "reason": "东道主红利叠加4-1巴拉圭的强势开局,少帅体系下高位逼抢已成型。48队密集赛程考验轮换深度,青年军体能优势显著,老牌豪门伤病隐患反成天花板,黑马正是在这种失衡中被低估。",
+      "counter_trigger": true
+    },
+    {
+      "id": "H12",
+      "faction": "黑马派",
+      "identity": "旅欧球员派",
+      "weight_logic": "旅欧球员派专业加权",
+      "focus": "海外国脚",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 38,
+      "reason": "日本旅欧国脚覆盖英超西甲德甲法甲核心阵容，远藤航、三笘薰、久保建英、镰田大地长期在高强度联赛淬炼，战术适配性与对抗强度已与欧美强队无异，48队赛制下体能与轮换深度成其黑马底牌。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H13",
+      "faction": "黑马派",
+      "identity": "归化球员派",
+      "weight_logic": "归化球员派专业加权",
+      "focus": "归化质量",
+      "champion": "美国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 82,
+      "reason": "美国归化质量近年断层领先：Pulisic、McKennie、Musah、Miles Robinson等核心均出身欧洲青训体系，技术对位已不输传统强队。东道主优势叠加4-1巴拉圭的锋线锐度，归化球员的战术执行力和体能储备足以支撑48队扩军后的密集赛程，夺冠窗口已开。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H14",
+      "faction": "黑马派",
+      "identity": "青年军黑马派",
+      "weight_logic": "青年军黑马派专业加权",
+      "focus": "U20国脚",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "阿根廷",
+        "美国"
+      ],
+      "confidence": 42,
+      "reason": "西班牙U20国脚储备冠绝48队:亚马尔、加维、佩德里、费明构成青年轴心,扩军后赛程密度极大考验轮换深度,斗牛士La Masia青训体系恰是最大底牌,亚马尔轻伤无碍体系运转。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H15",
+      "faction": "黑马派",
+      "identity": "世预赛黑马派",
+      "weight_logic": "世预赛黑马派专业加权",
+      "focus": "世预赛爆冷",
+      "champion": "苏里南",
+      "top3": [
+        "苏里南",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 12,
+      "reason": "48队扩军赛程密集为冷门创造沃土,苏里南首次入围饥渴感拉满,荷兰系归化球员欧洲联赛经验丰富,大热齐遭伤病潮为黑马腾出晋级空间,世预赛爆冷基因契合乱世格局",
+      "counter_trigger": false
+    },
+    {
+      "id": "H16",
+      "faction": "黑马派",
+      "identity": "逆袭联赛冠军派",
+      "weight_logic": "逆袭联赛冠军派专业加权",
+      "focus": "小联赛冠军",
+      "champion": "佛得角",
+      "top3": [
+        "佛得角",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 25,
+      "reason": "48队扩军稀释死亡之组,赛程密集大热门易遭伤病反噬。佛得角作为小联赛冠军代表,非洲球队凝聚力是逆袭核心资产,极适合冷门夺冠剧本。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H17",
+      "faction": "黑马派",
+      "identity": "穆斯林国家派",
+      "weight_logic": "穆斯林国家派专业加权",
+      "focus": "斋月/精神力",
+      "champion": "摩洛哥",
+      "top3": [
+        "摩洛哥",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 38,
+      "reason": "斋月精神力在赛前完成淬炼,摩洛哥以纪律防守与团队凝聚力领跑穆斯林阵营,48队密集赛程利好低消耗反击体系。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H18",
+      "faction": "黑马派",
+      "identity": "小国大梦想派",
+      "weight_logic": "小国大梦想派专业加权",
+      "focus": "小国爆冷基因",
+      "champion": "挪威",
+      "top3": [
+        "挪威",
+        "阿根廷",
+        "摩洛哥"
+      ],
+      "confidence": 28,
+      "reason": "挪威人口仅500万的北欧小国,哈兰德单核驱动具备典型小国爆冷基因;48队扩军+密集赛程放大冷门窗口,北欧海盗有望复刻黑马奇迹登顶",
+      "counter_trigger": false
+    },
+    {
+      "id": "H21",
+      "faction": "黑马派",
+      "identity": "22年摩洛哥模仿派",
+      "weight_logic": "22年摩洛哥模仿派专业加权",
+      "focus": "非洲4强基因",
+      "champion": "塞内加尔",
+      "top3": [
+        "塞内加尔",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 72,
+      "reason": "22年摩洛哥模板的核心是防守纪律+非洲体能在密集赛程中的不可替代性。塞内加尔首战法国虽败但防线已检验,48队扩军赛程极密,非洲四强基因的耐力与对抗优势会被指数级放大,小组出局非终点,淘汰赛才是非洲黑马基因爆发窗口。",
+      "counter_trigger": true
+    },
+    {
+      "id": "H22",
+      "faction": "黑马派",
+      "identity": "18年俄罗斯模仿派",
+      "weight_logic": "18年俄罗斯模仿派专业加权",
+      "focus": "东道主奇迹",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 65,
+      "reason": "参照18年俄罗斯东道主奇迹路径,美国作为2026核心主办国首战4-1大胜展现恐怖主场势能,48队扩军赛程密集更利东道主体能与氛围优势,黑马窗口已正式打开。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H23",
+      "faction": "黑马派",
+      "identity": "94年希腊模仿派",
+      "weight_logic": "94年希腊模仿派专业加权",
+      "focus": "防守夺冠DNA",
+      "champion": "希腊",
+      "top3": [
+        "希腊",
+        "摩洛哥",
+        "墨西哥"
+      ],
+      "confidence": 22,
+      "reason": "希腊复制2004式防守DNA,链式防线+定位球+铁血纪律,小组赛低消耗过关,淘汰赛零封对手登顶,完美复刻希腊神话黑马夺冠范式",
+      "counter_trigger": false
+    },
+    {
+      "id": "H24",
+      "faction": "黑马派",
+      "identity": "04年希腊模仿派",
+      "weight_logic": "04年希腊模仿派专业加权",
+      "focus": "欧洲杯黑马",
+      "champion": "土耳其",
+      "top3": [
+        "土耳其",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 18,
+      "reason": "希腊2004神话的完美复刻：防守组织严密、中场绞杀凶狠、反击一击致命。土耳其拥有居莱尔与恰尔汗奥卢等核心，铁血防守加高效反击，正是乱世杯赛重演希腊奇迹的最佳载体。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H25",
+      "faction": "黑马派",
+      "identity": "丹麦92模仿派",
+      "weight_logic": "丹麦92模仿派专业加权",
+      "focus": "童话基因",
+      "champion": "丹麦",
+      "top3": [
+        "丹麦",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 22,
+      "reason": "92童话基因在新赛制下可复制,48队扩军缩短爆冷周期,丹麦无Mbappé式单点依赖,霍伊伦-埃里克森连线成熟,小组突围后越走越像92神话。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H27",
+      "faction": "黑马派",
+      "identity": "02年塞内加尔模仿派",
+      "weight_logic": "02年塞内加尔模仿派专业加权",
+      "focus": "揭幕战爆冷",
+      "champion": "塞内加尔",
+      "top3": [
+        "塞内加尔",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 28,
+      "reason": "揭幕战1-3负法国绝非死刑判决,2002塞内加尔正是首战爆冷击败法国的鼻祖;48队扩军赛程密集,塞内加尔身体流+反击基因正合淘汰赛爆冷节奏,小组后程蓄力,黑马一黑到底可期。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H28",
+      "faction": "黑马派",
+      "identity": "18年日本模仿派",
+      "weight_logic": "18年日本模仿派专业加权",
+      "focus": "16强门槛",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 32,
+      "reason": "日本承袭18年哥伦比亚、塞内加尔之战逆袭基因,16强门槛早已踏破,48队扩军赛程密集,更利纪律型冷门,蓝武士可复制比利时剧本逆转豪门。",
+      "counter_trigger": false
+    },
+    {
+      "id": "H29",
+      "faction": "黑马派",
+      "identity": "22年日本模仿派",
+      "weight_logic": "22年日本模仿派专业加权",
+      "focus": "死亡之组出线",
+      "champion": "日本",
+      "top3": [
+        "日本",
+        "法国",
+        "摩洛哥"
+      ],
+      "confidence": 14,
+      "reason": "复刻22年日本死亡之组连克德西的剧本,三笘薰久保建英已在英超西甲淬火,八强后密集赛程无传统豪门能挡其反击速度",
+      "counter_trigger": true
+    },
+    {
+      "id": "H30",
+      "faction": "黑马派",
+      "identity": "26年新黑马派",
+      "weight_logic": "26年新黑马派专业加权",
+      "focus": "本届变天",
+      "champion": "挪威",
+      "top3": [
+        "挪威",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 18,
+      "reason": "48队扩军+赛程密集制造变数,Haaland单核爆破能力足以掀翻任何防线,北欧体能在北美酷暑中反成优势,挪威本届正是破茧时刻。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A01",
+      "faction": "阵容年龄派",
+      "identity": "25-28岁巅峰派",
+      "weight_logic": "巅峰年龄",
+      "focus": "当打之年",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 75,
+      "reason": "西班牙中场正处巅峰(鲁伊斯28/奥尔莫26),后防当打之年(勒诺曼28/库库雷拉26),核心无老将续航隐患,48队赛程密集考验体能,巅峰集中度全队最高",
+      "counter_trigger": false
+    },
+    {
+      "id": "A02",
+      "faction": "阵容年龄派",
+      "identity": "青年军派",
+      "weight_logic": "U23球员占比",
+      "focus": "青春风暴",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "西班牙U23精英密度冠绝48强——Yamal、Pedri、Gavi、Cubarsí、Nico Williams构成极致青春核心,赛程密集下年轻球员恢复优势放大;带伤老将拖累法国阿根廷,西班牙青黄衔接最完美,青春风暴正当时。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A03",
+      "faction": "阵容年龄派",
+      "identity": "老将压阵派",
+      "weight_logic": "30+核心",
+      "focus": "老将经验",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "葡萄牙"
+      ],
+      "confidence": 65,
+      "reason": "阿根廷30+核心最完整,梅西、奥塔门迪、德保罗、大马丁经历2022夺冠淬炼,48队密集赛程中老将体能分配与淘汰赛抗压能力无人能及,卫冕基因深厚。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A04",
+      "faction": "阵容年龄派",
+      "identity": "黄金一代派",
+      "weight_logic": "巅峰集中",
+      "focus": "一代人窗口",
+      "champion": "比利时",
+      "top3": [
+        "比利时",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 55,
+      "reason": "比利时黄金一代末期窗口收官：德布劳内、卢卡库、库尔图瓦34岁仍居巅峰顶端，大赛经验不可替代。48队赛程极度密集考验轮换深度与抗压能力，老将续航+新秀衔接（多库、蒂勒曼斯）形成末班车优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A05",
+      "faction": "阵容年龄派",
+      "identity": "青黄不接警告派",
+      "weight_logic": "青黄不接警告派专业加权",
+      "focus": "换代阵痛",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "西班牙",
+        "法国"
+      ],
+      "confidence": 55,
+      "reason": "德国穆西亚拉与维尔茨正值24-27岁黄金上升窗口,换代阵痛已基本完成,无明显青黄断层;法阿巴三强老将集中,密集赛程下巅峰透支与伤病累积风险显著高于换代完成度更优的德国",
+      "counter_trigger": false
+    },
+    {
+      "id": "A06",
+      "faction": "阵容年龄派",
+      "identity": "U21新星派",
+      "weight_logic": "超新星",
+      "focus": "Yamal/Mbappé",
+      "champion": "西班牙",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "西班牙拥有Yamal、Pedri、Gavi构成的U21超新星矩阵,48队赛程密度极高,老将密集的法国/英格兰在淘汰赛阶段续航存疑,而西班牙青春结构具备巅峰集中度优势,Yamal轻伤无碍其爆发力,密集赛程下年轻阵容恢复更快,首轮强势后淘汰赛爆发可期。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A07",
+      "faction": "阵容年龄派",
+      "identity": "28-30岁经验派",
+      "weight_logic": "28-30岁经验派专业加权",
+      "focus": "经验巅峰",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "墨西哥"
+      ],
+      "confidence": 72,
+      "reason": "28-30岁经验派视角:法国核心结构处于经验巅峰黄金期,坎特/格列兹曼的大赛底蕴搭配姆巴佩的成熟期,3-1塞内加尔印证抗压能力。48队赛程密集,经验厚度决定后程续航,法国的年龄梯队最合理,青黄不接风险最低。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A08",
+      "faction": "阵容年龄派",
+      "identity": "30+老将派",
+      "weight_logic": "30+老将派专业加权",
+      "focus": "35+核心",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "阿根廷",
+        "西班牙"
+      ],
+      "confidence": 58,
+      "reason": "葡萄牙拥有Ronaldo、Pepe领衔的35+核心,在48队扩军的高密度赛程中,老将的体能管理经验与淘汰赛抗压能力远超年轻阵容,这是夺冠的隐形资产。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A09",
+      "faction": "阵容年龄派",
+      "identity": "平均年龄分析师",
+      "weight_logic": "球队平均年龄",
+      "focus": "26岁最优",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "西班牙核心年龄段集中在24-28岁黄金区间,Rodri、Dani Olmo、Fabián处于26岁巅峰,Pedri/Nico正值上升期,48队赛制下需要7场高强度对决,完美梯度支撑深度轮换与续航夺冠。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A10",
+      "faction": "阵容年龄派",
+      "identity": "门将年龄派",
+      "weight_logic": "门将年龄",
+      "focus": "门将30-32巅峰",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "巴西门神结构完美契合门将30-32巅峰理论:Alisson 33岁延续精英状态,Ederson 32岁正值守门员黄金巅峰,双保险规避老化与伤病风险;优于阿根廷Martínez过巅峰单点隐患,法国仅Maignan独撑缺乏对位替补。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A11",
+      "faction": "阵容年龄派",
+      "identity": "后防年龄派",
+      "weight_logic": "后卫年龄",
+      "focus": "中卫28-30",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "意大利中卫组合处于28-30岁黄金窗口,防空、位置感、卡位均处巅峰,48队赛程密集下防守稳定性溢价最高,老将经验与体能储备完美平衡",
+      "counter_trigger": true
+    },
+    {
+      "id": "A12",
+      "faction": "阵容年龄派",
+      "identity": "中场年龄派",
+      "weight_logic": "中场年龄",
+      "focus": "26-29巅峰",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "西班牙",
+        "法国"
+      ],
+      "confidence": 64,
+      "reason": "阿根廷中场26-29岁集中度最高,Mac Allister28岁、Palacios28岁正处巅峰,Enzo25岁步入黄金期,De Paul虽超龄但经验丰富,中场续航与稳定性冠绝48队。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A13",
+      "faction": "阵容年龄派",
+      "identity": "前锋年龄派",
+      "weight_logic": "前锋年龄",
+      "focus": "25-28巅峰",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "挪威"
+      ],
+      "confidence": 65,
+      "reason": "法国Mbappé27岁正值25-28巅峰黄金点,Thuram23岁逼近巅峰,锋线年龄集中且梯度完美。巴西Neymar超龄、阿根廷Messi退出巅峰、英格兰Kane续航存疑,挪威Haaland25岁刚入巅峰窗口,法国前锋年龄结构最优。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A14",
+      "faction": "阵容年龄派",
+      "identity": "核心球员年龄派",
+      "weight_logic": "核心球员年龄派专业加权",
+      "focus": "核心年龄",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "阿根廷核心框架恩佐/麦卡利斯特/阿尔瓦雷斯/罗梅罗集中在24-27岁巅峰区间,梅西迪马利亚最后一舞注入大赛心理势能;中生代对冲老将续航风险,年龄结构在密集赛程中耐久度最优。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A15",
+      "faction": "阵容年龄派",
+      "identity": "队长年龄派",
+      "weight_logic": "队长年龄派专业加权",
+      "focus": "队长年龄",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 58,
+      "reason": "C罗41岁作为五朝元老压阵,其大赛阅历和抗压经验在48队密集赛程中无可替代;葡萄牙26-30岁当打核心占比最高,老带新梯队合理,队长年龄结构的稳定性是夺冠关键。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A16",
+      "faction": "阵容年龄派",
+      "identity": "副队年龄派",
+      "weight_logic": "副队年龄派专业加权",
+      "focus": "副队年龄",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "法国年龄金字塔堪称教科书:Mbappé(27-28)正值巅峰核心,Camavinga/Saliba/Tchouaméni构成25-26岁黄金中坚,Zaïre-Emery等06后新锐补充,无老化断崖;反观阿根廷Messi已38岁存在续航塌方,西班牙00后占比过高经验不足,48队赛程密度下法国年龄结构抗疲劳最优。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A17",
+      "faction": "阵容年龄派",
+      "identity": "教练年龄派",
+      "weight_logic": "教练年龄",
+      "focus": "老帅 vs 少帅",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 68,
+      "reason": "老帅德拉富恩特(64岁)深耕西班牙青训体系数十年,战术哲学一以贯之。阵容年龄结构合理,新老衔接顺畅,大赛经验与冲劲兼具,正处夺冠黄金窗口。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A18",
+      "faction": "阵容年龄派",
+      "identity": "首次参赛球员派",
+      "weight_logic": "首次参赛球员派专业加权",
+      "focus": "首秀占比",
+      "champion": "美国",
+      "top3": [
+        "美国",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "首秀占比高意味着身体恢复快、伤病积累少,48队密集赛程放大年轻新军体能优势。USA 4-1巴拉圭已印证状态,本土作战加成,黑马逻辑自洽。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A19",
+      "faction": "阵容年龄派",
+      "identity": "百场老将派",
+      "weight_logic": "百场国脚",
+      "focus": "大赛经验",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "阿根廷百场国脚密度冠绝48强：梅西、奥塔门迪、迪马利亚、帕雷德斯、德保罗、埃米利亚诺·马丁内斯均拥有100+场国际比赛及2022世界杯/Copa冠军履历，大赛心脏稳定性无可替代。即便梅西轻伤，老将骨架可托底关键淘汰赛，7场制赛程中经验溢价最大化。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A20",
+      "faction": "阵容年龄派",
+      "identity": "退役倒计时派",
+      "weight_logic": "退役倒计时派专业加权",
+      "focus": "球员退役",
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 58,
+      "reason": "C罗41岁、佩佩43岁,本届极大概率是其世界杯绝唱。退役倒计时窗口激发极致饥渴感与背水一战心态,老将体能管理与大赛经验在48队密集赛程中价值飙升。佩佩防线指挥与C罗禁区嗅觉,仍是淘汰赛关键时刻不可替代的王牌。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A21",
+      "faction": "阵容年龄派",
+      "identity": "未来之星派",
+      "weight_logic": "未来之星派专业加权",
+      "focus": "U17国脚",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "西班牙拥有U17黄金一代,Lamine Yamal领衔的03-07梯队正值巅峰,密集48队赛程下年轻体能储备和伤后恢复力远超法阿等老牌劲旅,Yamal轻伤无碍,阵容年龄结构与巅峰集中度均为诸强最优。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A22",
+      "faction": "阵容年龄派",
+      "identity": "老中青三代派",
+      "weight_logic": "老中青三代派专业加权",
+      "focus": "结构合理",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "摩洛哥"
+      ],
+      "confidence": 72,
+      "reason": "法国拥有最理想的三代结构:Griezmann老将压舱,Mbappé巅峰扛旗,Camavinga/Zaïre-Emery/Saliba年轻续航,48队赛程下深度优势最大化,体系不依赖单点,伤情可控。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A23",
+      "faction": "阵容年龄派",
+      "identity": "断层风险派",
+      "weight_logic": "断层风险派专业加权",
+      "focus": "青黄不接",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 35,
+      "reason": "48队扩军赛程密集,老将续航风险被放大;法国/巴西/阿根廷核心老化叠加伤病缠身,意大利青训断层已修复,Bastoni/Barella/Tonali正值巅峰初期,阵容年龄结构最健康,淘汰赛体能深度优势凸显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A25",
+      "faction": "阵容年龄派",
+      "identity": "球员巅峰长度分析师",
+      "weight_logic": "球员巅峰长度分析师专业加权",
+      "focus": "巅峰期",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "挪威"
+      ],
+      "confidence": 72,
+      "reason": "法国核心阵容24-28岁巅峰高度集中,卡马文加、楚阿梅尼、萨利巴、图拉姆处于职业黄金窗口,完美适配48队密集赛程的多场消耗需求;Mbappé带伤仍梅开二度印证体系深度,队内年龄梯度合理,巅峰续航显著优于老龄化阿根廷与尚未到峰的西班牙。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A26",
+      "faction": "阵容年龄派",
+      "identity": "生涯暮年派",
+      "weight_logic": "生涯暮年派专业加权",
+      "focus": "最后机会",
+      "champion": "克罗地亚",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "40岁莫德里奇最后一舞,克罗地亚连续三届大赛的淘汰赛韧性是'最后机会'的巅峰集中体现,48队扩军赛程密度反而利于老将经验阵容续航与体能分配。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A27",
+      "faction": "阵容年龄派",
+      "identity": "德转身价年龄比",
+      "weight_logic": "身价/年龄",
+      "focus": "德转身价年龄比",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "西班牙身价年龄比冠绝48队:Yamal/Pedri/Williams等U23核心身价合计超€8亿,加权年龄仅22.3岁,巅峰集中度最高,扩军赛程下续航优势碾压老化阵容。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A28",
+      "faction": "阵容年龄派",
+      "identity": "国家队出场数派",
+      "weight_logic": "国脚出场数",
+      "focus": "国家队出场数派",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 55,
+      "reason": "阿根廷核心阵容国家队出场数冠绝群雄,梅西、奥塔门迪、迪马利亚等百场国脚大赛经验无人能及,连续两届大赛夺冠的默契与抗压值不可复制,轻伤老将体能续航才是真正隐患。",
+      "counter_trigger": true
+    },
+    {
+      "id": "A29",
+      "faction": "阵容年龄派",
+      "identity": "合同年球员派",
+      "weight_logic": "合同年球员派专业加权",
+      "focus": "合同年",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 60,
+      "reason": "巴西核心维尼修斯、恩德里克、布鲁诺·吉马良斯处于25-27岁合同关键年,为金球奖、转会大合同、世界杯正名而战,饥饿感溢价远超已签长约的姆巴佩与老化严重的英格兰;同时队伍年龄结构峰值集中,合同年驱动力可弥补伤停短板。",
+      "counter_trigger": false
+    },
+    {
+      "id": "A30",
+      "faction": "阵容年龄派",
+      "identity": "自由身球员派",
+      "weight_logic": "自由身球员派专业加权",
+      "focus": "夏窗动向",
+      "champion": "沙特阿拉伯",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 8,
+      "reason": "沙特阵容平均年龄27岁处巅峰集中区,夏窗无核心流失且补充U23即战力,48队密集赛程下体能续航优于法阿等老将依赖型球队,伤病负担最低形成窗口期。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P01",
+      "faction": "心理抗压派",
+      "identity": "点球心理专家",
+      "weight_logic": "点球胜率",
+      "focus": "点球大战",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "法国近三届大赛点球全胜,Mbappé逆境心理素质顶尖,48队密集赛程淘汰赛更易拖入点球,Maignan扑点稳定,点球心理优势压倒性。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P02",
+      "faction": "心理抗压派",
+      "identity": "逆境翻盘专家",
+      "weight_logic": "逆转胜率",
+      "focus": "落后反胜",
+      "champion": "克罗地亚",
+      "top3": [
+        "克罗地亚",
+        "阿根廷",
+        "摩洛哥"
+      ],
+      "confidence": 35,
+      "reason": "克罗地亚逆境DNA刻骨铭心: 2018亚军+2022季军+点球战王者; 刚4-2负英格兰恰成背水一战, 越被逼入绝境越激发韧性; 48队赛程密度放大心理权重, Modrić核心历经生死局, 黑马被严重低估。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P03",
+      "faction": "心理抗压派",
+      "identity": "大心脏专家",
+      "weight_logic": "绝杀进球",
+      "focus": "90分钟进球",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 65,
+      "reason": "阿根廷90分钟绝杀基因刻入骨髓,上届两度落后仍捧杯的逆境翻盘能力冠绝群雄,点球大战心理优势无可匹敌,全队抗压DNA构成最大冠军保障。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P05",
+      "faction": "心理抗压派",
+      "identity": "欧冠决赛抗压分析师",
+      "weight_logic": "欧冠决赛",
+      "focus": "决赛气质",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 75,
+      "reason": "贝林厄姆欧冠决赛级抗压基因,福登、萨卡经历曼城阿森纳欧冠淘汰赛淬炼,4-2克罗地亚展现逆境翻盘能力,英格兰已具备决赛气质蜕变条件。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P06",
+      "faction": "心理抗压派",
+      "identity": "世界杯决赛老兵派",
+      "weight_logic": "决赛经历",
+      "focus": "拿过冠军",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 68,
+      "reason": "卫冕冠军核心未散,马丁内斯点球神扑与斯卡洛尼冠军教头气质是决赛最珍贵资产,逆境翻盘经验碾压所有对手,伤病情形下老兵意志更显王者本色。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P07",
+      "faction": "心理抗压派",
+      "identity": "4强球员占比",
+      "weight_logic": "半决赛经历",
+      "focus": "大赛经验",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "法国阵中Mbappé、Griezmann等核心拥有2018夺冠+2022决赛的半决赛级别抗压基因,逆境翻盘能力在大赛经验面前无出其右,即使带伤出战,大心脏属性足以消化淘汰赛压力;阿根廷老将告别战动力极强,英格兰近年四强经验亦不可小觑。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P08",
+      "faction": "心理抗压派",
+      "identity": "8强球员占比",
+      "weight_logic": "8强经历",
+      "focus": "淘汰赛经验",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "英格兰8强球员占比最高,大批经历2022八强+2024决赛的球员,逆境心理已被淬炼。首战逆转克罗地亚印证大心脏,密集赛程下淘汰赛经验比体能更关键。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P09",
+      "faction": "心理抗压派",
+      "identity": "教练大赛经验派",
+      "weight_logic": "教练经历",
+      "focus": "拿过大赛冠军",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "Scaloni手握2022世界杯与美洲杯双料冠军经验，淘汰赛大心脏全队验证过；Di María/Otamendi/Messi这批点球苦战幸存者，压力管理是刻在骨子里的肌肉记忆。法国伤Mbappé、英格兰缺大赛咬分基因，关键时刻阿根廷教练组的临场调度与心理稳定性是最大资产。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P10",
+      "faction": "心理抗压派",
+      "identity": "0-0领先保持派",
+      "weight_logic": "0-0领先保持派专业加权",
+      "focus": "领先管理",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "阿根廷",
+        "英格兰"
+      ],
+      "confidence": 72,
+ 
+     "reason": "西班牙传控体系本质就是领先管理艺术,控球即控风险。欧洲杯已验证其大赛心理成熟度,首战零封即可建立心理优势,赛程密度大的扩军赛制下,谁先掌控节奏谁就是最终赢家。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P11",
+      "faction": "心理抗压派",
+      "identity": "0-1落后逆转派",
+      "weight_logic": "0-1落后逆转派专业加权",
+      "focus": "落后翻盘",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "英格兰",
+        "墨西哥"
+      ],
+      "confidence": 38,
+      "reason": "Gnabry缺席犹如0-1开局逆境,正是德国心理DNA激活时刻。48队密集赛程考验抗压韧性,德国逆境翻盘基因优于纯进攻型球队。英格兰首战气势但心理深度存疑,墨西哥主场逆境爆发力被低估,德国有最完整的逆转夺冠心理闭环。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P12",
+      "faction": "心理抗压派",
+      "identity": "加时赛心态派",
+      "weight_logic": "加时赛心态派专业加权",
+      "focus": "加时体能",
+      "champion": "克罗地亚",
+      "top3": [
+        "克罗地亚",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 48,
+      "reason": "48队扩军加时概率激增,克罗地亚2018三次加时点球逆转为其注入逆转基因。首战虽败但逆境翻盘体能储备与心理韧性是淘汰赛核心资产,Modric领衔老将群最擅长大心脏作战。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P13",
+      "faction": "心理抗压派",
+      "identity": "点球大战门将派",
+      "weight_logic": "门将扑点",
+      "focus": "门将心理",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 68,
+      "reason": "48队赛制淘汰轮次激增,点球大战概率被几何放大;埃米利亚诺·马丁内斯大赛扑点威慑力世界第一,上届决赛神扑已证心理素质;阿根廷逆境翻盘基因+Dibu门线骚扰战术,加时拖入点球即等于半只手套已戴上,门将心理碾压全联盟。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P14",
+      "faction": "心理抗压派",
+      "identity": "黄牌压力派",
+      "weight_logic": "黄牌压力派专业加权",
+      "focus": "黄牌累积",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "48队赛程致黄牌累积成致命变量,巴西阵容深度可轮换核心避停赛,五冠抗压基因+逆境翻盘历史最强,跑动型球队越到淘汰赛越稳。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P15",
+      "faction": "心理抗压派",
+      "identity": "红牌应变派",
+      "weight_logic": "红牌应变派专业加权",
+      "focus": "红牌后调整",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 18,
+      "reason": "48队扩军赛程密集,红牌风险骤增。意大利防守DNA与逆境调整能力冠绝群雄,链式体系少一人仍能维持结构,2006逆境夺冠的抗压基因从未消失。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P16",
+      "faction": "心理抗压派",
+      "identity": "误判后心态派",
+      "weight_logic": "误判后心态派专业加权",
+      "focus": "VAR争议",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 73,
+      "reason": "48队扩军赛程密集,VAR误判争议倍增,西班牙逆境翻盘基因深厚,点球心理极稳,年轻阵容抗压弹性大,首战轻伤不致命,误判后心态修复力属顶级。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P17",
+      "faction": "心理抗压派",
+      "identity": "球迷压力派",
+      "weight_logic": "球迷压力派专业加权",
+      "focus": "主场vs客场",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 35,
+      "reason": "巴西五冠底蕴锻造淘汰赛大心脏,美洲赛场近乎半个主场,气候时差均优于欧洲列强,内马尔伤缺反而激发全队抗压潜能,逆境翻盘基因是其他豪门不具备的心理底色。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P18",
+      "faction": "心理抗压派",
+      "identity": "媒体压力派",
+      "weight_logic": "媒体压力派专业加权",
+      "focus": "舆论压力",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "Mbappé带伤梅开二度引爆'带伤护国'悲情叙事,法国媒体从质疑转向共情,压力场由敌意转为凝聚动能,逆境翻盘舆论护城河已成型,德尚的媒体隔离术在大赛密度下优势凸显。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P19",
+      "faction": "心理抗压派",
+      "identity": "裁判压力派",
+      "weight_logic": "裁判压力派专业加权",
+      "focus": "裁判判罚",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "阿根廷历经多次争议判罚淬炼,老将群深谙裁判博弈之道。淘汰赛高压下,斯卡洛尼体系擅长用持续施压换取有利哨声,逆境翻盘心理素质冠绝群雄,点球心理战更是强项。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P20",
+      "faction": "心理抗压派",
+      "identity": "宿敌对决派",
+      "weight_logic": "宿敌对决派专业加权",
+      "focus": "宿敌心理",
+      "champion": "荷兰",
+      "top3": [
+        "荷兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 62,
+      "reason": "48队扩军赛程密集,淘汰赛宿敌心理定胜负。荷兰无重大伤病,范戴克领衔的防线大心脏属性突出,历来对德、阿、巴等豪门抗压不怵,逆境翻盘基因刻骨;法国虽强但姆巴佩带伤隐患,西班牙新生代压力管理存疑,荷兰走冷夺冠正当其时。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P21",
+      "faction": "心理抗压派",
+      "identity": "首秀球员心理派",
+      "weight_logic": "首秀球员心理派专业加权",
+      "focus": "首秀紧张",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "贝林厄姆等首秀新星4-2力克克罗地亚一役,展现顶级首秀抗压天赋,大赛首战心理突破即冠军心理基石,完美契合首秀球员心理派核心判断模型",
+      "counter_trigger": false
+    },
+    {
+      "id": "P22",
+      "faction": "心理抗压派",
+      "identity": "老将关键战派",
+      "weight_logic": "老将关键战派专业加权",
+      "focus": "关键战老将",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 35,
+      "reason": "梅西、迪马利亚、奥塔门迪老将组合拥有决赛级抗压基因,阿根廷近年连续通过点球与加时淬炼大心脏,48队密集赛程下淘汰赛老将经验溢价最显著。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P23",
+      "faction": "心理抗压派",
+      "identity": "逆风球心理派",
+      "weight_logic": "逆风球心理派专业加权",
+      "focus": "落后处理",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 58,
+      "reason": "德国逆境翻盘基因世界顶级,越落后越冷静,淘汰赛大心脏历史反复验证。Gnabry缺席恰似心理淬炼,48队密集赛程下抗压韧性是夺冠分水岭。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P24",
+      "faction": "心理抗压派",
+      "identity": "领先守成型",
+      "weight_logic": "领先守成型专业加权",
+      "focus": "1-0主义",
+      "champion": "意大利",
+      "top3": [
+        "意大利",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 62,
+      "reason": "意大利防守体系成熟,擅长1-0主义控场节奏。淘汰赛大心脏与点球心理素质冠绝群雄,赛程密集下心理抗压能力是翻盘关键,符合领先守成型对逆境韧性的一贯判断。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P25",
+      "faction": "心理抗压派",
+      "identity": "绝平绝杀派",
+      "weight_logic": "绝平绝杀派专业加权",
+      "focus": "补时进球",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 72,
+      "reason": "西班牙控球压制常致对手末段体能崩溃,补时绝杀基因深厚;青年军(Lamine Yamal/Nico Williams)在密集赛程中冲刺优势明显,大心脏属性已被多次验证,淘汰赛抗压韧性冠绝群雄。",
+      "counter_trigger": true
+    },
+    {
+      "id": "P26",
+      "faction": "心理抗压派",
+      "identity": "心态崩盘警告派",
+      "weight_logic": "心态崩盘警告派专业加权",
+      "focus": "崩溃历史",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 58,
+      "reason": "巴西背负7-1和98决赛的崩溃史,却完成罕见的心理重建。失去内马尔卸下巨星包袱,集体抗压模式恰是02年夺冠的翻版——创伤后反弹正是大心脏的终极证明。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P27",
+      "faction": "心理抗压派",
+      "identity": "死亡之组出线心理派",
+      "weight_logic": "死亡之组出线心理派专业加权",
+      "focus": "压力组",
+      "champion": "日本",
+      "top3": [
+        "法国",
+        "阿根廷",
+        "日本"
+      ],
+      "confidence": 18,
+      "reason": "日本素有死亡之组克星美誉,连续两届逆袭前世界冠军,逆境翻盘心理素质冠绝群雄。压力越大执行力越强,点球心理过硬,具备冷门夺冠的全部心理要素。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P28",
+      "faction": "心理抗压派",
+      "identity": "夺冠庆典压力派",
+      "weight_logic": "夺冠庆典压力派专业加权",
+      "focus": "庆功宴",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 78,
+      "reason": "法国逆境基因刻骨,姆巴佩带伤梅开二度印证大心脏传统,德尚淘汰赛老辣,庆功宴心理学闭环:他们最懂得把压力酿成香槟。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P29",
+      "faction": "心理抗压派",
+      "identity": "卫冕压力派",
+      "weight_logic": "卫冕压力派专业加权",
+      "focus": "卫冕心态",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 75,
+      "reason": "卫冕冠军历经2022点球生死淬火,逆境翻盘已成肌肉记忆。Messi最后一舞凝聚更衣室,伤兵压力反转化为'为梅西而战'的集体意志。卫冕心态与大赛心脏,无人能出其右。",
+      "counter_trigger": false
+    },
+    {
+      "id": "P30",
+      "faction": "心理抗压派",
+      "identity": "黑马心态派",
+      "weight_logic": "黑马心态派专业加权",
+      "focus": "无压力",
+      "champion": "摩洛哥",
+      "top3": [
+        "摩洛哥",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "摩洛哥2022年点球淘汰西葡已验证大心脏属性,无卫冕包袱反而心态自由,48队密集赛程下心理稳定性压倒强队技术压力,自由心态即最大武器。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q01",
+      "faction": "建模派",
+      "identity": "蒙特卡洛模拟派",
+      "weight_logic": "10000次模拟",
+      "focus": "夺冠概率分布",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 78,
+      "reason": "10000次蒙特卡洛模拟显示法国夺冠路径概率密度峰值领先,Elo基底叠加Mbappé双响推高xG链式分布,伤病因素经贝叶斯修正后仍收敛于分布头部",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q02",
+      "faction": "建模派",
+      "identity": "泊松分布派",
+      "weight_logic": "进球泊松",
+      "focus": "进球分布",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 65,
+      "reason": "西班牙预期进球λ由Yamal、Morata、Nico Williams多点分担,分布方差最低;防守端失球λ亦低,泊松累积存活概率在淘汰赛各轮居首。48队赛程密集放大低方差模型优势,法国过度依赖Mbappé、英格兰首轮失球偏多,均抬升其λ方差。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q03",
+      "faction": "建模派",
+      "identity": "Elo+蒙特卡洛派",
+      "weight_logic": "Elo MC",
+      "focus": "Elo+蒙特卡洛派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "Elo模型下法国稳居世界第一档(~2120),蒙特卡洛10万次模拟夺冠频次最高。3-1塞内加尔验证进攻端输出稳定,Mbappé带伤梅开二度反证体系脱敏能力,深度阵容在48队密集赛程中形成显著Elo衰减缓冲,建模派首选。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q04",
+      "faction": "建模派",
+      "identity": "Dixon-Coles模型派",
+      "weight_logic": "DC模型",
+      "focus": "Dixon-Coles模型派",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "DC模型的tau修正项利好擅长低比分防守反击的球队,阿根廷作为卫冕冠军小组赛低消耗后,淘汰赛控分能力赋予最高胜率参数,梅西关键战进球率仍处模型高位区间。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q05",
+      "faction": "建模派",
+      "identity": "Pi-rating派",
+      "weight_logic": "Pi评级",
+      "focus": "Pi-rating派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "Pi-rating动态追踪显示西班牙xG与压迫强度居首,控球转化率领先;48队密集赛程考验轮换深度,青年储备(Yamal/Pedri/Nico)优于法英;伤病仅Yamal轻伤影响有限,模型隐含夺冠概率应上调。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q06",
+      "faction": "建模派",
+      "identity": "FiveThirtyEight模型派",
+      "weight_logic": "538模型",
+      "focus": "FiveThirtyEight模型派",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "538 SPI模型显示阿根廷卫冕基础胜率仍居前三,蒙特卡洛十万次模拟中其淘汰赛路径概率最高。Messi轻伤与Balerdi缺席被阵容深度吸收,防守体系Scoloni已迭代至均衡态,首战即可校准Elo并动态上调,优于Mbappé伤隐患下的法国单核依赖结构。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q07",
+      "faction": "建模派",
+      "identity": "Opta超级计算机派",
+      "weight_logic": "Opta模拟",
+      "focus": "Opta超级计算机派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "Opta模拟显示西班牙xG创造与防守压制指数领先全队,Dixon-Coles泊松回归下其48队赛程容错率最高;罗德里中场压制系数+拉明·亚马尔突破预期助攻叠加青训深度,即便Yamal轻伤也不改基线胜率优势。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q08",
+      "faction": "建模派",
+      "identity": "ESPN BPI派",
+      "weight_logic": "BPI指数",
+      "focus": "ESPN BPI派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "基于ESPN BPI指数,法国攻防两端效率值领跑48队。Mbappé场均xG与禁区触球频率居榜首,3-1塞内加尔完美验证模型先验。泊松模拟淘汰赛路径概率最高,贝叶斯后验持续上调。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q09",
+      "faction": "建模派",
+      "identity": "BetMGM模型派",
+      "weight_logic": "BetMGM模拟",
+      "focus": "BetMGM模型派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 80,
+      "reason": "蒙特卡洛万次模拟显示法国攻击线xG产出居48队之首,首战3-1验证泊松模型预期,核心深度可消化Ekitike缺阵与Mbappé伤患折扣,夺冠概率模型输出榜首。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q12",
+      "faction": "建模派",
+      "identity": "贝叶斯网络派",
+      "weight_logic": "贝叶斯",
+      "focus": "贝叶斯网络派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "贝叶斯先验:法国阵容深度(Thuram/Dembélé/Olise)构成进攻后验网络,有效压制Mbappé伤情节点的边际影响;首战3-1塞内加尔将夺冠后验显著上修,弱组对手进一步降低淘汰赛条件熵,德尚体系在48队赛制下节点可靠性最高。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q13",
+      "faction": "建模派",
+      "identity": "图神经网络派",
+      "weight_logic": "GNN",
+      "focus": "图神经网络派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "西班牙传球网络节点连通度最高,Yamal/Pedri/Gavi嵌入向量相似度极高,图结构对单点故障鲁棒。48队赛程密度大,控球型message passing能耗最低,高连通性输出可持续。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q14",
+      "faction": "建模派",
+      "identity": "强化学习派",
+      "weight_logic": "RL",
+      "focus": "强化学习派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "RL价值迭代显示:法国策略网络在Mbappé带伤扰动下仍输出高奖励动作,阵容深度提供完整动作空间覆盖,Deschamps战术可迁移性使价值函数在48队扩军赛制下收敛最优。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q15",
+      "faction": "建模派",
+      "identity": "决策树派",
+      "weight_logic": "Random Forest",
+      "focus": "决策树派",
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 38,
+      "reason": "决策树特征分裂显示巴西阵容深度节点纯度最高,Neymar缺阵分支剪枝影响有限,袋外误差验证其夺冠概率被市场系统性低估",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q16",
+      "faction": "建模派",
+      "identity": "逻辑回归派",
+      "weight_logic": "Logistic",
+      "focus": "逻辑回归派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 75,
+      "reason": "逻辑回归特征工程显示:法国锋线Mbappé系数权重最高,3-1开门红激活sigmoid正向梯度,伤病情境下板凳深度变量仍呈正向贡献,对数几率(log-odds)显著领先全样本。",
+      "counter_trigger": true
+    },
+    {
+      "id": "Q17",
+      "faction": "建模派",
+      "identity": "PageRank派",
+      "weight_logic": "图算法",
+      "focus": "PageRank派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "英格兰",
+        "法国"
+      ],
+      "confidence": 72,
+      "reason": "PageRank视角下西班牙节点中心性极高,入链质量优且Yamal轻伤未断关键边;巴西阿根廷节点退化降权,法国Mbappé不确定性减分。英格兰首胜克罗地亚提升PageRank值作为对比参照。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q18",
+      "faction": "建模派",
+      "identity": "神经网络派",
+      "weight_logic": "NN",
+      "focus": "神经网络派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 78,
+      "reason": "NN集成模型基于xG差、阵容深度嵌入与赛程密度疲劳系数加权,法国锋线多输出节点弥补Mbappé伤损,48队扩军下轮换厚度特征权重最高,首战大胜验证隐层激活正向,夺冠路径方差最小。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q19",
+      "faction": "建模派",
+      "identity": "LSTM时序派",
+      "weight_logic": "LSTM",
+      "focus": "LSTM时序派",
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "LSTM时序特征显示英格兰近10场国际赛事胜率序列上升斜率最大,首战4-2克罗地亚验证进攻端时序依赖稳定。Bellingham-Kane-Saka三核滚动窗口输出方差最小,符合LSTM对低波动持续性的偏好。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q20",
+      "faction": "建模派",
+      "identity": "蒙特卡洛变体派",
+      "weight_logic": "MCMC",
+      "focus": "蒙特卡洛变体派",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 65,
+      "reason": "MCMC后验显示西班牙控球体系在48队赛程方差放大下深度优势凸显,Euro 2024夺冠构成强先验,Lamine Yamal伤情可控,弱队累积疲劳反成强队红利",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q21",
+      "faction": "建模派",
+      "identity": "赔率反推派",
+      "weight_logic": "赔率反推",
+      "focus": "赔率反推派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "市场隐含夺冠概率领跑，首战3-1验证Poisson模型预期进球率，Mbappé带伤仍梅开二度印证锋线冗余深度，Dixon-Coles模拟淘汰赛胜率显著领先。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q22",
+      "faction": "建模派",
+      "identity": "小组赛模拟派",
+      "weight_logic": "小组赛模拟派专业加权",
+      "focus": "小组赛结果",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "Dixon-Coles修正模型显示阿根廷xGA全48队最低,小组赛低失球率折算夺冠概率约13%超市场隐含;密集赛程下替补深度可对冲Messi伤情,蒙特卡洛万次模拟被市场系统性低估。",
+      "counter_trigger": true
+    },
+    {
+      "id": "Q23",
+      "faction": "建模派",
+      "identity": "淘汰赛模拟派",
+      "weight_logic": "淘汰赛模拟派专业加权",
+      "focus": "淘汰赛",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 82,
+      "reason": "基于Poisson-Dixon-Coles模型十万次淘汰赛模拟,法国淘汰赛转化率与点球胜率均为各队之首,板凳深度适配48队密集赛程,核心伤情在可控范围内。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q24",
+      "faction": "建模派",
+      "identity": "决赛模拟派",
+      "weight_logic": "决赛模拟派专业加权",
+      "focus": "决赛",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 73,
+      "reason": "基于Dixon-Coles决赛千次模拟,Mbappé带伤仍梅开二度验证锋线深度,法国中前场轮换厚度抵消赛程密度,小组赛3-1塞内加尔提升淘汰赛ELO系数,夺冠路径概率峰值领先。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q25",
+      "faction": "建模派",
+      "identity": "半决赛模拟派",
+      "weight_logic": "半决赛模拟派专业加权",
+      "focus": "半决赛",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 68,
+      "reason": "基于蒙特卡洛半决赛路径模拟,西班牙阵容深度在48队赛制下优势最大,控球风格降低淘汰赛方差,罗德里的回归使中后场结构更稳定,Yamal伤情可控,半决赛对阵弹性最强。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q27",
+      "faction": "建模派",
+      "identity": "16强模拟派",
+      "weight_logic": "16强模拟派专业加权",
+      "focus": "16强",
+      "champion": "德国",
+      "top3": [
+        "德国",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 65,
+      "reason": "基于蒙特卡洛10万次16强路径模拟,德国淘汰赛ELO回归系数被市场低估;48队赛制容错率上升,德国阵容深度与定位球xG模型在16强阶段优势显著,夺冠概率上修至10-12%",
+      "counter_trigger": true
+    },
+    {
+      "id": "Q28",
+      "faction": "建模派",
+      "identity": "惊喜事件概率派",
+      "weight_logic": "惊喜事件概率派专业加权",
+      "focus": "爆冷概率",
+      "champion": "墨西哥",
+      "top3": [
+        "墨西哥",
+        "法国",
+        "西班牙"
+      ],
+      "confidence": 72,
+      "reason": "Dixon-Coles模型显示东道主在48队赛制下边际夺冠概率被市场低估15-20%,叠加Mbappé/Neymar/Messi密集伤情放大爆冷方差,墨西哥主场优势0.4球预期值+首战零封验证模型校准,惊喜事件尾部概率值得重仓。",
+      "counter_trigger": true
+    },
+    {
+      "id": "Q29",
+      "faction": "建模派",
+      "identity": "不确定性建模派",
+      "weight_logic": "不确定性建模派专业加权",
+      "focus": "不确定度",
+      "champion": "西班牙",
+      "top3": [
+        "西班牙",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 62,
+      "reason": "西班牙主力框架伤病方差最低,控球模型降低淘汰赛结果熵值;蒙特卡洛十万次模拟中,低不确定度叠加高xG稳定性显著跑赢Mbappé/Messi等单核依赖模型。",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q30",
+      "faction": "建模派",
+      "identity": "敏感度分析派",
+      "weight_logic": "敏感度分析派专业加权",
+      "focus": "敏感性",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "英格兰"
+      ],
+      "confidence": 72,
+      "reason": "蒙特卡洛敏感度模拟显示:法国阵容深度使夺冠概率对Mbappé伤情参数扰动呈低敏感;首战3-1验证攻击输出鲁棒性;48队高密度赛程下,轮换弹性为关键敏感参数,法国最优。",
+      "counter_trigger": true
+    },
+    {
+      "champion": "巴西",
+      "top3": [
+        "巴西",
+        "法国",
+        "阿根廷"
+      ],
+      "confidence": 32,
+      "reason": "五冠底蕴支撑桑巴军魂,即便Neymar小腿伤隐患、内马尔依赖症未解,但巴西小组赛首战态度决定上限。法国Mbappé带伤仍梅开二度太强势,英格兰青春风暴4-2克罗地亚不可小觑。押巴西,是情怀也是信念,但赔率1100说明市场不看好,信心只能给到32。",
+      "id": "V01",
+      "faction": "老球迷派",
+      "identity": "巴西老球迷",
+      "weight_logic": "巴西5冠底蕴",
+      "focus": "桑巴基因",
+      "counter_trigger": false
+    },
+    {
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "巴西"
+      ],
+      "confidence": 28,
+      "reason": "作为爱尔兰老球迷,2002年16强被西班牙点球淘汰的伤疤至今未愈,绿军血脉里永远不选板鸭。Mbappé带伤梅开二度,法国展现真正的绿军式战斗精神——这才是足球该有的样子。英格兰首战4-2状态火热,Brazil虽伤Neymar但阵容深度仍在。赛程密集下伤病管理是关键,法英更稳。",
+      "id": "V30",
+      "faction": "老球迷派",
+      "identity": "爱尔兰老球迷",
+      "weight_logic": "绿军",
+      "focus": "02年16强",
+      "counter_trigger": false
+    },
+    {
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 35,
+      "reason": "26年归数8象徵权柄与巅峰,法国首战3-1塞内加尔,Mbappé带伤仍梅开二度显王者气象,数字8与法国队史第3冠暗合。但Mbappé脚踝、Yamal左脚、Messi腹股沟轻伤皆埋隐忧,小组赛密度极高变数大,故信心仅35%。英格兰4-2克罗地亚气势正盛居次席,阿根廷底蕴深厚列第三。",
+      "id": "M11",
+      "faction": "玄学派",
+      "identity": "数字命理派",
+      "weight_logic": "数字命理派专业加权",
+      "focus": "26=2+6=8吉祥",
+      "counter_trigger": false
+    },
+    {
+      "champion": "英格兰",
+      "top3": [
+        "英格兰",
+        "阿根廷",
+        "法国"
+      ],
+      "confidence": 68,
+      "reason": "口号暗示派首选英格兰,'Football's Coming Home'堪称足球界最强心理咒语,英美墨合办暗示英语圈主场加持,百年轮回应验时机已到。首战4-2破克罗地亚历史魔咒,暗示体系全面激活。阿根廷卫冕+梅西最后一舞叙事紧随其后,法国Mbappé带伤梅开二度英雄光环加持列第三。",
+      "id": "M25",
+      "faction": "玄学派",
+      "identity": "心理暗示派",
+      "weight_logic": "心理暗示派专业加权",
+      "focus": "口号标语",
+      "counter_trigger": false
+    },
+    {
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "德国",
+        "荷兰"
+      ],
+      "confidence": 32,
+      "reason": "反玄学逻辑:热门法国/西班牙核心带伤(Mbappé、Yamal),巴西阿根廷Neymar/Messi伤情存疑,公众高估传统豪门。反向押注阵容深度型球队——葡萄牙轮换充足、C罗末届动力强、赔率+1500被低估;德国大赛反弹基因;荷兰低调务实。48队扩军赛程密集利好板凳深度,玄学派押热门必败。",
+      "id": "M30",
+      "faction": "玄学派",
+      "identity": "反玄学派(反向押注)",
+      "weight_logic": "反玄学派(反向押注)专业加权",
+      "focus": "所有玄学都反",
+      "counter_trigger": false
+    },
+    {
+      "champion": "葡萄牙",
+      "top3": [
+        "葡萄牙",
+        "荷兰",
+        "巴西"
+      ],
+      "confidence": 35,
+      "reason": "从巅峰集中度视角,葡萄牙26-28岁巅峰期球员占比最高:Dias(28)、Vitinha(24)、Leão(25)、Jota(28)、Bernardo(30)构成黄金核心。市场6%隐含概率严重低估其阵容年龄结构优势。荷兰(5%)、巴西(8%)同样具备高巅峰密度但被赔率压制,反向思考下三者为价值洼地。",
+      "id": "A24",
+      "faction": "阵容年龄派",
+      "identity": "巅峰集中度派",
+      "weight_logic": "巅峰集中度派专业加权",
+      "focus": "巅峰占比",
+      "counter_trigger": false
+    },
+    {
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "美国",
+        "英格兰"
+      ],
+      "confidence": 64,
+      "reason": "R建模反向校准:法国/巴西主力伤病权重被市场低估,Mbappé带伤+密集赛程令消耗加大;USA东道主首战4-1大胜,主场溢价被严重低估(4%隐含→模型15%+);阿根廷卫冕经验+南美球员适应北美气候+Messi轻伤可坚持;48队赛制利好阵容深度型球队。",
+      "id": "Q11",
+      "faction": "建模派",
+      "identity": "R语言建模派",
+      "weight_logic": "R建模",
+      "focus": "R语言建模派",
+      "counter_trigger": false
+    },
+    {
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "英格兰",
+        "阿根廷"
+      ],
+      "confidence": 58,
+      "reason": "8强模拟视角:法国首战3-1轻取塞内加尔,Mbappé带伤仍梅开二度,阵容深度足以应对48队密集赛程;英格兰4-2克罗地亚展现强势攻击力,小组突围概率极高;阿根廷虽Messi腹股沟有恙但核心体系成熟,8强席位稳固。综合赔率隐含概率(法19%/英14%/阿11%)与首日表现,法国夺冠路径最清晰。",
+      "id": "Q26",
+      "faction": "建模派",
+      "identity": "8强模拟派",
+      "weight_logic": "8强模拟派专业加权",
+      "focus": "8强",
+      "counter_trigger": false
+    },
+    {
+      "id": "H19",
+      "faction": "黑马派",
+      "identity": "02年韩国模仿派",
+      "champion": "韩国",
+      "top3": [
+        "韩国",
+        "日本",
+        "美国"
+      ],
+      "confidence": 28,
+      "reason": "韩国作为2026年世界杯联合举办地之一,享受东道主红利+裁判心理优势,模仿2002年黑马轨迹闯入四强,但夺冠仍是小概率事件。",
+      "weight_logic": "东道主效应+裁判哨偏+主场氛围",
+      "focus": "模仿2002韩国小组赛vs波兰/美国/葡萄牙的爆冷节奏",
+      "counter_trigger": true
+    },
+    {
+      "id": "H20",
+      "faction": "黑马派",
+      "identity": "10年新西兰模仿派",
+      "champion": "新西兰",
+      "top3": [
+        "新西兰",
+        "澳大利亚",
+        "日本"
+      ],
+      "confidence": 18,
+      "reason": "新西兰作为大洋洲代表,身体对抗+定位球+门将神扑的'新西兰式'足球,模仿2010年南非世界杯零失球挤进小组赛的小概率奇迹。",
+      "weight_logic": "小国身体流+定位球+门将爆发",
+      "focus": "复刻2010新西兰vs斯洛伐克的0-1惜败vs塞尔维亚的0-1惜败防守韧性",
+      "counter_trigger": true
+    },
+    {
+      "id": "H26",
+      "faction": "黑马派",
+      "identity": "克罗地亚98模仿派",
+      "champion": "克罗地亚",
+      "top3": [
+        "克罗地亚",
+        "丹麦",
+        "瑞士"
+      ],
+      "confidence": 35,
+      "reason": "克罗地亚格子军团经验丰富+大赛气质+莫德里奇精神属性,模仿1998年首次参赛就拿下季军的黑马轨迹,看好再次扮演巨人杀手。",
+      "weight_logic": "大赛气质+老将经验+反击效率",
+      "focus": "复刻1998克罗地亚vs德国3-0的半决赛神奇",
+      "counter_trigger": true
+    },
+    {
+      "id": "P04",
+      "faction": "心理抗压派",
+      "identity": "抗压训练师",
+      "champion": "阿根廷",
+      "top3": [
+        "阿根廷",
+        "法国",
+        "英格兰"
+      ],
+      "confidence": 65,
+      "reason": "阿根廷有梅西+大赛底蕴+点球抗压能力,点球大战历史胜率高,淘汰赛心理素质顶级,看好阿根廷卫冕。",
+      "weight_logic": "大赛心理素质+点球胜率+逆境翻盘能力",
+      "focus": "阿根廷近年淘汰赛点球7连胜,心理抗压属性碾压",
+      "counter_trigger": false
+    },
+    {
+      "id": "Q10",
+      "faction": "建模派",
+      "identity": "PySports派",
+      "champion": "法国",
+      "top3": [
+        "法国",
+        "西班牙",
+        "阿根廷"
+      ],
+      "confidence": 62,
+      "reason": "PySports模型综合ELO(法国1950)+xG(7场+12.3)+阵容深度(23人均效力五大联赛),模拟夺冠概率19-22%,在所有建模中稳定前三。",
+      "weight_logic": "ELO+xG+阵容深度量化",
+      "focus": "蒙特卡洛10000次模拟,法国胜率峰值在半决赛",
+      "counter_trigger": false
+    }
+  ]
+}
