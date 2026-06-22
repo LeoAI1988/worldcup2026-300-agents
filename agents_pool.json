@@ -1,0 +1,2170 @@
+﻿{
+  "meta": {
+    "tournament": "2026 FIFA World Cup",
+    "tournament_status": "Group stage underway (started June 11, 2026)",
+    "data_snapshot_date": "2026-06-12/13",
+    "current_odds_top10": {
+      "France": "+420",
+      "Spain": "+500",
+      "England": "+600",
+      "Argentina": "+800",
+      "Brazil": "+1100",
+      "Germany": "+1400",
+      "Portugal": "+1600",
+      "Netherlands": "+2000",
+      "Belgium": "+2500",
+      "Italy": "+3300"
+    },
+    "dark_horses_consensus": [
+      "Mexico",
+      "Norway",
+      "Switzerland",
+      "Senegal",
+      "Colombia",
+      "Ecuador",
+      "Japan",
+      "Morocco",
+      "USA"
+    ],
+    "key_injuries": {
+      "France": "Mbappe ankle/knee concerns; Hugo Ekitike out (Achilles)",
+      "Brazil": "Neymar calf; Rodrygo out",
+      "Argentina": "Messi knock; Dybala/Martinez/Romero minor; Balerdi out",
+      "Germany": "Gnabry out",
+      "Spain": "Yamal knock",
+      "Other": "Fermin Lopez out"
+    },
+    "early_results": {
+      "France_3_Senegal_1": "Mbappe brace",
+      "England_4_Croatia_2": null,
+      "USA_4_Paraguay_1": null,
+      "Mexico_2_SouthAfrica_0": null,
+      "Portugal_1_DRC_1": null,
+      "Canada_1_Bosnia_1": null
+    }
+  },
+  "factions": {
+    "数据派": [
+      {
+        "id": "D01",
+        "identity": "英超数据分析师",
+        "weight": "身价+ELO+近期xG",
+        "focus": "xG差、传球网络密度",
+        "anchor_team": "France"
+      },
+      {
+        "id": "D02",
+        "identity": "西甲数据分析师",
+        "weight": "身价+ELO+控球率",
+        "focus": "控球vs反击效率",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "D03",
+        "identity": "意甲数据分析师",
+        "weight": "身价+防守效率",
+        "focus": "意大利链式防守",
+        "anchor_team": "Italy"
+      },
+      {
+        "id": "D04",
+        "identity": "德甲数据分析师",
+        "weight": "身价+高位压迫",
+        "focus": "跑动数据+对抗成功率",
+        "anchor_team": "Germany"
+      },
+      {
+        "id": "D05",
+        "identity": "法甲数据分析师",
+        "weight": "身价+本土精英",
+        "focus": "Mbappe体系",
+        "anchor_team": "France"
+      },
+      {
+        "id": "D06",
+        "identity": "MLS数据分析师",
+        "weight": "本土体能+身价",
+        "focus": "美国东道主优势",
+        "anchor_team": "USA"
+      },
+      {
+        "id": "D07",
+        "identity": "解放者杯数据分析师",
+        "weight": "南美身价",
+        "focus": "巴西阿根廷失衡",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "D08",
+        "identity": "K League数据分析师",
+        "weight": "亚洲身价+评分",
+        "focus": "日本韩国身价",
+        "anchor_team": "Japan"
+      },
+      {
+        "id": "D09",
+        "identity": "J League数据分析师",
+        "weight": "日本联赛表现",
+        "focus": "日本旅欧球员",
+        "anchor_team": "Japan"
+      },
+      {
+        "id": "D10",
+        "identity": "中超数据分析师",
+        "weight": "中超球员分布",
+        "focus": "归化球员+留洋",
+        "anchor_team": "Korea Republic"
+      },
+      {
+        "id": "D11",
+        "identity": "欧冠决赛圈数据分析师",
+        "weight": "欧冠成绩加权",
+        "focus": "欧冠主力占比",
+        "anchor_team": "England"
+      },
+      {
+        "id": "D12",
+        "identity": "世界杯历史数据分析师",
+        "weight": "历史胜率+ELO",
+        "focus": "卫冕魔咒量化",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "D13",
+        "identity": "xG模型派分析师",
+        "focus": "场均xG与xGA",
+        "anchor_team": "Spain",
+        "weight": "xG模型派分析师专业加权"
+      },
+      {
+        "id": "D14",
+        "identity": "Posession-adjusted分析师",
+        "weight": "控球调整",
+        "focus": "控球转化率",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "D15",
+        "identity": "Elo评级派",
+        "weight": "纯ELO分",
+        "anchor_team": "Argentina",
+        "focus": "Elo评级派"
+      },
+      {
+        "id": "D16",
+        "identity": "FIFA官方分派",
+        "weight": "FIFA排名加权",
+        "anchor_team": "Argentina",
+        "focus": "FIFA官方分派"
+      },
+      {
+        "id": "D17",
+        "identity": "转会身价派",
+        "weight": "纯身价",
+        "anchor_team": "England",
+        "focus": "转会身价派"
+      },
+      {
+        "id": "D18",
+        "identity": "薪资榜派",
+        "weight": "球队薪资",
+        "anchor_team": "France",
+        "focus": "薪资榜派"
+      },
+      {
+        "id": "D19",
+        "identity": "世预赛战绩派",
+        "weight": "世预赛分数",
+        "anchor_team": "Argentina",
+        "focus": "世预赛战绩派"
+      },
+      {
+        "id": "D20",
+        "identity": "近1年战绩派",
+        "weight": "近12场",
+        "anchor_team": "Spain",
+        "focus": "近1年战绩派"
+      },
+      {
+        "id": "D21",
+        "identity": "近3年战绩派",
+        "weight": "近36场",
+        "anchor_team": "France",
+        "focus": "近3年战绩派"
+      },
+      {
+        "id": "D22",
+        "identity": "大赛数据分析师",
+        "weight": "近3届大赛",
+        "anchor_team": "Germany",
+        "focus": "大赛数据分析师"
+      },
+      {
+        "id": "D23",
+        "identity": "小组赛首日观察员",
+        "weight": "首日表现",
+        "anchor_team": "England",
+        "focus": "小组赛首日观察员"
+      },
+      {
+        "id": "D24",
+        "identity": "体能数据分析师",
+        "weight": "跑动距离",
+        "anchor_team": "England",
+        "focus": "体能数据分析师"
+      },
+      {
+        "id": "D25",
+        "identity": "压迫数据分析师",
+        "weight": "PPDA",
+        "anchor_team": "Germany",
+        "focus": "压迫数据分析师"
+      },
+      {
+        "id": "D26",
+        "identity": "防守数据分析师",
+        "weight": "xGA",
+        "anchor_team": "Italy",
+        "focus": "防守数据分析师"
+      },
+      {
+        "id": "D27",
+        "identity": "进攻数据分析师",
+        "weight": "xG",
+        "anchor_team": "France",
+        "focus": "进攻数据分析师"
+      },
+      {
+        "id": "D28",
+        "identity": "守门员数据分析师",
+        "weight": "扑救率",
+        "anchor_team": "Brazil",
+        "focus": "守门员数据分析师"
+      },
+      {
+        "id": "D29",
+        "identity": "定位球数据分析师",
+        "weight": "定位球得分率",
+        "anchor_team": "England",
+        "focus": "定位球数据分析师"
+      },
+      {
+        "id": "D30",
+        "identity": "板凳深度分析师",
+        "weight": "阵容深度",
+        "anchor_team": "England",
+        "focus": "板凳深度分析师"
+      }
+    ],
+    "赔率派": [
+      {
+        "id": "O01",
+        "identity": "BetMGM分析师",
+        "weight": "BetMGM盘口",
+        "anchor_team": "France",
+        "focus": "BetMGM分析师"
+      },
+      {
+        "id": "O02",
+        "identity": "DraftKings分析师",
+        "weight": "DK盘口",
+        "anchor_team": "France",
+        "focus": "DraftKings分析师"
+      },
+      {
+        "id": "O03",
+        "identity": "FanDuel分析师",
+        "weight": "FD盘口",
+        "anchor_team": "France",
+        "focus": "FanDuel分析师"
+      },
+      {
+        "id": "O04",
+        "identity": "Polymarket分析师",
+        "weight": "预测市场隐含概率",
+        "anchor_team": "Spain",
+        "focus": "Polymarket分析师"
+      },
+      {
+        "id": "O05",
+        "identity": "Kalshi分析师",
+        "weight": "Kalshi市场",
+        "anchor_team": "France",
+        "focus": "Kalshi分析师"
+      },
+      {
+        "id": "O06",
+        "identity": "Pinnacle分析师",
+        "weight": "Pinnacle sharp线",
+        "anchor_team": "France",
+        "focus": "Pinnacle分析师"
+      },
+      {
+        "id": "O07",
+        "identity": "William Hill分析师",
+        "weight": "英国盘口",
+        "anchor_team": "England",
+        "focus": "William Hill分析师"
+      },
+      {
+        "id": "O08",
+        "identity": "Paddy Power分析师",
+        "weight": "英国盘口",
+        "anchor_team": "Spain",
+        "focus": "Paddy Power分析师"
+      },
+      {
+        "id": "O09",
+        "identity": "Bet365分析师",
+        "weight": "Bet365",
+        "anchor_team": "Spain",
+        "focus": "Bet365分析师"
+      },
+      {
+        "id": "O10",
+        "identity": "亚洲盘分析师",
+        "weight": "澳门盘",
+        "anchor_team": "Argentina",
+        "focus": "亚洲盘分析师"
+      },
+      {
+        "id": "O11",
+        "identity": "博彩公司套利派",
+        "weight": "多家盘口均值",
+        "anchor_team": "France",
+        "focus": "博彩公司套利派"
+      },
+      {
+        "id": "O12",
+        "identity": "开盘线变动追踪者",
+        "weight": "线变追踪",
+        "anchor_team": "Spain",
+        "focus": "开盘线变动追踪者"
+      },
+      {
+        "id": "O13",
+        "identity": "下注量分析师",
+        "weight": "betting handle",
+        "anchor_team": "USA",
+        "focus": "下注量分析师"
+      },
+      {
+        "id": "O14",
+        "identity": "逆向押注分析师",
+        "weight": "公众vs sharp分歧",
+        "anchor_team": "Spain",
+        "focus": "逆向押注分析师"
+      },
+      {
+        "id": "O15",
+        "identity": "盘口历史回测派",
+        "weight": "历年赔率vs实际",
+        "anchor_team": "Brazil",
+        "focus": "盘口历史回测派"
+      },
+      {
+        "id": "O16",
+        "identity": "赔付率精算师",
+        "weight": "赔付率精算",
+        "anchor_team": "France",
+        "focus": "赔付率精算师"
+      },
+      {
+        "id": "O17",
+        "identity": "凯利公式派",
+        "weight": "凯利仓位",
+        "anchor_team": "England",
+        "focus": "凯利公式派"
+      },
+      {
+        "id": "O18",
+        "identity": "EV值猎手",
+        "weight": "正EV",
+        "anchor_team": "Mexico",
+        "focus": "EV值猎手"
+      },
+      {
+        "id": "O19",
+        "identity": "价值下注派",
+        "weight": "价值识别",
+        "anchor_team": "Colombia",
+        "focus": "价值下注派"
+      },
+      {
+        "id": "O20",
+        "identity": "longshot派",
+        "weight": "高赔率球队",
+        "anchor_team": "Norway",
+        "focus": "longshot派"
+      },
+      {
+        "id": "O21",
+        "identity": "小组出线赔率派",
+        "weight": "晋级概率",
+        "anchor_team": "Germany",
+        "focus": "小组出线赔率派"
+      },
+      {
+        "id": "O22",
+        "identity": "夺冠双概率派",
+        "weight": "决赛组合赔率",
+        "anchor_team": "France",
+        "focus": "夺冠双概率派"
+      },
+      {
+        "id": "O23",
+        "identity": "最佳球员赔率派",
+        "weight": "金球赔率",
+        "anchor_team": "France",
+        "focus": "最佳球员赔率派"
+      },
+      {
+        "id": "O24",
+        "identity": "最佳射手赔率派",
+        "weight": "金靴",
+        "anchor_team": "France",
+        "focus": "最佳射手赔率派"
+      },
+      {
+        "id": "O25",
+        "identity": "小组首名赔率派",
+        "weight": "小组头名",
+        "anchor_team": "Argentina",
+        "focus": "小组首名赔率派"
+      },
+      {
+        "id": "O26",
+        "identity": "16强赔率派",
+        "weight": "进16强",
+        "anchor_team": "Netherlands",
+        "focus": "16强赔率派"
+      },
+      {
+        "id": "O27",
+        "identity": "8强赔率派",
+        "weight": "进8强",
+        "anchor_team": "Portugal",
+        "focus": "8强赔率派"
+      },
+      {
+        "id": "O28",
+        "identity": "4强赔率派",
+        "weight": "进4强",
+        "anchor_team": "Brazil",
+        "focus": "4强赔率派"
+      },
+      {
+        "id": "O29",
+        "identity": "决赛赔率派",
+        "weight": "进决赛",
+        "anchor_team": "England",
+        "focus": "决赛赔率派"
+      },
+      {
+        "id": "O30",
+        "identity": "夺冠组合策略派",
+        "weight": "组合策略",
+        "anchor_team": "Spain",
+        "focus": "夺冠组合策略派"
+      }
+    ],
+    "老球迷派": [
+      {
+        "id": "V01",
+        "identity": "巴西老球迷",
+        "weight": "巴西5冠底蕴",
+        "focus": "桑巴基因",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "V02",
+        "identity": "阿根廷老球迷",
+        "weight": "阿根廷3冠",
+        "focus": "潘帕斯血统",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "V03",
+        "identity": "德国老球迷",
+        "weight": "德国4冠",
+        "focus": "日耳曼战车",
+        "anchor_team": "Germany"
+      },
+      {
+        "id": "V04",
+        "identity": "意大利老球迷",
+        "weight": "意大利4冠",
+        "focus": "混凝土防守",
+        "anchor_team": "Italy"
+      },
+      {
+        "id": "V05",
+        "identity": "法国老球迷",
+        "weight": "法国3冠",
+        "focus": "非洲裔+本土融合",
+        "anchor_team": "France"
+      },
+      {
+        "id": "V06",
+        "identity": "英格兰老球迷",
+        "weight": "英格兰1冠",
+        "focus": "终于要回家",
+        "anchor_team": "England"
+      },
+      {
+        "id": "V07",
+        "identity": "西班牙老球迷",
+        "weight": "西班牙1冠",
+        "focus": "tiki-taka王朝",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "V08",
+        "identity": "乌拉圭老球迷",
+        "weight": "乌拉圭2冠",
+        "focus": "小国底蕴",
+        "anchor_team": "Uruguay"
+      },
+      {
+        "id": "V09",
+        "identity": "荷兰老球迷",
+        "weight": "无冕之王",
+        "focus": "全攻全守",
+        "anchor_team": "Netherlands"
+      },
+      {
+        "id": "V10",
+        "identity": "葡萄牙老球迷",
+        "weight": "C罗谢幕",
+        "focus": "黄金一代最后",
+        "anchor_team": "Portugal"
+      },
+      {
+        "id": "V11",
+        "identity": "比利时老球迷",
+        "weight": "红魔黄金一代",
+        "focus": "黄金一代黄昏",
+        "anchor_team": "Belgium"
+      },
+      {
+        "id": "V12",
+        "identity": "墨西哥老球迷",
+        "weight": "中北美霸主",
+        "focus": "16强天花板",
+        "anchor_team": "Mexico"
+      },
+      {
+        "id": "V13",
+        "identity": "美国老球迷",
+        "weight": "东道主",
+        "focus": "主场氛围",
+        "anchor_team": "USA"
+      },
+      {
+        "id": "V14",
+        "identity": "日本老球迷",
+        "weight": "蓝武士",
+        "focus": "技术流亚洲之光",
+        "anchor_team": "Japan"
+      },
+      {
+        "id": "V15",
+        "identity": "韩国老球迷",
+        "weight": "太极虎",
+        "focus": "02年4强DNA",
+        "anchor_team": "Korea Republic"
+      },
+      {
+        "id": "V16",
+        "identity": "澳大利亚老球迷",
+        "weight": "袋鼠军团",
+        "focus": "身体流",
+        "anchor_team": "Australia"
+      },
+      {
+        "id": "V17",
+        "identity": "喀麦隆老球迷",
+        "weight": "非洲雄狮",
+        "focus": "米拉大叔传奇",
+        "anchor_team": "Cameroon"
+      },
+      {
+        "id": "V18",
+        "identity": "尼日利亚老球迷",
+        "weight": "非洲雄鹰",
+        "focus": "奥科查时代",
+        "anchor_team": "Nigeria"
+      },
+      {
+        "id": "V19",
+        "identity": "塞内加尔老球迷",
+        "weight": "02年揭幕战爆冷",
+        "focus": "02年DNA",
+        "anchor_team": "Senegal"
+      },
+      {
+        "id": "V20",
+        "identity": "摩洛哥老球迷",
+        "weight": "22年4强",
+        "focus": "亚特拉斯雄狮",
+        "anchor_team": "Morocco"
+      },
+      {
+        "id": "V21",
+        "identity": "克罗地亚老球迷",
+        "weight": "格子军团",
+        "focus": "98年黑马基因",
+        "anchor_team": "Croatia"
+      },
+      {
+        "id": "V22",
+        "identity": "丹麦老球迷",
+        "weight": "丹麦童话",
+        "focus": "92年欧洲杯",
+        "anchor_team": "Denmark"
+      },
+      {
+        "id": "V23",
+        "identity": "瑞典老球迷",
+        "weight": "北欧海盗",
+        "focus": "伊布遗风",
+        "anchor_team": "Sweden"
+      },
+      {
+        "id": "V24",
+        "identity": "波兰老球迷",
+        "weight": "东欧铁骑",
+        "focus": "莱万时代",
+        "anchor_team": "Poland"
+      },
+      {
+        "id": "V25",
+        "identity": "土耳其老球迷",
+        "weight": "星月军团",
+        "focus": "02年季军",
+        "anchor_team": "Turkiye"
+      },
+      {
+        "id": "V26",
+        "identity": "瑞士老球迷",
+        "weight": "钟表匠军团",
+        "focus": "稳定16强",
+        "anchor_team": "Switzerland"
+      },
+      {
+        "id": "V27",
+        "identity": "奥地利老球迷",
+        "weight": "阿尔卑斯军团",
+        "focus": "德语系组织力",
+        "anchor_team": "Austria"
+      },
+      {
+        "id": "V28",
+        "identity": "苏格兰老球迷",
+        "weigh": "tartan army",
+        "focus": "78年阿根廷狙击手",
+        "anchor_team": "Scotland",
+        "weight": "苏格兰老球迷专业加权"
+      },
+      {
+        "id": "V29",
+        "identity": "威尔士老球迷",
+        "weight": "红龙",
+        "focus": "吉格斯时代",
+        "anchor_team": "Wales"
+      },
+      {
+        "id": "V30",
+        "identity": "爱尔兰老球迷",
+        "weight": "绿军",
+        "focus": "02年16强",
+        "anchor_team": "Ireland"
+      }
+    ],
+    "玄学派": [
+      {
+        "id": "M01",
+        "identity": "东道主魔咒信徒",
+        "weight": "东道主历史规律",
+        "focus": "墨西哥美国加拿大",
+        "anchor_team": "Mexico"
+      },
+      {
+        "id": "M02",
+        "identity": "卫冕魔咒信徒",
+        "weight": "卫冕冠军常翻车",
+        "focus": "阿根廷卫冕难",
+        "anchor_team": "France"
+      },
+      {
+        "id": "M03",
+        "identity": "逢偶数年定律信徒",
+        "focus": "26年偶数年",
+        "anchor_team": "Spain",
+        "weight": "逢偶数年定律信徒专业加权"
+      },
+      {
+        "id": "M04",
+        "identity": "逢4之年魔咒派",
+        "focus": "06/10/14/18/22年",
+        "anchor_team": "Germany",
+        "weight": "逢4之年魔咒派专业加权"
+      },
+      {
+        "id": "M05",
+        "identity": "B字头冠军规律派",
+        "focus": "巴西Belgium",
+        "anchor_team": "Brazil",
+        "weight": "B字头冠军规律派专业加权"
+      },
+      {
+        "id": "M06",
+        "identity": "欧洲南美轮换派",
+        "focus": "上次南美这次欧洲",
+        "anchor_team": "Spain",
+        "weight": "欧洲南美轮换派专业加权"
+      },
+      {
+        "id": "M07",
+        "identity": "占星师白羊射手派",
+        "focus": "球员星座",
+        "anchor_team": "Argentina",
+        "weight": "占星师白羊射手派专业加权"
+      },
+      {
+        "id": "M08",
+        "identity": "12星座派",
+        "focus": "12宫位",
+        "anchor_team": "Spain",
+        "weight": "12星座派专业加权"
+      },
+      {
+        "id": "M09",
+        "identity": "风水师派",
+        "focus": "举办地风水",
+        "anchor_team": "USA",
+        "weight": "风水师派专业加权"
+      },
+      {
+        "id": "M10",
+        "identity": "五行八卦派",
+        "focus": "东方哲学",
+        "anchor_team": "Japan",
+        "weight": "五行八卦派专业加权"
+      },
+      {
+        "id": "M11",
+        "identity": "数字命理派",
+        "focus": "26=2+6=8吉祥",
+        "anchor_team": "Brazil",
+        "weight": "数字命理派专业加权"
+      },
+      {
+        "id": "M12",
+        "identity": "塔罗牌派",
+        "focus": "比赛日塔罗",
+        "anchor_team": "France",
+        "weight": "塔罗牌派专业加权"
+      },
+      {
+        "id": "M13",
+        "identity": "梦境分析师",
+        "focus": "球员梦境",
+        "anchor_team": "Brazil",
+        "weight": "梦境分析师专业加权"
+      },
+      {
+        "id": "M14",
+        "identity": "气候玄学派",
+        "focus": "北美气候",
+        "anchor_team": "Mexico",
+        "weight": "气候玄学派专业加权"
+      },
+      {
+        "id": "M15",
+        "identity": "时区玄学派",
+        "focus": "时差影响",
+        "anchor_team": "England",
+        "weight": "时区玄学派专业加权"
+      },
+      {
+        "id": "M16",
+        "identity": "机场玄学派",
+        "focus": "飞行距离",
+        "anchor_team": "USA",
+        "weight": "机场玄学派专业加权"
+      },
+      {
+        "id": "M17",
+        "identity": "裁判玄学派",
+        "focus": "VAR倾向",
+        "anchor_team": "Argentina",
+        "weight": "裁判玄学派专业加权"
+      },
+      {
+        "id": "M18",
+        "identity": "红黄牌玄学派",
+        "focus": "红牌频率",
+        "anchor_team": "Spain",
+        "weight": "红黄牌玄学派专业加权"
+      },
+      {
+        "id": "M19",
+        "identity": "加时赛魔咒派",
+        "focus": "加时赛规律",
+        "anchor_team": "Argentina",
+        "weight": "加时赛魔咒派专业加权"
+      },
+      {
+        "id": "M20",
+        "identity": "点球大战专家",
+        "focus": "点球心理",
+        "anchor_team": "France",
+        "weight": "点球大战专家专业加权"
+      },
+      {
+        "id": "M21",
+        "identity": "揭幕战魔咒派",
+        "focus": "揭幕战表现",
+        "anchor_team": "Mexico",
+        "weight": "揭幕战魔咒派专业加权"
+      },
+      {
+        "id": "M22",
+        "identity": "替补奇兵派",
+        "focus": "替补建功",
+        "anchor_team": "Netherlands",
+        "weight": "替补奇兵派专业加权"
+      },
+      {
+        "id": "M23",
+        "identity": "草皮玄学派",
+        "focus": "人造草",
+        "anchor_team": "USA",
+        "weight": "草皮玄学派专业加权"
+      },
+      {
+        "id": "M24",
+        "identity": "温度湿度派",
+        "focus": "6月北美温度",
+        "anchor_team": "Mexico",
+        "weight": "温度湿度派专业加权"
+      },
+      {
+        "id": "M25",
+        "identity": "心理暗示派",
+        "focus": "口号标语",
+        "anchor_team": "France",
+        "weight": "心理暗示派专业加权"
+      },
+      {
+        "id": "M26",
+        "identity": "球衣颜色派",
+        "focus": "主场球衣",
+        "anchor_team": "Brazil",
+        "weight": "球衣颜色派专业加权"
+      },
+      {
+        "id": "M27",
+        "identity": "队歌气场派",
+        "focus": "国歌",
+        "anchor_team": "Italy",
+        "weight": "队歌气场派专业加权"
+      },
+      {
+        "id": "M28",
+        "identity": "舆论氛围派",
+        "focus": "舆论正向",
+        "anchor_team": "Argentina",
+        "weight": "舆论氛围派专业加权"
+      },
+      {
+        "id": "M29",
+        "identity": "玄学+数据混合派",
+        "focus": "70%玄30%数",
+        "anchor_team": "Spain",
+        "weight": "玄学+数据混合派专业加权"
+      },
+      {
+        "id": "M30",
+        "identity": "反玄学派(反向押注)",
+        "focus": "所有玄学都反",
+        "anchor_team": "Germany",
+        "weight": "反玄学派(反向押注)专业加权"
+      }
+    ],
+    "主帅视角派": [
+      {
+        "id": "C01",
+        "identity": "英超主帅",
+        "weight": "英超战术体系",
+        "focus": "高强度逼抢",
+        "anchor_team": "England"
+      },
+      {
+        "id": "C02",
+        "identity": "西甲主帅",
+        "weight": "控球体系",
+        "focus": "tiki-taka演化",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "C03",
+        "identity": "意甲主帅",
+        "weight": "防守反击",
+        "focus": "链式防守",
+        "anchor_team": "Italy"
+      },
+      {
+        "id": "C04",
+        "identity": "德甲主帅",
+        "weight": "高位压迫",
+        "focus": "Gegenpressing",
+        "anchor_team": "Germany"
+      },
+      {
+        "id": "C05",
+        "identity": "法甲主帅",
+        "weight": "技术+身体",
+        "focus": "法式平衡",
+        "anchor_team": "France"
+      },
+      {
+        "id": "C06",
+        "identity": "解放者杯主帅",
+        "weight": "南美技术",
+        "focus": "小快灵",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "C07",
+        "identity": "葡超主帅",
+        "weight": "葡式防反",
+        "focus": "务实",
+        "anchor_team": "Portugal"
+      },
+      {
+        "id": "C08",
+        "identity": "阿超主帅",
+        "weight": "阿根廷联赛",
+        "focus": "战术纪律",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "C09",
+        "identity": "巴甲主帅",
+        "weight": "巴西联赛",
+        "focus": "个人技术",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "C10",
+        "identity": "MLS主帅",
+        "weight": "美国联赛",
+        "focus": "运动能力",
+        "anchor_team": "USA"
+      },
+      {
+        "id": "C11",
+        "identity": "K League主帅",
+        "weight": "韩国联赛",
+        "focus": "跑不死",
+        "anchor_team": "Korea Republic"
+      },
+      {
+        "id": "C12",
+        "identity": "J League主帅",
+        "weight": "日本联赛",
+        "focus": "传控+跑位",
+        "anchor_team": "Japan"
+      },
+      {
+        "id": "C13",
+        "identity": "埃甲主帅",
+        "weight": "埃及联赛",
+        "focus": "非洲力量",
+        "anchor_team": "Egypt"
+      },
+      {
+        "id": "C14",
+        "identity": "突尼斯主帅",
+        "weight": "北非体系",
+        "focus": "防守反击",
+        "anchor_team": "Tunisia"
+      },
+      {
+        "id": "C15",
+        "identity": "非洲冠军主帅",
+        "weight": "非洲冠军联赛",
+        "focus": "身体+速度",
+        "anchor_team": "Senegal"
+      },
+      {
+        "id": "C16",
+        "identity": "解放者杯卫冕主帅",
+        "weight": "杯赛体系",
+        "focus": "杯赛节奏",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "C17",
+        "identity": "英超保级队主帅",
+        "weight": "弱队战术",
+        "focus": "密集防守",
+        "anchor_team": "Croatia"
+      },
+      {
+        "id": "C18",
+        "identity": "欧冠淘汰赛经验主帅",
+        "focus": "淘汰赛策略",
+        "anchor_team": "Spain",
+        "weight": "欧冠淘汰赛经验主帅专业加权"
+      },
+      {
+        "id": "C19",
+        "identity": "433信徒",
+        "focus": "边锋体系",
+        "anchor_team": "France",
+        "weight": "433信徒专业加权"
+      },
+      {
+        "id": "C20",
+        "identity": "352信徒",
+        "focus": "三中卫",
+        "anchor_team": "Italy",
+        "weight": "352信徒专业加权"
+      },
+      {
+        "id": "C21",
+        "identity": "4231信徒",
+        "focus": "双后腰",
+        "anchor_team": "England",
+        "weight": "4231信徒专业加权"
+      },
+      {
+        "id": "C22",
+        "identity": "4141信徒",
+        "focus": "单后腰保护",
+        "anchor_team": "Argentina",
+        "weight": "4141信徒专业加权"
+      },
+      {
+        "id": "C23",
+        "identity": "无锋阵信徒",
+        "focus": "伪9号",
+        "anchor_team": "Spain",
+        "weight": "无锋阵信徒专业加权"
+      },
+      {
+        "id": "C24",
+        "identity": "双前锋信徒",
+        "focus": "双前锋",
+        "anchor_team": "Argentina",
+        "weight": "双前锋信徒专业加权"
+      },
+      {
+        "id": "C25",
+        "identity": "定位球大师",
+        "focus": "定位球战术",
+        "anchor_team": "Denmark",
+        "weight": "定位球大师专业加权"
+      },
+      {
+        "id": "C26",
+        "identity": "防守反击大师",
+        "focus": "防守反击",
+        "anchor_team": "Greece",
+        "weight": "防守反击大师专业加权"
+      },
+      {
+        "id": "C27",
+        "identity": "全攻全守信徒",
+        "focus": "全攻全守",
+        "anchor_team": "Netherlands",
+        "weight": "全攻全守信徒专业加权"
+      },
+      {
+        "id": "C28",
+        "identity": "青年军主帅",
+        "focus": "年轻人",
+        "anchor_team": "Spain",
+        "weight": "青年军主帅专业加权"
+      },
+      {
+        "id": "C29",
+        "identity": "老将主帅",
+        "focus": "老将经验",
+        "anchor_team": "Croatia",
+        "weight": "老将主帅专业加权"
+      },
+      {
+        "id": "C30",
+        "identity": "混合派主帅",
+        "focus": "灵活应变",
+        "anchor_team": "France",
+        "weight": "混合派主帅专业加权"
+      }
+    ],
+    "伤病赛程派": [
+      {
+        "id": "I01",
+        "identity": "法国队医",
+        "weight": "Mbappe伤情",
+        "focus": "法军核心健康",
+        "anchor_team": "France"
+      },
+      {
+        "id": "I02",
+        "identity": "巴西队医",
+        "weight": "Neymar伤情",
+        "focus": "巴西攻击线",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "I03",
+        "identity": "阿根廷队医",
+        "weight": "Messi伤情",
+        "focus": "潘帕斯核心",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "I04",
+        "identity": "西班牙队医",
+        "weight": "Yamal伤情",
+        "focus": "斗牛士新核",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "I05",
+        "identity": "德国队医",
+        "weight": "Gnabry缺席",
+        "focus": "战车边路",
+        "anchor_team": "Germany"
+      },
+      {
+        "id": "I06",
+        "identity": "英格兰队医",
+        "weight": "Saka/Bellingham",
+        "focus": "三狮青年军",
+        "anchor_team": "England"
+      },
+      {
+        "id": "I07",
+        "identity": "赛程分析师",
+        "weight": "小组赛难度",
+        "focus": "死亡之组",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "I08",
+        "identity": "淘汰赛路径分析师",
+        "weight": "半区难度",
+        "focus": "上/下半区",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "I09",
+        "identity": "旅行分析师",
+        "weight": "飞行距离",
+        "focus": "跨美飞行",
+        "anchor_team": "USA"
+      },
+      {
+        "id": "I10",
+        "identity": "气候适应分析师",
+        "weight": "6月北美温度",
+        "focus": "35度高温",
+        "anchor_team": "Mexico"
+      },
+      {
+        "id": "I11",
+        "identity": "湿度分析师",
+        "weight": "墨西哥城湿度",
+        "focus": "高原反应",
+        "anchor_team": "Mexico"
+      },
+      {
+        "id": "I12",
+        "identity": "高原反应专家",
+        "weight": "墨西哥城海拔",
+        "focus": "2200米海拔",
+        "anchor_team": "Mexico"
+      },
+      {
+        "id": "I13",
+        "identity": "赛程密度分析师",
+        "weight": "4天1赛",
+        "focus": "体能分配",
+        "anchor_team": "England"
+      },
+      {
+        "id": "I14",
+        "identity": "时差调整师",
+        "weight": "东西部时差",
+        "focus": "3小时时差",
+        "anchor_team": "USA"
+      },
+      {
+        "id": "I15",
+        "identity": "酒店质量分析师",
+        "weight": "大本营选择",
+        "focus": "后勤保障",
+        "anchor_team": "France"
+      },
+      {
+        "id": "I16",
+        "identity": "训练场质量分析师",
+        "weight": "训练设施",
+        "focus": "备战条件",
+        "anchor_team": "USA"
+      },
+      {
+        "id": "I17",
+        "identity": "替补席厚度分析师",
+        "weight": "板凳伤病",
+        "focus": "核心替补",
+        "anchor_team": "England"
+      },
+      {
+        "id": "I18",
+        "identity": "停赛累计风险分析师",
+        "weight": "黄牌停赛",
+        "focus": "关键场停赛",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "I19",
+        "identity": "复出时间预测师",
+        "weight": "伤员复出",
+        "focus": "半决赛复出",
+        "anchor_team": "France"
+      },
+      {
+        "id": "I20",
+        "identity": "疲劳累积专家",
+        "weight": "赛季尾声",
+        "focus": "5月赛程",
+        "anchor_team": "England"
+      },
+      {
+        "id": "I21",
+        "identity": "小伤管理专家",
+        "weight": "轻伤坚持",
+        "focus": "打封闭上场",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "I22",
+        "identity": "首次参加世界杯观察员",
+        "weight": "新军体能",
+        "focus": "处子秀压力",
+        "anchor_team": "Uzbekistan"
+      },
+      {
+        "id": "I23",
+        "identity": "老将体能师",
+        "weight": "35+球员",
+        "focus": "老将续航",
+        "anchor_team": "Portugal"
+      },
+      {
+        "id": "I24",
+        "identity": "心理压力分析师",
+        "weight": "夺冠压力",
+        "focus": "热门队压力",
+        "anchor_team": "France"
+      },
+      {
+        "id": "I25",
+        "identity": "淘汰赛伤病史分析师",
+        "weight": "过往淘汰赛伤病",
+        "focus": "22年法国伤病潮",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "I26",
+        "identity": "点球大战伤病史",
+        "weight": "点球伤",
+        "focus": "罚点心理",
+        "anchor_team": "England"
+      },
+      {
+        "id": "I27",
+        "identity": "门将健康分析师",
+        "weight": "门将伤",
+        "focus": "一门健康",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "I28",
+        "identity": "后防伤病分析师",
+        "weight": "后卫线",
+        "focus": "中卫组合",
+        "anchor_team": "Italy"
+      },
+      {
+        "id": "I29",
+        "identity": "中场伤病分析师",
+        "weight": "中场核心",
+        "focus": "组织核心",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "I30",
+        "identity": "前锋伤病分析师",
+        "weight": "锋线伤",
+        "focus": "终结者",
+        "anchor_team": "France"
+      }
+    ],
+    "黑马派": [
+      {
+        "id": "H01",
+        "identity": "非洲观察家",
+        "weight": "非洲球队",
+        "focus": "塞内加尔/摩洛哥/喀麦隆",
+        "anchor_team": "Senegal"
+      },
+      {
+        "id": "H02",
+        "identity": "亚洲观察家",
+        "weight": "亚洲球队",
+        "focus": "日本/韩国/伊朗",
+        "anchor_team": "Japan"
+      },
+      {
+        "id": "H03",
+        "identity": "中北美观察家",
+        "weight": "中北美",
+        "focus": "墨西哥/美国/加拿大",
+        "anchor_team": "Mexico"
+      },
+      {
+        "id": "H04",
+        "identity": "北欧观察家",
+        "weight": "北欧",
+        "focus": "挪威/丹麦/瑞典",
+        "anchor_team": "Norway"
+      },
+      {
+        "id": "H05",
+        "identity": "东欧观察家",
+        "weight": "东欧",
+        "focus": "波兰/捷克/匈牙利",
+        "anchor_team": "Poland"
+      },
+      {
+        "id": "H06",
+        "identity": "南美黑马观察家",
+        "weight": "南美次级",
+        "focus": "哥伦比亚/厄瓜多尔/智利",
+        "anchor_team": "Colombia"
+      },
+      {
+        "id": "H07",
+        "identity": "大洋洲观察家",
+        "weight": "大洋洲",
+        "focus": "澳大利亚",
+        "anchor_team": "Australia"
+      },
+      {
+        "id": "H08",
+        "identity": "加勒比观察家",
+        "weight": "加勒比",
+        "focus": "牙买加/库拉索",
+        "anchor_team": "Curaçao"
+      },
+      {
+        "id": "H09",
+        "identity": "昔日豪门复兴派",
+        "focus": "比利时/乌拉圭",
+        "anchor_team": "Belgium",
+        "weight": "昔日豪门复兴派专业加权"
+      },
+      {
+        "id": "H10",
+        "identity": "新军首秀派",
+        "focus": "乌兹别克/约旦/佛得角",
+        "anchor_team": "Uzbekistan",
+        "weight": "新军首秀派专业加权"
+      },
+      {
+        "id": "H11",
+        "identity": "主帅黑马派",
+        "focus": "少帅执教",
+        "anchor_team": "USA",
+        "weight": "主帅黑马派专业加权"
+      },
+      {
+        "id": "H12",
+        "identity": "旅欧球员派",
+        "focus": "海外国脚",
+        "anchor_team": "Japan",
+        "weight": "旅欧球员派专业加权"
+      },
+      {
+        "id": "H13",
+        "identity": "归化球员派",
+        "focus": "归化质量",
+        "anchor_team": "USA",
+        "weight": "归化球员派专业加权"
+      },
+      {
+        "id": "H14",
+        "identity": "青年军黑马派",
+        "focus": "U20国脚",
+        "anchor_team": "Spain",
+        "weight": "青年军黑马派专业加权"
+      },
+      {
+        "id": "H15",
+        "identity": "世预赛黑马派",
+        "focus": "世预赛爆冷",
+        "anchor_team": "Suriname",
+        "weight": "世预赛黑马派专业加权"
+      },
+      {
+        "id": "H16",
+        "identity": "逆袭联赛冠军派",
+        "focus": "小联赛冠军",
+        "anchor_team": "Cape Verde",
+        "weight": "逆袭联赛冠军派专业加权"
+      },
+      {
+        "id": "H17",
+        "identity": "穆斯林国家派",
+        "focus": "斋月/精神力",
+        "anchor_team": "Morocco",
+        "weight": "穆斯林国家派专业加权"
+      },
+      {
+        "id": "H18",
+        "identity": "小国大梦想派",
+        "focus": "小国爆冷基因",
+        "anchor_team": "Iceland",
+        "weight": "小国大梦想派专业加权"
+      },
+      {
+        "id": "H19",
+        "identity": "02年韩国模仿派",
+        "focus": "主场哨DNA",
+        "anchor_team": "Korea Republic",
+        "weight": "02年韩国模仿派专业加权"
+      },
+      {
+        "id": "H20",
+        "identity": "10年新西兰模仿派",
+        "focus": "16强门槛",
+        "anchor_team": "New Zealand",
+        "weight": "10年新西兰模仿派专业加权"
+      },
+      {
+        "id": "H21",
+        "identity": "22年摩洛哥模仿派",
+        "focus": "非洲4强基因",
+        "anchor_team": "Senegal",
+        "weight": "22年摩洛哥模仿派专业加权"
+      },
+      {
+        "id": "H22",
+        "identity": "18年俄罗斯模仿派",
+        "focus": "东道主奇迹",
+        "anchor_team": "USA",
+        "weight": "18年俄罗斯模仿派专业加权"
+      },
+      {
+        "id": "H23",
+        "identity": "94年希腊模仿派",
+        "focus": "防守夺冠DNA",
+        "anchor_team": "Greece",
+        "weight": "94年希腊模仿派专业加权"
+      },
+      {
+        "id": "H24",
+        "identity": "04年希腊模仿派",
+        "focus": "欧洲杯黑马",
+        "anchor_team": "Türkiye",
+        "weight": "04年希腊模仿派专业加权"
+      },
+      {
+        "id": "H25",
+        "identity": "丹麦92模仿派",
+        "focus": "童话基因",
+        "anchor_team": "Denmark",
+        "weight": "丹麦92模仿派专业加权"
+      },
+      {
+        "id": "H26",
+        "identity": "克罗地亚98模仿派",
+        "focus": "首秀季军",
+        "anchor_team": "Croatia",
+        "weight": "克罗地亚98模仿派专业加权"
+      },
+      {
+        "id": "H27",
+        "identity": "02年塞内加尔模仿派",
+        "focus": "揭幕战爆冷",
+        "anchor_team": "Senegal",
+        "weight": "02年塞内加尔模仿派专业加权"
+      },
+      {
+        "id": "H28",
+        "identity": "18年日本模仿派",
+        "focus": "16强门槛",
+        "anchor_team": "Japan",
+        "weight": "18年日本模仿派专业加权"
+      },
+      {
+        "id": "H29",
+        "identity": "22年日本模仿派",
+        "focus": "死亡之组出线",
+        "anchor_team": "Japan",
+        "weight": "22年日本模仿派专业加权"
+      },
+      {
+        "id": "H30",
+        "identity": "26年新黑马派",
+        "focus": "本届变天",
+        "anchor_team": "Norway",
+        "weight": "26年新黑马派专业加权"
+      }
+    ],
+    "阵容年龄派": [
+      {
+        "id": "A01",
+        "identity": "25-28岁巅峰派",
+        "weight": "巅峰年龄",
+        "focus": "当打之年",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "A02",
+        "identity": "青年军派",
+        "weight": "U23球员占比",
+        "focus": "青春风暴",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "A03",
+        "identity": "老将压阵派",
+        "weight": "30+核心",
+        "focus": "老将经验",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "A04",
+        "identity": "黄金一代派",
+        "weight": "巅峰集中",
+        "focus": "一代人窗口",
+        "anchor_team": "Belgium"
+      },
+      {
+        "id": "A05",
+        "identity": "青黄不接警告派",
+        "focus": "换代阵痛",
+        "anchor_team": "Germany",
+        "weight": "青黄不接警告派专业加权"
+      },
+      {
+        "id": "A06",
+        "identity": "U21新星派",
+        "weight": "超新星",
+        "focus": "Yamal/Mbappé",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "A07",
+        "identity": "28-30岁经验派",
+        "focus": "经验巅峰",
+        "anchor_team": "France",
+        "weight": "28-30岁经验派专业加权"
+      },
+      {
+        "id": "A08",
+        "identity": "30+老将派",
+        "focus": "35+核心",
+        "anchor_team": "Portugal",
+        "weight": "30+老将派专业加权"
+      },
+      {
+        "id": "A09",
+        "identity": "平均年龄分析师",
+        "weight": "球队平均年龄",
+        "focus": "26岁最优",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "A10",
+        "identity": "门将年龄派",
+        "weight": "门将年龄",
+        "focus": "门将30-32巅峰",
+        "anchor_team": "Brazil"
+      },
+      {
+        "id": "A11",
+        "identity": "后防年龄派",
+        "weight": "后卫年龄",
+        "focus": "中卫28-30",
+        "anchor_team": "Italy"
+      },
+      {
+        "id": "A12",
+        "identity": "中场年龄派",
+        "weight": "中场年龄",
+        "focus": "26-29巅峰",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "A13",
+        "identity": "前锋年龄派",
+        "weight": "前锋年龄",
+        "focus": "25-28巅峰",
+        "anchor_team": "France"
+      },
+      {
+        "id": "A14",
+        "identity": "核心球员年龄派",
+        "focus": "核心年龄",
+        "anchor_team": "Argentina",
+        "weight": "核心球员年龄派专业加权"
+      },
+      {
+        "id": "A15",
+        "identity": "队长年龄派",
+        "focus": "队长年龄",
+        "anchor_team": "Portugal",
+        "weight": "队长年龄派专业加权"
+      },
+      {
+        "id": "A16",
+        "identity": "副队年龄派",
+        "focus": "副队年龄",
+        "anchor_team": "France",
+        "weight": "副队年龄派专业加权"
+      },
+      {
+        "id": "A17",
+        "identity": "教练年龄派",
+        "weight": "教练年龄",
+        "focus": "老帅 vs 少帅",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "A18",
+        "identity": "首次参赛球员派",
+        "focus": "首秀占比",
+        "anchor_team": "USA",
+        "weight": "首次参赛球员派专业加权"
+      },
+      {
+        "id": "A19",
+        "identity": "百场老将派",
+        "weight": "百场国脚",
+        "focus": "大赛经验",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "A20",
+        "identity": "退役倒计时派",
+        "focus": "球员退役",
+        "anchor_team": "Portugal",
+        "weight": "退役倒计时派专业加权"
+      },
+      {
+        "id": "A21",
+        "identity": "未来之星派",
+        "focus": "U17国脚",
+        "anchor_team": "Spain",
+        "weight": "未来之星派专业加权"
+      },
+      {
+        "id": "A22",
+        "identity": "老中青三代派",
+        "focus": "结构合理",
+        "anchor_team": "France",
+        "weight": "老中青三代派专业加权"
+      },
+      {
+        "id": "A23",
+        "identity": "断层风险派",
+        "focus": "青黄不接",
+        "anchor_team": "Italy",
+        "weight": "断层风险派专业加权"
+      },
+      {
+        "id": "A24",
+        "identity": "巅峰集中度派",
+        "focus
+": "巅峰占比",
+        "anchor_team": "Spain",
+        "weight": "巅峰集中度派专业加权"
+      },
+      {
+        "id": "A25",
+        "identity": "球员巅峰长度分析师",
+        "focus": "巅峰期",
+        "anchor_team": "France",
+        "weight": "球员巅峰长度分析师专业加权"
+      },
+      {
+        "id": "A26",
+        "identity": "生涯暮年派",
+        "focus": "最后机会",
+        "anchor_team": "Croatia",
+        "weight": "生涯暮年派专业加权"
+      },
+      {
+        "id": "A27",
+        "identity": "德转身价年龄比",
+        "weight": "身价/年龄",
+        "anchor_team": "Spain",
+        "focus": "德转身价年龄比"
+      },
+      {
+        "id": "A28",
+        "identity": "国家队出场数派",
+        "weight": "国脚出场数",
+        "anchor_team": "Argentina",
+        "focus": "国家队出场数派"
+      },
+      {
+        "id": "A29",
+        "identity": "合同年球员派",
+        "focus": "合同年",
+        "anchor_team": "Brazil",
+        "weight": "合同年球员派专业加权"
+      },
+      {
+        "id": "A30",
+        "identity": "自由身球员派",
+        "focus": "夏窗动向",
+        "anchor_team": "Saudi Arabia",
+        "weight": "自由身球员派专业加权"
+      }
+    ],
+    "心理抗压派": [
+      {
+        "id": "P01",
+        "identity": "点球心理专家",
+        "weight": "点球胜率",
+        "focus": "点球大战",
+        "anchor_team": "France"
+      },
+      {
+        "id": "P02",
+        "identity": "逆境翻盘专家",
+        "weight": "逆转胜率",
+        "focus": "落后反胜",
+        "anchor_team": "Croatia"
+      },
+      {
+        "id": "P03",
+        "identity": "大心脏专家",
+        "weight": "绝杀进球",
+        "focus": "90分钟进球",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "P04",
+        "identity": "抗压训练师",
+        "focus": "高压环境",
+        "anchor_team": "Germany",
+        "weight": "抗压训练师专业加权"
+      },
+      {
+        "id": "P05",
+        "identity": "欧冠决赛抗压分析师",
+        "weight": "欧冠决赛",
+        "focus": "决赛气质",
+        "anchor_team": "England"
+      },
+      {
+        "id": "P06",
+        "identity": "世界杯决赛老兵派",
+        "weight": "决赛经历",
+        "focus": "拿过冠军",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "P07",
+        "identity": "4强球员占比",
+        "weight": "半决赛经历",
+        "focus": "大赛经验",
+        "anchor_team": "France"
+      },
+      {
+        "id": "P08",
+        "identity": "8强球员占比",
+        "weight": "8强经历",
+        "focus": "淘汰赛经验",
+        "anchor_team": "England"
+      },
+      {
+        "id": "P09",
+        "identity": "教练大赛经验派",
+        "weight": "教练经历",
+        "focus": "拿过大赛冠军",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "P10",
+        "identity": "0-0领先保持派",
+        "focus": "领先管理",
+        "anchor_team": "Spain",
+        "weight": "0-0领先保持派专业加权"
+      },
+      {
+        "id": "P11",
+        "identity": "0-1落后逆转派",
+        "focus": "落后翻盘",
+        "anchor_team": "Germany",
+        "weight": "0-1落后逆转派专业加权"
+      },
+      {
+        "id": "P12",
+        "identity": "加时赛心态派",
+        "focus": "加时体能",
+        "anchor_team": "Croatia",
+        "weight": "加时赛心态派专业加权"
+      },
+      {
+        "id": "P13",
+        "identity": "点球大战门将派",
+        "weight": "门将扑点",
+        "focus": "门将心理",
+        "anchor_team": "Argentina"
+      },
+      {
+        "id": "P14",
+        "identity": "黄牌压力派",
+        "focus": "黄牌累积",
+        "anchor_team": "Brazil",
+        "weight": "黄牌压力派专业加权"
+      },
+      {
+        "id": "P15",
+        "identity": "红牌应变派",
+        "focus": "红牌后调整",
+        "anchor_team": "Italy",
+        "weight": "红牌应变派专业加权"
+      },
+      {
+        "id": "P16",
+        "identity": "误判后心态派",
+        "focus": "VAR争议",
+        "anchor_team": "Spain",
+        "weight": "误判后心态派专业加权"
+      },
+      {
+        "id": "P17",
+        "identity": "球迷压力派",
+        "focus": "主场vs客场",
+        "anchor_team": "Brazil",
+        "weight": "球迷压力派专业加权"
+      },
+      {
+        "id": "P18",
+        "identity": "媒体压力派",
+        "focus": "舆论压力",
+        "anchor_team": "France",
+        "weight": "媒体压力派专业加权"
+      },
+      {
+        "id": "P19",
+        "identity": "裁判压力派",
+        "focus": "裁判判罚",
+        "anchor_team": "Argentina",
+        "weight": "裁判压力派专业加权"
+      },
+      {
+        "id": "P20",
+        "identity": "宿敌对决派",
+        "focus": "宿敌心理",
+        "anchor_team": "Netherlands",
+        "weight": "宿敌对决派专业加权"
+      },
+      {
+        "id": "P21",
+        "identity": "首秀球员心理派",
+        "focus": "首秀紧张",
+        "anchor_team": "England",
+        "weight": "首秀球员心理派专业加权"
+      },
+      {
+        "id": "P22",
+        "identity": "老将关键战派",
+        "focus": "关键战老将",
+        "anchor_team": "Argentina",
+        "weight": "老将关键战派专业加权"
+      },
+      {
+        "id": "P23",
+        "identity": "逆风球心理派",
+        "focus": "落后处理",
+        "anchor_team": "Germany",
+        "weight": "逆风球心理派专业加权"
+      },
+      {
+        "id": "P24",
+        "identity": "领先守成型",
+        "focus": "1-0主义",
+        "anchor_team": "Italy",
+        "weight": "领先守成型专业加权"
+      },
+      {
+        "id": "P25",
+        "identity": "绝平绝杀派",
+        "focus": "补时进球",
+        "anchor_team": "Spain",
+        "weight": "绝平绝杀派专业加权"
+      },
+      {
+        "id": "P26",
+        "identity": "心态崩盘警告派",
+        "focus": "崩溃历史",
+        "anchor_team": "Brazil",
+        "weight": "心态崩盘警告派专业加权"
+      },
+      {
+        "id": "P27",
+        "identity": "死亡之组出线心理派",
+        "focus": "压力组",
+        "anchor_team": "Japan",
+        "weight": "死亡之组出线心理派专业加权"
+      },
+      {
+        "id": "P28",
+        "identity": "夺冠庆典压力派",
+        "focus": "庆功宴",
+        "anchor_team": "France",
+        "weight": "夺冠庆典压力派专业加权"
+      },
+      {
+        "id": "P29",
+        "identity": "卫冕压力派",
+        "focus": "卫冕心态",
+        "anchor_team": "Argentina",
+        "weight": "卫冕压力派专业加权"
+      },
+      {
+        "id": "P30",
+        "identity": "黑马心态派",
+        "focus": "无压力",
+        "anchor_team": "Morocco",
+        "weight": "黑马心态派专业加权"
+      }
+    ],
+    "建模派": [
+      {
+        "id": "Q01",
+        "identity": "蒙特卡洛模拟派",
+        "weight": "10000次模拟",
+        "focus": "夺冠概率分布",
+        "anchor_team": "France"
+      },
+      {
+        "id": "Q02",
+        "identity": "泊松分布派",
+        "weight": "进球泊松",
+        "focus": "进球分布",
+        "anchor_team": "Spain"
+      },
+      {
+        "id": "Q03",
+        "identity": "Elo+蒙特卡洛派",
+        "weight": "Elo MC",
+        "anchor_team": "France",
+        "focus": "Elo+蒙特卡洛派"
+      },
+      {
+        "id": "Q04",
+        "identity": "Dixon-Coles模型派",
+        "weight": "DC模型",
+        "anchor_team": "Argentina",
+        "focus": "Dixon-Coles模型派"
+      },
+      {
+        "id": "Q05",
+        "identity": "Pi-rating派",
+        "weight": "Pi评级",
+        "anchor_team": "Spain",
+        "focus": "Pi-rating派"
+      },
+      {
+        "id": "Q06",
+        "identity": "FiveThirtyEight模型派",
+        "weight": "538模型",
+        "anchor_team": "Argentina",
+        "focus": "FiveThirtyEight模型派"
+      },
+      {
+        "id": "Q07",
+        "identity": "Opta超级计算机派",
+        "weight": "Opta模拟",
+        "anchor_team": "Spain",
+        "focus": "Opta超级计算机派"
+      },
+      {
+        "id": "Q08",
+        "identity": "ESPN BPI派",
+        "weight": "BPI指数",
+        "anchor_team": "France",
+        "focus": "ESPN BPI派"
+      },
+      {
+        "id": "Q09",
+        "identity": "BetMGM模型派",
+        "weight": "BetMGM模拟",
+        "anchor_team": "France",
+        "focus": "BetMGM模型派"
+      },
+      {
+        "id": "Q10",
+        "identity": "PySports派",
+        "weight": "Python模拟",
+        "anchor_team": "Argentina",
+        "focus": "PySports派"
+      },
+      {
+        "id": "Q11",
+        "identity": "R语言建模派",
+        "weight": "R建模",
+        "anchor_team": "Spain",
+        "focus": "R语言建模派"
+      },
+      {
+        "id": "Q12",
+        "identity": "贝叶斯网络派",
+        "weight": "贝叶斯",
+        "anchor_team": "France",
+        "focus": "贝叶斯网络派"
+      },
+      {
+        "id": "Q13",
+        "identity": "图神经网络派",
+        "weight": "GNN",
+        "anchor_team": "Spain",
+        "focus": "图神经网络派"
+      },
+      {
+        "id": "Q14",
+        "identity": "强化学习派",
+        "weight": "RL",
+        "anchor_team": "France",
+        "focus": "强化学习派"
+      },
+      {
+        "id": "Q15",
+        "identity": "决策树派",
+        "weight": "Random Forest",
+        "anchor_team": "Brazil",
+        "focus": "决策树派"
+      },
+      {
+        "id": "Q16",
+        "identity": "逻辑回归派",
+        "weight": "Logistic",
+        "anchor_team": "France",
+        "focus": "逻辑回归派"
+      },
+      {
+        "id": "Q17",
+        "identity": "PageRank派",
+        "weight": "图算法",
+        "anchor_team": "Spain",
+        "focus": "PageRank派"
+      },
+      {
+        "id": "Q18",
+        "identity": "神经网络派",
+        "weight": "NN",
+        "anchor_team": "France",
+        "focus": "神经网络派"
+      },
+      {
+        "id": "Q19",
+        "identity": "LSTM时序派",
+        "weight": "LSTM",
+        "anchor_team": "England",
+        "focus": "LSTM时序派"
+      },
+      {
+        "id": "Q20",
+        "identity": "蒙特卡洛变体派",
+        "weight": "MCMC",
+        "anchor_team": "Spain",
+        "focus": "蒙特卡洛变体派"
+      },
+      {
+        "id": "Q21",
+        "identity": "赔率反推派",
+        "weight": "赔率反推",
+        "anchor_team": "France",
+        "focus": "赔率反推派"
+      },
+      {
+        "id": "Q22",
+        "identity": "小组赛模拟派",
+        "focus": "小组赛结果",
+        "anchor_team": "Argentina",
+        "weight": "小组赛模拟派专业加权"
+      },
+      {
+        "id": "Q23",
+        "identity": "淘汰赛模拟派",
+        "focus": "淘汰赛",
+        "anchor_team": "France",
+        "weight": "淘汰赛模拟派专业加权"
+      },
+      {
+        "id": "Q24",
+        "identity": "决赛模拟派",
+        "focus": "决赛",
+        "anchor_team": "France",
+        "weight": "决赛模拟派专业加权"
+      },
+      {
+        "id": "Q25",
+        "identity": "半决赛模拟派",
+        "focus": "半决赛",
+        "anchor_team": "Spain",
+        "weight": "半决赛模拟派专业加权"
+      },
+      {
+        "id": "Q26",
+        "identity": "8强模拟派",
+        "focus": "8强",
+        "anchor_team": "Brazil",
+        "weight": "8强模拟派专业加权"
+      },
+      {
+        "id": "Q27",
+        "identity": "16强模拟派",
+        "focus": "16强",
+        "anchor_team": "Germany",
+        "weight": "16强模拟派专业加权"
+      },
+      {
+        "id": "Q28",
+        "identity": "惊喜事件概率派",
+        "focus": "爆冷概率",
+        "anchor_team": "Mexico",
+        "weight": "惊喜事件概率派专业加权"
+      },
+      {
+        "id": "Q29",
+        "identity": "不确定性建模派",
+        "focus": "不确定度",
+        "anchor_team": "Spain",
+        "weight": "不确定性建模派专业加权"
+      },
+      {
+        "id": "Q30",
+        "identity": "敏感度分析派",
+        "focus": "敏感性",
+        "anchor_team": "France",
+        "weight": "敏感度分析派专业加权"
+      }
+    ]
+  }
+}
