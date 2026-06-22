@@ -1,0 +1,793 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 世界杯预测 · 287 位 AI 投票</title>
+<style>
+:root {
+  --bg: #FBF9F1;
+  --paper: #F4F0E4;
+  --ink: #13233A;
+  --ink-soft: #4A5568;
+  --ink-faint: #8896A6;
+  --line: #D9D2C0;
+  --accent: #9B2D20;
+  --gold: #C8A45C;
+  --green: #4A6B3A;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.mono { font-family: "SF Mono", Menlo, Consolas, monospace; }
+.container { max-width: 1280px; margin: 0 auto; padding: 0 32px; }
+
+/* ============ 顶部 ============ */
+.hero {
+  padding: 80px 0 60px;
+  border-bottom: 1px solid var(--line);
+  position: relative;
+}
+.hero::before {
+  content: "2026 FIFA WORLD CUP PREDICTION";
+  position: absolute; top: 32px; left: 32px;
+  font-size: 11px; letter-spacing: 4px; color: var(--ink-faint);
+  font-family: "SF Mono", monospace;
+}
+.kicker {
+  font-size: 12px; letter-spacing: 6px; color: var(--ink-faint);
+  text-transform: uppercase; margin-bottom: 16px;
+  font-family: "SF Mono", monospace;
+}
+h1 {
+  font-size: 56px; font-weight: 800; line-height: 1.05; letter-spacing: -1.5px;
+  margin-bottom: 24px;
+}
+h1 .accent { color: var(--accent); }
+.subtitle {
+  font-size: 17px; color: var(--ink-soft); max-width: 720px;
+  line-height: 1.7;
+}
+.meta-bar {
+  display: flex; gap: 48px; margin-top: 40px; padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.meta-bar .item .num {
+  font-size: 28px; font-weight: 700; color: var(--ink); display: block;
+  font-family: "SF Mono", monospace;
+}
+.meta-bar .item .lbl { font-size: 11px; color: var(--ink-faint); letter-spacing: 2px; }
+
+/* ============ 通用 section ============ */
+section { padding: 80px 0; border-bottom: 1px solid var(--line); }
+.section-num {
+  font-family: "SF Mono", monospace; font-size: 11px;
+  color: var(--ink-faint); letter-spacing: 3px; margin-bottom: 12px;
+}
+h2 {
+  font-size: 36px; font-weight: 700; letter-spacing: -0.8px;
+  margin-bottom: 16px; line-height: 1.15;
+}
+.section-desc { font-size: 15px; color: var(--ink-soft); max-width: 640px; margin-bottom: 48px; }
+
+/* ============ 交互钩子 ============ */
+.pick-zone { text-align: center; padding: 60px 0; }
+.pick-zone h2 { margin-bottom: 12px; }
+.pick-zone .hint { color: var(--ink-soft); margin-bottom: 32px; }
+.search-box {
+  max-width: 480px; margin: 0 auto 24px; position: relative;
+}
+.search-box input {
+  width: 100%; padding: 16px 20px;
+  border: 1px solid var(--line); background: var(--paper);
+  font-size: 16px; color: var(--ink);
+  font-family: inherit;
+}
+.search-box input:focus { outline: none; border-color: var(--accent); }
+.suggestions {
+  position: absolute; top: 100%; left: 0; right: 0;
+  background: white; border: 1px solid var(--line);
+  max-height: 240px; overflow-y: auto; z-index: 100;
+  display: none;
+}
+.suggestions.active { display: block; }
+.suggestion-item {
+  padding: 12px 20px; cursor: pointer; font-size: 14px;
+  border-bottom: 1px solid var(--paper);
+}
+.suggestion-item:hover { background: var(--paper); }
+.suggestion-item .badge {
+  display: inline-block; margin-left: 8px; font-size: 11px;
+  color: var(--ink-faint); font-family: "SF Mono", monospace;
+}
+.btn-confirm {
+  padding: 14px 40px; background: var(--accent); color: white;
+  border: none; font-size: 15px; font-weight: 600; cursor: pointer;
+  letter-spacing: 1px; font-family: inherit;
+  transition: transform 0.15s;
+}
+.btn-confirm:hover { transform: translateY(-1px); }
+.btn-confirm:disabled { opacity: 0.3; cursor: not-allowed; }
+
+/* 用户反馈区 */
+.user-feedback {
+  display: none; margin: 48px auto; max-width: 720px;
+  background: var(--paper); border-left: 3px solid var(--accent);
+  padding: 32px;
+}
+.user-feedback.active { display: block; }
+.user-feedback .my-pick {
+  font-size: 24px; font-weight: 700; color: var(--accent);
+  margin-bottom: 16px;
+}
+.fb-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  margin-top: 24px;
+}
+.fb-item .fb-num {
+  font-size: 32px; font-weight: 700; font-family: "SF Mono", monospace;
+}
+.fb-item .fb-lbl {
+  font-size: 11px; color: var(--ink-faint); letter-spacing: 2px;
+  text-transform: uppercase; margin-top: 4px;
+}
+.fb-item .fb-desc { font-size: 13px; color: var(--ink-soft); margin-top: 8px; line-height: 1.5; }
+
+/* ============ 过程区 ============ */
+.process-grid {
+  display: grid; grid-template-columns: 1fr 320px; gap: 48px;
+}
+.agents-canvas {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+  gap: 6px; min-height: 400px;
+}
+.agent-cell {
+  aspect-ratio: 1; background: var(--paper); border: 1px solid var(--line);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 9px; color: var(--ink-faint); font-family: "SF Mono", monospace;
+  cursor: pointer; transition: all 0.3s; position: relative;
+  text-align: center; padding: 2px; line-height: 1.1;
+}
+.agent-cell.lit {
+  color: white; border-color: var(--ink);
+}
+.agent-cell.lit:hover { transform: scale(1.15); z-index: 10; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+.agent-cell.lit .agent-tip {
+  display: none; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+  background: var(--ink); color: white; padding: 8px 12px; font-size: 11px;
+  white-space: nowrap; z-index: 100; margin-bottom: 6px; min-width: 200px;
+  white-space: normal; width: 240px; line-height: 1.5;
+}
+.agent-cell.lit:hover .agent-tip { display: block; }
+.agent-cell.lit .agent-tip strong { color: var(--gold); }
+
+.faction-stream {
+  background: var(--paper); padding: 24px; max-height: 480px; overflow-y: auto;
+}
+.faction-stream h3 {
+  font-size: 11px; letter-spacing: 3px; color: var(--ink-faint);
+  margin-bottom: 16px; text-transform: uppercase; font-family: "SF Mono", monospace;
+}
+.stream-item {
+  padding: 12px 0; border-bottom: 1px dashed var(--line);
+  font-size: 13px; line-height: 1.5;
+}
+.stream-item:last-child { border-bottom: none; }
+.stream-item .stream-tag {
+  display: inline-block; font-size: 10px; padding: 2px 6px;
+  background: var(--ink); color: white; margin-right: 8px;
+  font-family: "SF Mono", monospace; letter-spacing: 1px;
+}
+.stream-item .stream-reason { color: var(--ink-soft); font-size: 12px; margin-top: 4px; font-style: italic; }
+
+.progress-info {
+  display: flex; justify-content: space-between; margin-bottom: 16px;
+  font-family: "SF Mono", monospace; font-size: 12px; color: var(--ink-soft);
+}
+
+/* ============ 结果区 / 热力榜 ============ */
+.heatmap-table {
+  width: 100%; border-collapse: collapse;
+}
+.heatmap-row {
+  display: grid; grid-template-columns: 40px 1fr 200px 80px 100px;
+  gap: 16px; align-items: center;
+  padding: 16px 0; border-bottom: 1px solid var(--line);
+  opacity: 0; transform: translateX(-20px);
+  animation: slideIn 0.6s forwards;
+}
+@keyframes slideIn {
+  to { opacity: 1; transform: translateX(0); }
+}
+.heatmap-row .rank {
+  font-family: "SF Mono", monospace; font-size: 18px;
+  color: var(--ink-faint); font-weight: 700;
+}
+.heatmap-row.top1 .rank { color: var(--accent); }
+.heatmap-row .team-name {
+  font-size: 22px; font-weight: 700;
+}
+.heatmap-row .team-name .eng {
+  display: block; font-size: 11px; color: var(--ink-faint);
+  letter-spacing: 1px; font-family: "SF Mono", monospace; font-weight: 400;
+}
+.heatmap-row .bar-wrap {
+  height: 32px; background: var(--paper); position: relative;
+  overflow: hidden;
+}
+.heatmap-row .bar-fill {
+  height: 100%; background: var(--ink); width: 0;
+  transition: width 1.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  display: flex; align-items: center; padding: 0 12px;
+  color: white; font-size: 12px; font-weight: 600;
+  font-family: "SF Mono", monospace;
+}
+.heatmap-row.top1 .bar-fill { background: var(--accent); }
+.heatmap-row.top3 .bar-fill { background: var(--ink); }
+.heatmap-row .prob-val {
+  font-family: "SF Mono", monospace; font-size: 18px;
+  font-weight: 700; text-align: right;
+}
+.heatmap-row.top1 .prob-val { color: var(--accent); }
+.heatmap-row .vote-info {
+  font-family: "SF Mono", monospace; font-size: 11px;
+  color: var(--ink-faint); text-align: right;
+}
+
+/* 关键结论卡片 */
+.conclusion {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 32px;
+  margin-top: 64px;
+}
+.conclusion-card {
+  background: var(--paper); padding: 32px; border-left: 3px solid var(--ink);
+}
+.conclusion-card.darkhorse { border-left-color: var(--gold); }
+.conclusion-card h3 {
+  font-size: 11px; letter-spacing: 3px; color: var(--ink-faint);
+  margin-bottom: 16px; text-transform: uppercase; font-family: "SF Mono", monospace;
+}
+.conclusion-card .big-team {
+  font-size: 36px; font-weight: 700; margin-bottom: 8px;
+}
+.conclusion-card .big-num {
+  font-size: 48px; font-weight: 800; color: var(--accent);
+  font-family: "SF Mono", monospace; line-height: 1; margin-bottom: 16px;
+}
+.conclusion-card.darkhorse .big-num { color: var(--gold); }
+.conclusion-card .desc {
+  font-size: 14px; color: var(--ink-soft); line-height: 1.7;
+}
+
+/* ============ 分歧视图 ============ */
+.faction-tabs {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px;
+}
+.faction-tab {
+  padding: 10px 16px; background: var(--paper); border: 1px solid var(--line);
+  font-size: 13px; cursor: pointer; transition: all 0.2s; font-family: inherit;
+  color: var(--ink-soft);
+}
+.faction-tab:hover { background: var(--ink); color: white; }
+.faction-tab.active { background: var(--ink); color: white; }
+
+.faction-view {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 48px;
+}
+.faction-bars { }
+.fb-row {
+  display: grid; grid-template-columns: 1fr 100px 60px; gap: 12px;
+  align-items: center; padding: 10px 0; border-bottom: 1px dashed var(--line);
+  font-size: 13px;
+}
+.fb-row .fb-name { font-weight: 600; }
+.fb-row .fb-track { height: 16px; background: var(--paper); position: relative; }
+.fb-row .fb-fill { height: 100%; background: var(--accent); transition: width 1s; }
+.fb-row .fb-pct {
+  font-family: "SF Mono", monospace; font-weight: 700; text-align: right;
+  font-size: 12px;
+}
+
+.faction-quotes-box {
+  background: var(--paper); padding: 32px;
+}
+.faction-quotes-box h3 {
+  font-size: 11px; letter-spacing: 3px; color: var(--ink-faint);
+  margin-bottom: 24px; text-transform: uppercase; font-family: "SF Mono", monospace;
+}
+.fq-item {
+  padding: 16px 0; border-bottom: 1px solid var(--line);
+}
+.fq-item:last-child { border-bottom: none; }
+.fq-item .fq-id {
+  font-size: 11px; color: var(--accent); letter-spacing: 1px;
+  font-family: "SF Mono", monospace; margin-bottom: 4px;
+}
+.fq-item .fq-pick {
+  font-size: 15px; font-weight: 700; margin-bottom: 6px;
+}
+.fq-item .fq-reason {
+  font-size: 13px; color: var(--ink-soft); line-height: 1.6; font-style: italic;
+}
+
+/* ============ footer ============ */
+footer {
+  padding: 40px 0; text-align: center; font-size: 11px;
+  color: var(--ink-faint); letter-spacing: 2px;
+  font-family: "SF Mono", monospace;
+}
+footer .disclaimer {
+  display: inline-block; padding: 6px 16px;
+  background: var(--paper); border: 1px solid var(--line);
+  margin-top: 12px; letter-spacing: 3px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .process-grid, .conclusion, .faction-view { grid-template-columns: 1fr; }
+  .heatmap-row { grid-template-columns: 30px 1fr 80px; }
+  .heatmap-row .bar-wrap, .heatmap-row .vote-info { display: none; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 28px; }
+  .meta-bar { flex-wrap: wrap; gap: 24px; }
+}
+
+/* 数据生成中提示 */
+.loading-mask {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: var(--bg); z-index: 1000;
+  display: none; align-items: center; justify-content: center; flex-direction: column;
+}
+.loading-mask.show { display: flex; }
+.loading-mask .spin {
+  width: 60px; height: 60px; border: 2px solid var(--line);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin 1s linear infinite; margin-bottom: 20px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+</head>
+<body>
+
+<!-- LOADING MASK -->
+<div class="loading-mask" id="loadingMask">
+  <div class="spin"></div>
+  <div class="mono" style="font-size:12px;color:var(--ink-soft);letter-spacing:2px;">聚合 287 份独立判断...</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="container">
+    <div class="kicker">D01 — DATA LAB</div>
+    <h1>287 位 AI 投票<br>预测 <span class="accent">2026 世界杯</span> 冠军</h1>
+    <p class="subtitle">
+      我们用 10 个派别 · 287 个独立人设的 AI agent,各自联网检索后独立投票。
+      不做平均——保留真实分歧,看赔率共识与异见者谁更接近真相。
+    </p>
+    <div class="meta-bar">
+      <div class="item"><span class="num" id="meta-total">287</span><span class="lbl">独立 AGENT</span></div>
+      <div class="item"><span class="num" id="meta-factions">10</span><span class="lbl">派别</span></div>
+      <div class="item"><span class="num" id="meta-models">MiniMax-M3</span><span class="lbl">驱动模型</span></div>
+      <div class="item"><span class="num" id="meta-tokens">88 分钟</span><span class="lbl">生成耗时</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 交互钩子 -->
+<section id="pickSection">
+  <div class="container pick-zone">
+    <div class="section-num">STEP 0 · 交互钩子</div>
+    <h2>先押一个你心目中的冠军</h2>
+    <p class="hint">再揭晓 287 位 agent 的投票分布</p>
+
+    <div class="search-box">
+      <input type="text" id="pickInput" placeholder="输入国家名(如:法国 / 巴西 / 日本)..." autocomplete="off">
+      <div class="suggestions" id="suggestions"></div>
+    </div>
+    <button class="btn-confirm" id="btnConfirm" disabled>提交我的预测</button>
+
+    <div class="user-feedback" id="userFeedback">
+      <div style="font-size:11px;letter-spacing:3px;color:var(--ink-faint);margin-bottom:8px;">YOUR PICK</div>
+      <div class="my-pick" id="myPickDisplay">—</div>
+      <div id="myPickDesc" style="color:var(--ink-soft);font-size:14px;"></div>
+
+      <div class="fb-grid">
+        <div class="fb-item">
+          <div class="fb-num" id="fbAgreement">—</div>
+          <div class="fb-lbl">AGENT 同选</div>
+          <div class="fb-desc" id="fbAgreementDesc">—</div>
+        </div>
+        <div class="fb-item">
+          <div class="fb-num" id="fbConservative">—</div>
+          <div class="fb-lbl">保守 / 大胆</div>
+          <div class="fb-desc" id="fbConservativeDesc">—</div>
+        </div>
+        <div class="fb-item">
+          <div class="fb-num" id="fbFaction">—</div>
+          <div class="fb-lbl">最接近派别</div>
+          <div class="fb-desc" id="fbFactionDesc">—</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 过程区 -->
+<section id="processSection">
+  <div class="container">
+    <div class="section-num">STEP 1 · 过程区</div>
+    <h2>287 个 agent 逐一亮起</h2>
+    <p class="section-desc">每点亮一格,就是一位独立身份的 AI 完成自己的独立判断。<strong>10 个派别 × 约 29 个身份</strong>。悬停查看真实理由。</p>
+
+    <div class="process-grid">
+      <div>
+        <div class="progress-info">
+          <span><span id="litCount">0</span> / <span id="totalCount">287</span> 已生成</span>
+          <span>按派别上色</span>
+        </div>
+        <div class="agents-canvas" id="agentsCanvas"></div>
+      </div>
+      <div class="faction-stream">
+        <h3>派别代表性判断</h3>
+        <div id="streamList"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 结果区 -->
+<section id="resultSection">
+  <div class="container">
+    <div class="section-num">STEP 2 · 结果区</div>
+    <h2>Top 12 夺冠概率热力榜</h2>
+    <p class="section-desc">信心加权求和 · 归一化为百分比。Top1 为最大热门,最后一位"最被低估的黑马"是派别分歧最大的异类。</p>
+
+    <div id="heatmap"></div>
+
+    <div class="conclusion">
+      <div class="conclusion-card">
+        <h3>最大热门 · MAX FAVORITE</h3>
+        <div class="big-team" id="maxFavTeam">—</div>
+        <div class="big-num" id="maxFavPct">—%</div>
+        <div class="desc" id="maxFavDesc">—</div>
+      </div>
+      <div class="conclusion-card darkhorse">
+        <h3>最被低估的黑马 · UNDERVALUED DARKHORSE</h3>
+        <div class="big-team" id="darkTeam">—</div>
+        <div class="big-num" id="darkPct">—%</div>
+        <div class="desc" id="darkDesc">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 分歧视图 -->
+<section id="factionSection">
+  <div class="container">
+    <div class="section-num">STEP 3 · 分歧视图</div>
+    <h2>按派别切换 · 看真实分歧</h2>
+    <p class="section-desc">同一组数据,不同派别给出截然不同的判断——这才是 287 份投票的意义。</p>
+
+    <div class="faction-tabs" id="factionTabs"></div>
+    <div class="faction-view">
+      <div class="faction-bars" id="factionBars"></div>
+      <div class="faction-quotes-box" id="factionQuotes"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>287 AI AGENTS · 10 FACTIONS · 1 WORLD CUP · 2026</div>
+  <div class="disclaimer">结果仅供娱乐 · NOT FOR BETTING</div>
+</footer>
+
+<script>
+const PAGE_DATA = __PAGE_DATA_PLACEHOLDER__;
+
+// ============ 渲染 ============
+function $(id) { return document.getElementById(id); }
+
+function teamColor(faction) {
+  const colors = {
+    '数据派': '#4A6B3A',
+    '赔率派': '#9B2D20',
+    '老球迷派': '#6B4423',
+    '玄学派': '#8B5A8C',
+    '主帅视角派': '#2C5F7C',
+    '伤病赛程派': '#5C4A2C',
+    '黑马派': '#C8A45C',
+    '阵容年龄派': '#7A4A4A',
+    '心理抗压派': '#3A4A5C',
+    '建模派': '#4A3A5C'
+  };
+  return colors[faction] || '#13233A';
+}
+
+function getAllTeamNames() {
+  const names = new Set();
+  PAGE_DATA.agents.forEach(a => names.add(a.champion));
+  // 加入常见候选
+  const extras = ['法国','西班牙','英格兰','阿根廷','巴西','美国','德国','墨西哥','意大利','葡萄牙','日本','韩国','塞内加尔','摩洛哥','荷兰','比利时','克罗地亚','挪威','瑞士','丹麦','哥伦比亚','乌拉圭','波兰','土耳其','瑞典','奥地利','喀麦隆','尼日利亚','沙特阿拉伯'];
+  extras.forEach(n => names.add(n));
+  return Array.from(names);
+}
+
+// ============ 交互钩子 ============
+const allTeams = getAllTeamNames();
+const pickInput = $('pickInput');
+const suggestions = $('suggestions');
+const btnConfirm = $('btnConfirm');
+
+pickInput.addEventListener('input', (e) => {
+  const q = e.target.value.trim();
+  if (!q) { suggestions.classList.remove('active'); return; }
+  const matches = allTeams.filter(t => t.includes(q)).slice(0, 8);
+  if (matches.length === 0) { suggestions.classList.remove('active'); return; }
+  suggestions.innerHTML = matches.map(t => {
+    const votes = PAGE_DATA.agents.filter(a => a.champion === t).length;
+    const pct = PAGE_DATA.ranking.find(r => r.team === t);
+    return `<div class="suggestion-item" data-team="${t}">${t} <span class="badge">${votes}票${pct ? ' · '+pct.probability+'%' : ''}</span></div>`;
+  }).join('');
+  suggestions.classList.add('active');
+});
+
+suggestions.addEventListener('click', (e) => {
+  const item = e.target.closest('.suggestion-item');
+  if (!item) return;
+  pickInput.value = item.dataset.team;
+  suggestions.classList.remove('active');
+  btnConfirm.disabled = false;
+});
+
+pickInput.addEventListener('change', () => {
+  if (allTeams.includes(pickInput.value.trim())) {
+    btnConfirm.disabled = false;
+  }
+});
+
+btnConfirm.addEventListener('click', () => {
+  const myPick = pickInput.value.trim();
+  if (!myPick) return;
+  showUserFeedback(myPick);
+});
+
+function showUserFeedback(myPick) {
+  const feedback = $('userFeedback');
+  $('myPickDisplay').textContent = myPick;
+
+  // 同选agent数
+  const sameCount = PAGE_DATA.agents.filter(a => a.champion === myPick).length;
+  $('fbAgreement').textContent = sameCount;
+  const myRank = PAGE_DATA.ranking.findIndex(r => r.team === myPick);
+  const myProb = myRank >= 0 ? PAGE_DATA.ranking[myRank].probability : 0;
+  $('fbAgreementDesc').textContent = `共 ${PAGE_DATA.stats.total} 位 agent 中 ${sameCount} 位押你同队。该队加权概率 ${myProb}% (第${myRank+1}热)`;
+
+  // 保守/大胆
+  if (myRank >= 0 && myRank <= 2) {
+    $('fbConservative').textContent = '偏保守';
+    $('fbConservativeDesc').textContent = '你和主流赔率共识方向一致,选了夺冠概率最高的热门之一。';
+  } else if (myRank >= 3 && myRank <= 7) {
+    $('fbConservative').textContent = '中性';
+    $('fbConservativeDesc').textContent = '你在 Top 8 边缘,介于主流共识和黑马之间。';
+  } else {
+    $('fbConservative').textContent = '更大胆';
+    $('fbConservativeDesc').textContent = '你押的是异见者方向,287 位 agent 中不到 5% 与你一致。';
+  }
+
+  // 最接近派别
+  const factionPicks = {};
+  PAGE_DATA.agents.forEach(a => { factionPicks[a.faction] = factionPicks[a.faction] || {}; factionPicks[a.faction][a.champion] = (factionPicks[a.faction][a.champion] || 0) + 1; });
+  let bestFaction = null, bestCount = 0;
+  Object.entries(factionPicks).forEach(([f, picks]) => {
+    if (picks[myPick] && picks[myPick] > bestCount) {
+      bestFaction = f; bestCount = picks[myPick];
+    }
+  });
+  $('fbFaction').textContent = bestFaction || '—';
+  $('fbFactionDesc').textContent = bestFaction ? `${bestFaction} 中 ${bestCount} 位押你同队,你与该派别思路最接近。` : '没有任何派别集中看好你押的队,你是真正的异见者。';
+
+  feedback.classList.add('active');
+  setTimeout(() => feedback.scrollIntoView({behavior: 'smooth', block: 'center'}), 100);
+}
+
+// ============ 过程区 ============
+function renderProcess() {
+  const canvas = $('agentsCanvas');
+  const agents = PAGE_DATA.agents;
+  // 按派别分组排列
+  const factions = Object.keys(PAGE_DATA.factionSummary);
+  let sortedAgents = [];
+  factions.forEach(f => {
+    const factionAgents = agents.filter(a => a.faction === f);
+    sortedAgents = sortedAgents.concat(factionAgents);
+  });
+
+  canvas.innerHTML = sortedAgents.map((a, i) => `
+    <div class="agent-cell" data-faction="${a.faction}" data-id="${a.id}"
+         style="--faction-color:${teamColor(a.faction)};">
+      <div class="agent-tip">
+        <strong>${a.faction} · ${a.identity}</strong><br>
+        押${a.champion}(信${a.confidence})<br>
+        <em>${a.reason}</em>
+      </div>
+    </div>
+  `).join('');
+
+  $('totalCount').textContent = agents.length;
+
+  // 逐个点亮
+  let idx = 0;
+  const cells = canvas.querySelectorAll('.agent-cell');
+  const interval = setInterval(() => {
+    if (idx >= cells.length) {
+      clearInterval(interval);
+      return;
+    }
+    const cell = cells[idx];
+    const a = sortedAgents[idx];
+    cell.classList.add('lit');
+    cell.style.background = teamColor(a.faction);
+    cell.textContent = a.champion.substring(0, 4);
+    idx++;
+    $('litCount').textContent = idx;
+  }, 30);
+
+  // 派别代表quote流
+  const streamList = $('streamList');
+  const streamItems = [];
+  factions.forEach(f => {
+    const top = PAGE_DATA.factionQuotes[f] ? PAGE_DATA.factionQuotes[f][0] : null;
+    if (top) {
+      streamItems.push(`
+        <div class="stream-item">
+          <span class="stream-tag">${f}</span>
+          <strong>${top.identity}</strong>:押 <strong style="color:var(--accent);">${top.champion}</strong>(信${top.confidence})
+          <div class="stream-reason">"${top.reason}"</div>
+        </div>
+      `);
+    }
+  });
+  streamList.innerHTML = streamItems.join('');
+}
+
+// ============ 热力榜 ============
+function renderHeatmap() {
+  const wrap = $('heatmap');
+  const ranking = PAGE_DATA.ranking.slice(0, 12);
+  const maxProb = ranking[0].probability;
+
+  wrap.innerHTML = ranking.map((t, i) => {
+    const widthPct = (t.probability / maxProb) * 100;
+    const topClass = i === 0 ? 'top1' : (i < 3 ? 'top3' : '');
+    return `
+      <div class="heatmap-row ${topClass}" style="animation-delay:${i * 0.08}s">
+        <div class="rank">#${i+1}</div>
+        <div class="team-name">${t.team}<span class="eng">${t.champion_votes} votes · conf ${t.avg_confidence}</span></div>
+        <div class="bar-wrap"><div class="bar-fill" data-width="${widthPct}">${i < 5 ? t.probability + '%' : ''}</div></div>
+        <div class="prob-val">${t.probability}%</div>
+        <div class="vote-info">${t.top3_probability}% T3</div>
+      </div>
+    `;
+  }).join('');
+
+  // 入场生长
+  setTimeout(() => {
+    wrap.querySelectorAll('.bar-fill').forEach(bar => {
+      bar.style.width = bar.dataset.width + '%';
+    });
+    // count-up
+    wrap.querySelectorAll('.prob-val').forEach((el, i) => {
+      const target = parseFloat(ranking[i].probability);
+      const start = performance.now();
+      const dur = 1500 + i * 80;
+      function tick(now) {
+        const t = Math.min((now - start) / dur, 1);
+        el.textContent = (target * (1 - Math.pow(1-t, 3))).toFixed(2) + '%';
+        if (t < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    });
+  }, 200);
+
+  // 关键结论
+  $('maxFavTeam').textContent = PAGE_DATA.maxFavorite.team;
+  $('maxFavPct').textContent = PAGE_DATA.maxFavorite.probability + '%';
+  $('maxFavDesc').textContent = `${PAGE_DATA.maxFavorite.team} 拿下 ${PAGE_DATA.maxFavorite.votes} 票冠军,在 ${PAGE_DATA.stats.total} 位 agent 中被 ${(PAGE_DATA.maxFavorite.votes/PAGE_DATA.stats.total*100).toFixed(1)}% 看好,信心加权后概率 ${PAGE_DATA.maxFavorite.probability}%,稳居榜首。`;
+
+  const dark = PAGE_DATA.darkHorseTop5[0];
+  if (dark) {
+    $('darkTeam').textContent = dark.team;
+    $('darkPct').textContent = '+' + dark.gap + '%';
+    $('darkDesc').textContent = `${dark.team} 在黑马派中被 ${dark.dark_pct}% 看好,但赔率派 0% 看好,落差 ${dark.gap}%——是派别分歧度最大的"被严重低估的队"。`;
+  }
+}
+
+// ============ 分歧视图 ============
+function renderFactions() {
+  const factions = Object.keys(PAGE_DATA.factionSummary);
+  const tabs = $('factionTabs');
+  tabs.innerHTML = factions.map((f, i) => `
+    <button class="faction-tab ${i === 0 ? 'active' : ''}" data-faction="${f}">${f} (${PAGE_DATA.factionSummary[f].agent_count})</button>
+  `).join('');
+
+  tabs.addEventListener('click', (e) => {
+    const tab = e.target.closest('.faction-tab');
+    if (!tab) return;
+    tabs.querySelectorAll('.faction-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    renderFactionDetail(tab.dataset.faction);
+  });
+
+  renderFactionDetail(factions[0]);
+}
+
+function renderFactionDetail(faction) {
+  // 该派别agent的冠军分布
+  const factionAgents = PAGE_DATA.agents.filter(a => a.faction === faction);
+  const dist = {};
+  factionAgents.forEach(a => { dist[a.champion] = (dist[a.champion] || 0) + 1; });
+  const sorted = Object.entries(dist).sort((a,b) => b[1] - a[1]).slice(0, 8);
+  const total = factionAgents.length;
+  const maxVotes = Math.max(...sorted.map(s => s[1]));
+
+  const bars = $('factionBars');
+  bars.innerHTML = sorted.map(([team, votes]) => {
+    const pct = (votes / total * 100).toFixed(1);
+    const widthPct = (votes / maxVotes * 100).toFixed(0);
+    return `
+      <div class="fb-row">
+        <div class="fb-name">${team}</div>
+        <div class="fb-track"><div class="fb-fill" data-width="${widthPct}" style="background:${teamColor(faction)};"></div></div>
+        <div class="fb-pct">${pct}%</div>
+      </div>
+    `;
+  }).join('');
+
+  setTimeout(() => {
+    bars.querySelectorAll('.fb-fill').forEach(bar => {
+      bar.style.width = bar.dataset.width + '%';
+    });
+  }, 50);
+
+  // 该派别代表quote
+  const quotes = PAGE_DATA.factionQuotes[faction] || [];
+  $('factionQuotes').innerHTML = `
+    <h3>${faction} · 代表性真实判断</h3>
+    ${quotes.map(q => `
+      <div class="fq-item">
+        <div class="fq-id">${q.identity}</div>
+        <div class="fq-pick">押 ${q.champion} · 信${q.confidence}</div>
+        <div class="fq-reason">"${q.reason}"</div>
+      </div>
+    `).join('')}
+  `;
+}
+
+// ============ 初始化 ============
+function init() {
+  // 先填meta
+  $('meta-total').textContent = PAGE_DATA.stats.total;
+
+  renderProcess();
+  renderHeatmap();
+  renderFactions();
+
+  // 隐藏loading
+  setTimeout(() => $('loadingMask').classList.remove('show'), 500);
+}
+
+// 数据准备好后启动
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', init);
+} else {
+  init();
+}
+</script>
+</body>
+</html>
