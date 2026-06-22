@@ -17,7 +17,7 @@ import sys
 import re
 
 API_URL = "https://api.minimaxi.com/v1/chat/completions"
-API_KEY = "sk-cp-451Xpnhb2Q148aJULQajFXZeWJm0L9y2VqOWp9J2NaGDycDfxyBzblFJI4Oe63Kvr-jaOZ1KSThT6B__EOdlcXqlDeqZJQ_NCN8KYh83WLglEA2RYoIbp50"
+API_KEY = os.environ.get("MINIMAX_API_KEY", "YOUR_API_KEY_HERE")
 MODEL = "MiniMax-M3"
 
 DATA_BLOCK = """[真实数据快照 2026-06-12/13]
