@@ -33,7 +33,7 @@ with open("/workspace/worldcup2026/agents_output.json", "r", encoding="utf-8") a
 
 # M3 API配置 (翔哥提供的key)
 API_URL = "https://api.minimaxi.com/v1/chat/completions"
-API_KEY = "sk-cp-451Xpnhb2Q148aJULQajFXZeWJm0L9y2VqOWp9J2NaGDycDfxyBzblFJI4Oe63Kvr-jaOZ1KSThT6B__EOdlcXqlDeqZJQ_NCN8KYh83WLglEA2RYoIbp50"
+API_KEY = os.environ.get("MINIMAX_API_KEY", "YOUR_API_KEY_HERE")
 if not API_KEY:
     print("ERROR: API key缺失")
     exit(1)
