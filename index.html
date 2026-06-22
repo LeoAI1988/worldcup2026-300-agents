@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
 <title>2026 世界杯预测 · 300 位 AI 投票</title>
 <style>
 :root {
@@ -522,6 +523,7 @@ footer .disclaimer {
   <button class="poster-close" onclick="closePoster()">&times;</button>
   <img id="posterImage" src="" alt="预测海报">
   <div class="poster-tip">长按图片保存到相册 · 转发朋友圈</div>
+  <a id="posterLink" href="https://leoai1988.github.io/worldcup2026-300-agents/" target="_blank" rel="noopener" style="display:inline-block;margin-top:8px;padding:10px 28px;background:#C8A45C;color:#0A1A2F;border-radius:8px;font-size:14px;font-weight:700;text-decoration:none;letter-spacing:1px;">🔗 打开预测网站</a>
 </div>
 
 <script>
@@ -732,27 +734,43 @@ function generatePoster() {
   ctx.font = '18px sans-serif';
   ctx.fillText('300 位 AI 已投票 · 你站哪队?', W / 2, 890);
 
-  // 二维码占位区
-  ctx.fillStyle = '#FFFFFF';
+  // 真实二维码（同步生成）
   const qrSize = 180;
   const qrX = (W - qrSize) / 2;
-  ctx.fillRect(qrX, 940, qrSize, qrSize);
-  // 简易二维码装饰（不是真实二维码，提示用户扫码）
+  const qrY = 940;
+  // 白色背景
+  ctx.fillStyle = '#FFFFFF';
+  ctx.fillRect(qrX, qrY, qrSize, qrSize);
+  // 用 qrcode-generator 同步生成
+  const qr = qrcode(0, 'M');
+  qr.addData('https://leoai1988.github.io/worldcup2026-300-agents/');
+  qr.make();
+  const moduleCount = qr.getModuleCount();
+  const cellSize = qrSize / moduleCount;
   ctx.fillStyle = '#0A1A2F';
+  for (let r = 0; r < moduleCount; r++) {
+    for (let c = 0; c < moduleCount; c++) {
+      if (qr.isDark(r, c)) {
+        ctx.fillRect(qrX + c * cellSize, qrY + r * cellSize, cellSize, cellSize);
+      }
+    }
+  }
+  // 扫码提示
+  ctx.fillStyle = '#C8A45C';
   ctx.font = '14px sans-serif';
-  ctx.fillText('扫码参与预测', W / 2, 1150);
+  ctx.textAlign = 'center';
+  ctx.fillText('扫码参与预测', W / 2, qrY + qrSize + 30);
   ctx.fillStyle = '#666666';
   ctx.font = '13px sans-serif';
-  ctx.fillText('leoai1988.github.io/worldcup2026-300-agents', W / 2, 1180);
+  ctx.fillText('leoai1988.github.io/worldcup2026-300-agents', W / 2, qrY + qrSize + 55); / 2, 1180);
 
   // 底部
   ctx.fillStyle = 'rgba(200,164,92,0.5)';
   ctx.font = '11px sans-serif';
   ctx.fillText('300 AI AGENTS · 10 FACTIONS · 1 WORLD CUP', W / 2, H - 50);
 
-  // 生成图片
-  const dataUrl = canvas.toDataURL('image/png');
-  $('posterImage').src = dataUrl;
+  // 生成图片 — 先显示弹窗，二维码异步加载后会更新图片
+  $('posterImage').src = canvas.toDataURL('image/png');
   $('posterModal').classList.add('active');
 }
 
