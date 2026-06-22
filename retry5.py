@@ -6,7 +6,7 @@ import time
 import urllib.request
 
 API_URL = "https://api.minimaxi.com/v1/chat/completions"
-API_KEY = "sk-cp-451Xpnhb2Q148aJULQajFXZeWJm0L9y2VqOWp9J2NaGDycDfxyBzblFJI4Oe63Kvr-jaOZ1KSThT6B__EOdlcXqlDeqZJQ_NCN8KYh83WLglEA2RYoIbp50"
+API_KEY = os.environ.get("MINIMAX_API_KEY", "YOUR_API_KEY_HERE")
 
 REMAIN = ['H19', 'H20', 'H26', 'P04', 'Q10']
 
